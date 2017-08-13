@@ -1,0 +1,12 @@
+prefix=@CMAKE_INSTALL_PREFIX@
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/openv2g
+
+Name: openv2g
+Description: OpenV2G library for ISO IEC 15118 protocol
+Version: @VERSION@
+
+Requires:
+Libs: -L${libdir} -lopenv2g
+Cflags: -I${includedir}
