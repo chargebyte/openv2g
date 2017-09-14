@@ -311,7 +311,7 @@ struct v2gX509IssuerSerialType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ListOfRootCertificateIDsType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":RootCertificateID{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define v2gListOfRootCertificateIDsType_RootCertificateID_ARRAY_SIZE 5
+#define v2gListOfRootCertificateIDsType_RootCertificateID_ARRAY_SIZE 20
 struct v2gListOfRootCertificateIDsType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":RootCertificateID, Complex type name='http://www.w3.org/2000/09/xmldsig#,X509IssuerSerialType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("http://www.w3.org/2000/09/xmldsig#":X509IssuerName,"http://www.w3.org/2000/09/xmldsig#":X509SerialNumber)',  derivedBy='RESTRICTION'.  */
 	struct {
@@ -662,7 +662,7 @@ struct v2gServiceType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,SelectedServiceListType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":SelectedService{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define v2gSelectedServiceListType_SelectedService_ARRAY_SIZE 5
+#define v2gSelectedServiceListType_SelectedService_ARRAY_SIZE 16
 struct v2gSelectedServiceListType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":SelectedService, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,SelectedServiceType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ServiceID,"urn:iso:15118:2:2013:MsgDataTypes":ParameterSetID{0-1})',  derivedBy='RESTRICTION'.  */
 	struct {
@@ -832,7 +832,7 @@ struct v2gParameterType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ServiceListType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":Service{1-8})',  derivedBy='RESTRICTION'.  */
-#define v2gServiceListType_Service_ARRAY_SIZE 5
+#define v2gServiceListType_Service_ARRAY_SIZE 8
 struct v2gServiceListType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":Service, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ServiceType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ServiceID,"urn:iso:15118:2:2013:MsgDataTypes":ServiceName{0-1},"urn:iso:15118:2:2013:MsgDataTypes":ServiceCategory,"urn:iso:15118:2:2013:MsgDataTypes":ServiceScope{0-1},"urn:iso:15118:2:2013:MsgDataTypes":FreeService)',  derivedBy='RESTRICTION'.  */
 	struct {
@@ -962,7 +962,7 @@ struct v2gNotificationType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ParameterSetType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ParameterSetID,"urn:iso:15118:2:2013:MsgDataTypes":Parameter{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define v2gParameterSetType_Parameter_ARRAY_SIZE 5
+#define v2gParameterSetType_Parameter_ARRAY_SIZE 16
 struct v2gParameterSetType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":ParameterSetID, http://www.w3.org/2001/XMLSchema,short */
 	int16_t ParameterSetID ;
@@ -980,7 +980,7 @@ struct v2gPaymentServiceSelectionResType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,SupportedEnergyTransferModeType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":EnergyTransferMode{1-6})',  derivedBy='RESTRICTION'.  */
-#define v2gSupportedEnergyTransferModeType_EnergyTransferMode_ARRAY_SIZE 5
+#define v2gSupportedEnergyTransferModeType_EnergyTransferMode_ARRAY_SIZE 6
 struct v2gSupportedEnergyTransferModeType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":EnergyTransferMode, urn:iso:15118:2:2013:MsgDataTypes,EnergyTransferModeType */
 	struct {
@@ -1182,7 +1182,7 @@ struct v2gCableCheckReqType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ServiceParameterListType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ParameterSet{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define v2gServiceParameterListType_ParameterSet_ARRAY_SIZE 5
+#define v2gServiceParameterListType_ParameterSet_ARRAY_SIZE 255
 struct v2gServiceParameterListType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":ParameterSet, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ParameterSetType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ParameterSetID,"urn:iso:15118:2:2013:MsgDataTypes":Parameter{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
 	struct {
@@ -1406,7 +1406,7 @@ struct v2gCableCheckResType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,PMaxScheduleType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":PMaxScheduleEntry{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define v2gPMaxScheduleType_PMaxScheduleEntry_ARRAY_SIZE 5
+#define v2gPMaxScheduleType_PMaxScheduleEntry_ARRAY_SIZE 1024
 struct v2gPMaxScheduleType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":PMaxScheduleEntry, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,PMaxScheduleEntryType',  base type name='EntryType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='(("urn:iso:15118:2:2013:MsgDataTypes":TimeInterval),("urn:iso:15118:2:2013:MsgDataTypes":PMax))',  derivedBy='EXTENSION'.  */
 	struct {
@@ -1557,7 +1557,7 @@ struct v2gConsumptionCostType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ChargingProfileType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ProfileEntry{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define v2gChargingProfileType_ProfileEntry_ARRAY_SIZE 5
+#define v2gChargingProfileType_ProfileEntry_ARRAY_SIZE 24
 struct v2gChargingProfileType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":ProfileEntry, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ProfileEntryType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ChargingProfileEntryStart,"urn:iso:15118:2:2013:MsgDataTypes":ChargingProfileEntryMaxPower,"urn:iso:15118:2:2013:MsgDataTypes":ChargingProfileEntryMaxNumberOfPhasesInUse{0-1})',  derivedBy='RESTRICTION'.  */
 	struct {
@@ -1743,7 +1743,7 @@ struct v2gMessageHeaderType {
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,SalesTariffType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":SalesTariffID,"urn:iso:15118:2:2013:MsgDataTypes":SalesTariffDescription{0-1},"urn:iso:15118:2:2013:MsgDataTypes":NumEPriceLevels{0-1},"urn:iso:15118:2:2013:MsgDataTypes":SalesTariffEntry{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
 #define v2gSalesTariffType_Id_CHARACTERS_SIZE 50
 #define v2gSalesTariffType_SalesTariffDescription_CHARACTERS_SIZE 32 /* XML schema facet maxLength for urn:iso:15118:2:2013:MsgDataTypes,tariffDescriptionType is 32 */
-#define v2gSalesTariffType_SalesTariffEntry_ARRAY_SIZE 5
+#define v2gSalesTariffType_SalesTariffEntry_ARRAY_SIZE 1024
 struct v2gSalesTariffType {
 	/* attribute: Id {http://www.w3.org/2001/XMLSchema,ID} */
 	struct {
