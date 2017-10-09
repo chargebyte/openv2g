@@ -1107,7 +1107,7 @@ struct iso1ChargingStatusResType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ListOfRootCertificateIDsType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":RootCertificateID{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define iso1ListOfRootCertificateIDsType_RootCertificateID_ARRAY_SIZE 5
+#define iso1ListOfRootCertificateIDsType_RootCertificateID_ARRAY_SIZE 20
 struct iso1ListOfRootCertificateIDsType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":RootCertificateID, Complex type name='http://www.w3.org/2000/09/xmldsig#,X509IssuerSerialType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("http://www.w3.org/2000/09/xmldsig#":X509IssuerName,"http://www.w3.org/2000/09/xmldsig#":X509SerialNumber)',  derivedBy='RESTRICTION'.  */
 	struct {
@@ -1635,7 +1635,7 @@ struct iso1ConsumptionCostType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,PMaxScheduleType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":PMaxScheduleEntry{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define iso1PMaxScheduleType_PMaxScheduleEntry_ARRAY_SIZE 5
+#define iso1PMaxScheduleType_PMaxScheduleEntry_ARRAY_SIZE 1024
 struct iso1PMaxScheduleType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":PMaxScheduleEntry, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,PMaxScheduleEntryType',  base type name='EntryType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='(("urn:iso:15118:2:2013:MsgDataTypes":TimeInterval),("urn:iso:15118:2:2013:MsgDataTypes":PMax))',  derivedBy='EXTENSION'.  */
 	struct {
@@ -1782,7 +1782,7 @@ struct iso1SalesTariffEntryType {
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,SalesTariffType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":SalesTariffID,"urn:iso:15118:2:2013:MsgDataTypes":SalesTariffDescription{0-1},"urn:iso:15118:2:2013:MsgDataTypes":NumEPriceLevels{0-1},"urn:iso:15118:2:2013:MsgDataTypes":SalesTariffEntry{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
 #define iso1SalesTariffType_Id_CHARACTERS_SIZE 50 + EXTRA_CHAR 
 #define iso1SalesTariffType_SalesTariffDescription_CHARACTERS_SIZE 32 + EXTRA_CHAR /* XML schema facet maxLength for urn:iso:15118:2:2013:MsgDataTypes,tariffDescriptionType is 32 */
-#define iso1SalesTariffType_SalesTariffEntry_ARRAY_SIZE 5
+#define iso1SalesTariffType_SalesTariffEntry_ARRAY_SIZE 1024
 struct iso1SalesTariffType {
 	/* attribute: Id {http://www.w3.org/2001/XMLSchema,ID} */
 	struct {
@@ -1850,7 +1850,7 @@ struct iso1PowerDeliveryReqType {
 };
 
 /* Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ServiceParameterListType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ParameterSet{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
-#define iso1ServiceParameterListType_ParameterSet_ARRAY_SIZE 5
+#define iso1ServiceParameterListType_ParameterSet_ARRAY_SIZE 255
 struct iso1ServiceParameterListType {
 	/* element: "urn:iso:15118:2:2013:MsgDataTypes":ParameterSet, Complex type name='urn:iso:15118:2:2013:MsgDataTypes,ParameterSetType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("urn:iso:15118:2:2013:MsgDataTypes":ParameterSetID,"urn:iso:15118:2:2013:MsgDataTypes":Parameter{1-16})',  derivedBy='RESTRICTION'.  */
 	struct {
