@@ -1,0 +1,9 @@
+autoreconf.*
+.debhelper
+*.debhelper.log
+files
+*.substvars
+debhelper-build-stamp
+libopenv2g-dev
+libopenv2g
+tmp
