@@ -79,7 +79,7 @@ extern "C" {
  *
  * 			ASCII or UCS
  * */
-#define STRING_REPRESENTATION STRING_REPRESENTATION_UCS
+#define STRING_REPRESENTATION STRING_REPRESENTATION_ASCII
 
 
 /* in the case of ASCII an extra char (null terminator) for printf and other functions is useful */
