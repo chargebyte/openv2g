@@ -20,7 +20,7 @@ add_library(openv2g SHARED ${SRC_FILES})
 set_target_properties(openv2g PROPERTIES SOVERSION ${SOVERSION})
 
 install(TARGETS ${PROJECT_NAME} DESTINATION lib)
-install(FILES openv2g.pc DESTINATION lib/pkgconfig)
+install(FILES ${CMAKE_CURRENT_BINARY_DIR}/openv2g.pc DESTINATION lib/pkgconfig)
 
 file(GLOB HEADERS src/appHandshake/*.h src/codec/*.h src/din/*.h src/transport/*.h src/xmldsig/*.h)
 install(FILES ${HEADERS} DESTINATION include/${PROJECT_NAME})
