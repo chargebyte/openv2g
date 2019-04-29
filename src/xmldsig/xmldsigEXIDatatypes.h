@@ -483,7 +483,7 @@ struct xmldsigRetrievalMethodType {
 
 /* Complex type name='http://www.w3.org/2000/09/xmldsig#,SignedInfoType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("http://www.w3.org/2000/09/xmldsig#":CanonicalizationMethod,"http://www.w3.org/2000/09/xmldsig#":SignatureMethod,"http://www.w3.org/2000/09/xmldsig#":Reference{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
 #define xmldsigSignedInfoType_Id_CHARACTERS_SIZE 50 + EXTRA_CHAR 
-#define xmldsigSignedInfoType_Reference_ARRAY_SIZE 1
+#define xmldsigSignedInfoType_Reference_ARRAY_SIZE 4
 struct xmldsigSignedInfoType {
 	/* attribute: Id {http://www.w3.org/2001/XMLSchema,ID} */
 	struct {
