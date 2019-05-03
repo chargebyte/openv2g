@@ -1546,7 +1546,7 @@ struct iso1ParameterSetType {
 
 /* Complex type name='http://www.w3.org/2000/09/xmldsig#,SignedInfoType',  base type name='anyType',  content type='ELEMENT',  isAbstract='false',  hasTypeId='false',  final='0',  block='0',  particle='("http://www.w3.org/2000/09/xmldsig#":CanonicalizationMethod,"http://www.w3.org/2000/09/xmldsig#":SignatureMethod,"http://www.w3.org/2000/09/xmldsig#":Reference{1-UNBOUNDED})',  derivedBy='RESTRICTION'.  */
 #define iso1SignedInfoType_Id_CHARACTERS_SIZE 50 + EXTRA_CHAR 
-#define iso1SignedInfoType_Reference_ARRAY_SIZE 1
+#define iso1SignedInfoType_Reference_ARRAY_SIZE 4
 struct iso1SignedInfoType {
 	/* attribute: Id {http://www.w3.org/2001/XMLSchema,ID} */
 	struct {
