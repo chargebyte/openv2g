@@ -181,6 +181,7 @@ static int encode_iso1MessageHeaderType(bitstream_t* stream, struct iso1MessageH
 				grammarID = 1;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1:
@@ -205,6 +206,7 @@ static int encode_iso1MessageHeaderType(bitstream_t* stream, struct iso1MessageH
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2:
@@ -223,6 +225,7 @@ static int encode_iso1MessageHeaderType(bitstream_t* stream, struct iso1MessageH
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -235,6 +238,7 @@ static int encode_iso1MessageHeaderType(bitstream_t* stream, struct iso1MessageH
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -277,6 +281,7 @@ static int encode_iso1SignatureType(bitstream_t* stream, struct iso1SignatureTyp
 				grammarID = 7;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 6:
@@ -289,6 +294,7 @@ static int encode_iso1SignatureType(bitstream_t* stream, struct iso1SignatureTyp
 				grammarID = 7;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 7:
@@ -301,6 +307,7 @@ static int encode_iso1SignatureType(bitstream_t* stream, struct iso1SignatureTyp
 				grammarID = 8;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 8:
@@ -325,6 +332,7 @@ static int encode_iso1SignatureType(bitstream_t* stream, struct iso1SignatureTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 9:
@@ -343,6 +351,7 @@ static int encode_iso1SignatureType(bitstream_t* stream, struct iso1SignatureTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -380,6 +389,7 @@ static int encode_iso1PowerDeliveryReqType(bitstream_t* stream, struct iso1Power
 				grammarID = 11;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 11:
@@ -398,6 +408,7 @@ static int encode_iso1PowerDeliveryReqType(bitstream_t* stream, struct iso1Power
 				grammarID = 12;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 12:
@@ -428,6 +439,7 @@ static int encode_iso1PowerDeliveryReqType(bitstream_t* stream, struct iso1Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 13:
@@ -452,6 +464,7 @@ static int encode_iso1PowerDeliveryReqType(bitstream_t* stream, struct iso1Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -464,6 +477,7 @@ static int encode_iso1PowerDeliveryReqType(bitstream_t* stream, struct iso1Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -499,6 +513,7 @@ static int encode_iso1ParameterType(bitstream_t* stream, struct iso1ParameterTyp
 				grammarID = 15;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 15:
@@ -575,6 +590,7 @@ static int encode_iso1ParameterType(bitstream_t* stream, struct iso1ParameterTyp
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -587,6 +603,7 @@ static int encode_iso1ParameterType(bitstream_t* stream, struct iso1ParameterTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -622,6 +639,7 @@ static int encode_iso1CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 17;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 17:
@@ -643,6 +661,7 @@ static int encode_iso1CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 18;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 18:
@@ -655,6 +674,7 @@ static int encode_iso1CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -667,6 +687,7 @@ static int encode_iso1CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -704,6 +725,7 @@ static int encode_iso1SessionSetupResType(bitstream_t* stream, struct iso1Sessio
 				grammarID = 20;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 20:
@@ -726,6 +748,7 @@ static int encode_iso1SessionSetupResType(bitstream_t* stream, struct iso1Sessio
 				grammarID = 21;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 21:
@@ -750,6 +773,7 @@ static int encode_iso1SessionSetupResType(bitstream_t* stream, struct iso1Sessio
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -762,6 +786,7 @@ static int encode_iso1SessionSetupResType(bitstream_t* stream, struct iso1Sessio
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -805,6 +830,7 @@ static int encode_iso1EVChargeParameterType(bitstream_t* stream, struct iso1EVCh
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -817,6 +843,7 @@ static int encode_iso1EVChargeParameterType(bitstream_t* stream, struct iso1EVCh
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -852,6 +879,7 @@ static int encode_iso1DiffieHellmanPublickeyType(bitstream_t* stream, struct iso
 				grammarID = 24;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 24:
@@ -867,6 +895,7 @@ static int encode_iso1DiffieHellmanPublickeyType(bitstream_t* stream, struct iso
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -879,6 +908,7 @@ static int encode_iso1DiffieHellmanPublickeyType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -916,6 +946,7 @@ static int encode_iso1ServiceDiscoveryResType(bitstream_t* stream, struct iso1Se
 				grammarID = 26;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 26:
@@ -928,6 +959,7 @@ static int encode_iso1ServiceDiscoveryResType(bitstream_t* stream, struct iso1Se
 				grammarID = 27;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 27:
@@ -940,6 +972,7 @@ static int encode_iso1ServiceDiscoveryResType(bitstream_t* stream, struct iso1Se
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 28:
@@ -958,6 +991,7 @@ static int encode_iso1ServiceDiscoveryResType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -970,6 +1004,7 @@ static int encode_iso1ServiceDiscoveryResType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1002,6 +1037,7 @@ static int encode_iso1ServiceParameterListType(bitstream_t* stream, struct iso1S
 				grammarID = 30;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 30:
@@ -1020,6 +1056,7 @@ static int encode_iso1ServiceParameterListType(bitstream_t* stream, struct iso1S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1070,6 +1107,7 @@ static int encode_iso1CertificateChainType(bitstream_t* stream, struct iso1Certi
 				grammarID = 33;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 32:
@@ -1091,6 +1129,7 @@ static int encode_iso1CertificateChainType(bitstream_t* stream, struct iso1Certi
 				grammarID = 33;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 33:
@@ -1109,6 +1148,7 @@ static int encode_iso1CertificateChainType(bitstream_t* stream, struct iso1Certi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1121,6 +1161,7 @@ static int encode_iso1CertificateChainType(bitstream_t* stream, struct iso1Certi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1152,6 +1193,7 @@ static int encode_iso1SASchedulesType(bitstream_t* stream, struct iso1SASchedule
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1189,6 +1231,7 @@ static int encode_iso1DC_EVSEStatusType(bitstream_t* stream, struct iso1DC_EVSES
 				grammarID = 36;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 36:
@@ -1207,6 +1250,7 @@ static int encode_iso1DC_EVSEStatusType(bitstream_t* stream, struct iso1DC_EVSES
 				grammarID = 37;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 37:
@@ -1237,6 +1281,7 @@ static int encode_iso1DC_EVSEStatusType(bitstream_t* stream, struct iso1DC_EVSES
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 38:
@@ -1255,6 +1300,7 @@ static int encode_iso1DC_EVSEStatusType(bitstream_t* stream, struct iso1DC_EVSES
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1267,6 +1313,7 @@ static int encode_iso1DC_EVSEStatusType(bitstream_t* stream, struct iso1DC_EVSES
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1304,6 +1351,7 @@ static int encode_iso1PreChargeResType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 40;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 40:
@@ -1316,6 +1364,7 @@ static int encode_iso1PreChargeResType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 41;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 41:
@@ -1328,6 +1377,7 @@ static int encode_iso1PreChargeResType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1340,6 +1390,7 @@ static int encode_iso1PreChargeResType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1378,6 +1429,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 43;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 43:
@@ -1390,6 +1442,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 44;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 44:
@@ -1408,6 +1461,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 45:
@@ -1426,6 +1480,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 46:
@@ -1444,6 +1499,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 47:
@@ -1462,6 +1518,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 48:
@@ -1480,6 +1537,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 49:
@@ -1498,6 +1556,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 50:
@@ -1516,6 +1575,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 51:
@@ -1534,6 +1594,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 52:
@@ -1552,6 +1613,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 53:
@@ -1570,6 +1632,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 54:
@@ -1588,6 +1651,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 55:
@@ -1606,6 +1670,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 56:
@@ -1624,6 +1689,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 57:
@@ -1642,6 +1708,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 58:
@@ -1660,6 +1727,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1672,6 +1740,7 @@ static int encode_iso1ParameterSetType(bitstream_t* stream, struct iso1Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1709,6 +1778,7 @@ static int encode_iso1ServiceDetailReqType(bitstream_t* stream, struct iso1Servi
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1721,6 +1791,7 @@ static int encode_iso1ServiceDetailReqType(bitstream_t* stream, struct iso1Servi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1758,6 +1829,7 @@ static int encode_iso1RelativeTimeIntervalType(bitstream_t* stream, struct iso1R
 				grammarID = 61;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 61:
@@ -1782,6 +1854,7 @@ static int encode_iso1RelativeTimeIntervalType(bitstream_t* stream, struct iso1R
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1794,6 +1867,7 @@ static int encode_iso1RelativeTimeIntervalType(bitstream_t* stream, struct iso1R
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1836,6 +1910,7 @@ static int encode_iso1SignedInfoType(bitstream_t* stream, struct iso1SignedInfoT
 				grammarID = 64;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 63:
@@ -1848,6 +1923,7 @@ static int encode_iso1SignedInfoType(bitstream_t* stream, struct iso1SignedInfoT
 				grammarID = 64;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 64:
@@ -1860,6 +1936,7 @@ static int encode_iso1SignedInfoType(bitstream_t* stream, struct iso1SignedInfoT
 				grammarID = 65;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 65:
@@ -1872,6 +1949,7 @@ static int encode_iso1SignedInfoType(bitstream_t* stream, struct iso1SignedInfoT
 				grammarID = 66;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 66:
@@ -1890,6 +1968,7 @@ static int encode_iso1SignedInfoType(bitstream_t* stream, struct iso1SignedInfoT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1925,6 +2004,7 @@ static int encode_iso1EMAIDType(bitstream_t* stream, struct iso1EMAIDType* iso1E
 				grammarID = 68;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 68:
@@ -1941,6 +2021,7 @@ static int encode_iso1EMAIDType(bitstream_t* stream, struct iso1EMAIDType* iso1E
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1953,6 +2034,7 @@ static int encode_iso1EMAIDType(bitstream_t* stream, struct iso1EMAIDType* iso1E
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1984,6 +2066,7 @@ static int encode_iso1EVStatusType(bitstream_t* stream, struct iso1EVStatusType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2016,6 +2099,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 70;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 70:
@@ -2034,6 +2118,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 71:
@@ -2052,6 +2137,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 72:
@@ -2070,6 +2156,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 73:
@@ -2088,6 +2175,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 74:
@@ -2106,6 +2194,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 75:
@@ -2124,6 +2213,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 76:
@@ -2142,6 +2232,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2154,6 +2245,7 @@ static int encode_iso1ServiceListType(bitstream_t* stream, struct iso1ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2185,6 +2277,7 @@ static int encode_iso1EVSEChargeParameterType(bitstream_t* stream, struct iso1EV
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2216,6 +2309,7 @@ static int encode_iso1EVPowerDeliveryParameterType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2253,6 +2347,7 @@ static int encode_iso1ProfileEntryType(bitstream_t* stream, struct iso1ProfileEn
 				grammarID = 78;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 78:
@@ -2265,6 +2360,7 @@ static int encode_iso1ProfileEntryType(bitstream_t* stream, struct iso1ProfileEn
 				grammarID = 79;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 79:
@@ -2289,6 +2385,7 @@ static int encode_iso1ProfileEntryType(bitstream_t* stream, struct iso1ProfileEn
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2301,6 +2398,7 @@ static int encode_iso1ProfileEntryType(bitstream_t* stream, struct iso1ProfileEn
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2357,6 +2455,7 @@ static int encode_iso1AuthorizationReqType(bitstream_t* stream, struct iso1Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 81:
@@ -2384,6 +2483,7 @@ static int encode_iso1AuthorizationReqType(bitstream_t* stream, struct iso1Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2396,6 +2496,7 @@ static int encode_iso1AuthorizationReqType(bitstream_t* stream, struct iso1Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2437,6 +2538,7 @@ static int encode_iso1MeterInfoType(bitstream_t* stream, struct iso1MeterInfoTyp
 				grammarID = 83;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 83:
@@ -2500,6 +2602,7 @@ static int encode_iso1MeterInfoType(bitstream_t* stream, struct iso1MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 84:
@@ -2551,6 +2654,7 @@ static int encode_iso1MeterInfoType(bitstream_t* stream, struct iso1MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 85:
@@ -2587,6 +2691,7 @@ static int encode_iso1MeterInfoType(bitstream_t* stream, struct iso1MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 86:
@@ -2611,6 +2716,7 @@ static int encode_iso1MeterInfoType(bitstream_t* stream, struct iso1MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2623,6 +2729,7 @@ static int encode_iso1MeterInfoType(bitstream_t* stream, struct iso1MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2665,6 +2772,7 @@ static int encode_iso1ManifestType(bitstream_t* stream, struct iso1ManifestType*
 				grammarID = 66;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 88:
@@ -2677,6 +2785,7 @@ static int encode_iso1ManifestType(bitstream_t* stream, struct iso1ManifestType*
 				grammarID = 66;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 66:
@@ -2695,6 +2804,7 @@ static int encode_iso1ManifestType(bitstream_t* stream, struct iso1ManifestType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2732,6 +2842,7 @@ static int encode_iso1ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 90;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 90:
@@ -2750,6 +2861,7 @@ static int encode_iso1ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 91;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 91:
@@ -2786,6 +2898,7 @@ static int encode_iso1ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 92:
@@ -2810,6 +2923,7 @@ static int encode_iso1ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2822,6 +2936,7 @@ static int encode_iso1ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2859,6 +2974,7 @@ static int encode_iso1PowerDeliveryResType(bitstream_t* stream, struct iso1Power
 				grammarID = 94;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 94:
@@ -2883,6 +2999,7 @@ static int encode_iso1PowerDeliveryResType(bitstream_t* stream, struct iso1Power
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2895,6 +3012,7 @@ static int encode_iso1PowerDeliveryResType(bitstream_t* stream, struct iso1Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2938,6 +3056,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 97;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 96:
@@ -2950,6 +3069,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 97;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 97:
@@ -2962,6 +3082,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 98;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 98:
@@ -2980,6 +3101,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 100;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 99:
@@ -2992,6 +3114,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 100;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 100:
@@ -3040,6 +3163,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 101:
@@ -3082,6 +3206,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 102:
@@ -3118,6 +3243,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 103:
@@ -3142,6 +3268,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3154,6 +3281,7 @@ static int encode_iso1DC_EVChargeParameterType(bitstream_t* stream, struct iso1D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3186,6 +3314,7 @@ static int encode_iso1ConsumptionCostType(bitstream_t* stream, struct iso1Consum
 				grammarID = 105;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 105:
@@ -3198,6 +3327,7 @@ static int encode_iso1ConsumptionCostType(bitstream_t* stream, struct iso1Consum
 				grammarID = 106;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 106:
@@ -3216,6 +3346,7 @@ static int encode_iso1ConsumptionCostType(bitstream_t* stream, struct iso1Consum
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 107:
@@ -3234,6 +3365,7 @@ static int encode_iso1ConsumptionCostType(bitstream_t* stream, struct iso1Consum
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3246,6 +3378,7 @@ static int encode_iso1ConsumptionCostType(bitstream_t* stream, struct iso1Consum
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3278,6 +3411,7 @@ static int encode_iso1PMaxScheduleType(bitstream_t* stream, struct iso1PMaxSched
 				grammarID = 109;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 109:
@@ -3296,6 +3430,7 @@ static int encode_iso1PMaxScheduleType(bitstream_t* stream, struct iso1PMaxSched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3334,6 +3469,7 @@ static int encode_iso1PaymentOptionListType(bitstream_t* stream, struct iso1Paym
 				grammarID = 111;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 111:
@@ -3358,6 +3494,7 @@ static int encode_iso1PaymentOptionListType(bitstream_t* stream, struct iso1Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3370,6 +3507,7 @@ static int encode_iso1PaymentOptionListType(bitstream_t* stream, struct iso1Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3446,6 +3584,7 @@ static int encode_iso1ObjectType(bitstream_t* stream, struct iso1ObjectType* iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 113:
@@ -3492,6 +3631,7 @@ static int encode_iso1ObjectType(bitstream_t* stream, struct iso1ObjectType* iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 114:
@@ -3528,6 +3668,7 @@ static int encode_iso1ObjectType(bitstream_t* stream, struct iso1ObjectType* iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 115:
@@ -3554,6 +3695,7 @@ static int encode_iso1ObjectType(bitstream_t* stream, struct iso1ObjectType* iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 116:
@@ -3580,6 +3722,7 @@ static int encode_iso1ObjectType(bitstream_t* stream, struct iso1ObjectType* iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3617,6 +3760,7 @@ static int encode_iso1PhysicalValueType(bitstream_t* stream, struct iso1Physical
 				grammarID = 118;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 118:
@@ -3635,6 +3779,7 @@ static int encode_iso1PhysicalValueType(bitstream_t* stream, struct iso1Physical
 				grammarID = 119;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 119:
@@ -3653,6 +3798,7 @@ static int encode_iso1PhysicalValueType(bitstream_t* stream, struct iso1Physical
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3665,6 +3811,7 @@ static int encode_iso1PhysicalValueType(bitstream_t* stream, struct iso1Physical
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3705,6 +3852,7 @@ static int encode_iso1RSAKeyValueType(bitstream_t* stream, struct iso1RSAKeyValu
 				grammarID = 121;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 121:
@@ -3726,6 +3874,7 @@ static int encode_iso1RSAKeyValueType(bitstream_t* stream, struct iso1RSAKeyValu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3738,6 +3887,7 @@ static int encode_iso1RSAKeyValueType(bitstream_t* stream, struct iso1RSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3775,6 +3925,7 @@ static int encode_iso1SessionStopResType(bitstream_t* stream, struct iso1Session
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3787,6 +3938,7 @@ static int encode_iso1SessionStopResType(bitstream_t* stream, struct iso1Session
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3822,6 +3974,7 @@ static int encode_iso1CertificateUpdateReqType(bitstream_t* stream, struct iso1C
 				grammarID = 124;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 124:
@@ -3834,6 +3987,7 @@ static int encode_iso1CertificateUpdateReqType(bitstream_t* stream, struct iso1C
 				grammarID = 125;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 125:
@@ -3856,6 +4010,7 @@ static int encode_iso1CertificateUpdateReqType(bitstream_t* stream, struct iso1C
 				grammarID = 18;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 18:
@@ -3868,6 +4023,7 @@ static int encode_iso1CertificateUpdateReqType(bitstream_t* stream, struct iso1C
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3880,6 +4036,7 @@ static int encode_iso1CertificateUpdateReqType(bitstream_t* stream, struct iso1C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3924,6 +4081,7 @@ static int encode_iso1SignatureValueType(bitstream_t* stream, struct iso1Signatu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 24:
@@ -3939,6 +4097,7 @@ static int encode_iso1SignatureValueType(bitstream_t* stream, struct iso1Signatu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -3951,6 +4110,7 @@ static int encode_iso1SignatureValueType(bitstream_t* stream, struct iso1Signatu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -3992,6 +4152,7 @@ static int encode_iso1PaymentDetailsReqType(bitstream_t* stream, struct iso1Paym
 				grammarID = 128;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 128:
@@ -4004,6 +4165,7 @@ static int encode_iso1PaymentDetailsReqType(bitstream_t* stream, struct iso1Paym
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -4016,6 +4178,7 @@ static int encode_iso1PaymentDetailsReqType(bitstream_t* stream, struct iso1Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4053,6 +4216,7 @@ static int encode_iso1AuthorizationResType(bitstream_t* stream, struct iso1Autho
 				grammarID = 130;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 130:
@@ -4071,6 +4235,7 @@ static int encode_iso1AuthorizationResType(bitstream_t* stream, struct iso1Autho
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -4083,6 +4248,7 @@ static int encode_iso1AuthorizationResType(bitstream_t* stream, struct iso1Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4114,6 +4280,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 132;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 132:
@@ -4126,6 +4293,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 133;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 133:
@@ -4138,6 +4306,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 134;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 134:
@@ -4150,6 +4319,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 135;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 135:
@@ -4162,6 +4332,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 136;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 136:
@@ -4174,6 +4345,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 137;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 137:
@@ -4192,6 +4364,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 139;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 138:
@@ -4204,6 +4377,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 139;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 139:
@@ -4222,6 +4396,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -4234,6 +4409,7 @@ static int encode_iso1DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4276,6 +4452,7 @@ static int encode_iso1SubCertificatesType(bitstream_t* stream, struct iso1SubCer
 				grammarID = 141;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 141:
@@ -4304,6 +4481,7 @@ static int encode_iso1SubCertificatesType(bitstream_t* stream, struct iso1SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 142:
@@ -4332,6 +4510,7 @@ static int encode_iso1SubCertificatesType(bitstream_t* stream, struct iso1SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 143:
@@ -4360,6 +4539,7 @@ static int encode_iso1SubCertificatesType(bitstream_t* stream, struct iso1SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -4372,6 +4552,7 @@ static int encode_iso1SubCertificatesType(bitstream_t* stream, struct iso1SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4409,6 +4590,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 145;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 145:
@@ -4431,6 +4613,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 146;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 146:
@@ -4449,6 +4632,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 147;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 147:
@@ -4485,6 +4669,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 148:
@@ -4515,6 +4700,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 149:
@@ -4539,6 +4725,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 150:
@@ -4551,6 +4738,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -4563,6 +4751,7 @@ static int encode_iso1ChargingStatusResType(bitstream_t* stream, struct iso1Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4633,6 +4822,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 154;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 152:
@@ -4654,6 +4844,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 155;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 155:
@@ -4690,6 +4881,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 154;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 153:
@@ -4711,6 +4903,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 154;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 154:
@@ -4753,6 +4946,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 156:
@@ -4780,6 +4974,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 157:
@@ -4801,6 +4996,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -4813,6 +5009,7 @@ static int encode_iso1DSAKeyValueType(bitstream_t* stream, struct iso1DSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4845,6 +5042,7 @@ static int encode_iso1ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 159;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 159:
@@ -4863,6 +5061,7 @@ static int encode_iso1ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -4900,6 +5099,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 161;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 161:
@@ -4934,6 +5134,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 163;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 162:
@@ -4952,6 +5153,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 163;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 163:
@@ -4986,6 +5188,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 165;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 164:
@@ -5004,6 +5207,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 165;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 165:
@@ -5016,6 +5220,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -5028,6 +5233,7 @@ static int encode_iso1ChargeServiceType(bitstream_t* stream, struct iso1ChargeSe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5059,6 +5265,7 @@ static int encode_iso1IntervalType(bitstream_t* stream, struct iso1IntervalType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5109,6 +5316,7 @@ static int encode_iso1MeteringReceiptReqType(bitstream_t* stream, struct iso1Met
 				grammarID = 168;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 167:
@@ -5130,6 +5338,7 @@ static int encode_iso1MeteringReceiptReqType(bitstream_t* stream, struct iso1Met
 				grammarID = 168;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 168:
@@ -5154,6 +5363,7 @@ static int encode_iso1MeteringReceiptReqType(bitstream_t* stream, struct iso1Met
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 169:
@@ -5166,6 +5376,7 @@ static int encode_iso1MeteringReceiptReqType(bitstream_t* stream, struct iso1Met
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -5178,6 +5389,7 @@ static int encode_iso1MeteringReceiptReqType(bitstream_t* stream, struct iso1Met
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5215,6 +5427,7 @@ static int encode_iso1ServiceDetailResType(bitstream_t* stream, struct iso1Servi
 				grammarID = 171;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 171:
@@ -5233,6 +5446,7 @@ static int encode_iso1ServiceDetailResType(bitstream_t* stream, struct iso1Servi
 				grammarID = 172;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 172:
@@ -5251,6 +5465,7 @@ static int encode_iso1ServiceDetailResType(bitstream_t* stream, struct iso1Servi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -5263,6 +5478,7 @@ static int encode_iso1ServiceDetailResType(bitstream_t* stream, struct iso1Servi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5315,6 +5531,7 @@ static int encode_iso1KeyValueType(bitstream_t* stream, struct iso1KeyValueType*
 				grammarID = 175;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 174:
@@ -5338,6 +5555,7 @@ static int encode_iso1KeyValueType(bitstream_t* stream, struct iso1KeyValueType*
 				grammarID = 174;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 175:
@@ -5370,6 +5588,7 @@ static int encode_iso1KeyValueType(bitstream_t* stream, struct iso1KeyValueType*
 				grammarID = 175;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5402,6 +5621,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 177;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 177:
@@ -5420,6 +5640,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 178:
@@ -5438,6 +5659,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 179:
@@ -5456,6 +5678,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 180:
@@ -5474,6 +5697,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 181:
@@ -5492,6 +5716,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 182:
@@ -5510,6 +5735,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 183:
@@ -5528,6 +5754,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 184:
@@ -5546,6 +5773,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 185:
@@ -5564,6 +5792,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 186:
@@ -5582,6 +5811,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 187:
@@ -5600,6 +5830,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 188:
@@ -5618,6 +5849,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 189:
@@ -5636,6 +5868,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 190:
@@ -5654,6 +5887,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 191:
@@ -5672,6 +5906,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -5684,6 +5919,7 @@ static int encode_iso1SelectedServiceListType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5721,6 +5957,7 @@ static int encode_iso1CableCheckResType(bitstream_t* stream, struct iso1CableChe
 				grammarID = 193;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 193:
@@ -5733,6 +5970,7 @@ static int encode_iso1CableCheckResType(bitstream_t* stream, struct iso1CableChe
 				grammarID = 130;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 130:
@@ -5751,6 +5989,7 @@ static int encode_iso1CableCheckResType(bitstream_t* stream, struct iso1CableChe
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -5763,6 +6002,7 @@ static int encode_iso1CableCheckResType(bitstream_t* stream, struct iso1CableChe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5804,6 +6044,7 @@ static int encode_iso1X509IssuerSerialType(bitstream_t* stream, struct iso1X509I
 				grammarID = 195;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 195:
@@ -5823,6 +6064,7 @@ static int encode_iso1X509IssuerSerialType(bitstream_t* stream, struct iso1X509I
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -5835,6 +6077,7 @@ static int encode_iso1X509IssuerSerialType(bitstream_t* stream, struct iso1X509I
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -5956,6 +6199,7 @@ static int encode_iso1KeyInfoType(bitstream_t* stream, struct iso1KeyInfoType* i
 				grammarID = 199;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 197:
@@ -6040,6 +6284,7 @@ static int encode_iso1KeyInfoType(bitstream_t* stream, struct iso1KeyInfoType* i
 				grammarID = 199;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 198:
@@ -6130,6 +6375,7 @@ static int encode_iso1KeyInfoType(bitstream_t* stream, struct iso1KeyInfoType* i
 				grammarID = 198;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 199:
@@ -6214,6 +6460,7 @@ static int encode_iso1KeyInfoType(bitstream_t* stream, struct iso1KeyInfoType* i
 				grammarID = 199;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6246,6 +6493,7 @@ static int encode_iso1TransformsType(bitstream_t* stream, struct iso1TransformsT
 				grammarID = 201;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 201:
@@ -6264,6 +6512,7 @@ static int encode_iso1TransformsType(bitstream_t* stream, struct iso1TransformsT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6313,6 +6562,7 @@ static int encode_iso1ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 204;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 203:
@@ -6331,6 +6581,7 @@ static int encode_iso1ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 204;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 204:
@@ -6355,6 +6606,7 @@ static int encode_iso1ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6367,6 +6619,7 @@ static int encode_iso1ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6398,6 +6651,7 @@ static int encode_iso1PreChargeReqType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 206;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 206:
@@ -6410,6 +6664,7 @@ static int encode_iso1PreChargeReqType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 207;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 207:
@@ -6422,6 +6677,7 @@ static int encode_iso1PreChargeReqType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6434,6 +6690,7 @@ static int encode_iso1PreChargeReqType(bitstream_t* stream, struct iso1PreCharge
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6471,6 +6728,7 @@ static int encode_iso1EVSEStatusType(bitstream_t* stream, struct iso1EVSEStatusT
 				grammarID = 209;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 209:
@@ -6489,6 +6747,7 @@ static int encode_iso1EVSEStatusType(bitstream_t* stream, struct iso1EVSEStatusT
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6501,6 +6760,7 @@ static int encode_iso1EVSEStatusType(bitstream_t* stream, struct iso1EVSEStatusT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6537,6 +6797,7 @@ static int encode_iso1SignatureMethodType(bitstream_t* stream, struct iso1Signat
 				grammarID = 211;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 211:
@@ -6575,6 +6836,7 @@ static int encode_iso1SignatureMethodType(bitstream_t* stream, struct iso1Signat
 				grammarID = 212;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 116:
@@ -6601,6 +6863,7 @@ static int encode_iso1SignatureMethodType(bitstream_t* stream, struct iso1Signat
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 212:
@@ -6639,6 +6902,7 @@ static int encode_iso1SignatureMethodType(bitstream_t* stream, struct iso1Signat
 				grammarID = 212;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6744,6 +7008,7 @@ static int encode_iso1X509DataType(bitstream_t* stream, struct iso1X509DataType*
 				grammarID = 214;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 214:
@@ -6830,6 +7095,7 @@ static int encode_iso1X509DataType(bitstream_t* stream, struct iso1X509DataType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6867,6 +7133,7 @@ static int encode_iso1NotificationType(bitstream_t* stream, struct iso1Notificat
 				grammarID = 216;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 216:
@@ -6895,6 +7162,7 @@ static int encode_iso1NotificationType(bitstream_t* stream, struct iso1Notificat
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6907,6 +7175,7 @@ static int encode_iso1NotificationType(bitstream_t* stream, struct iso1Notificat
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6939,6 +7208,7 @@ static int encode_iso1SAScheduleListType(bitstream_t* stream, struct iso1SASched
 				grammarID = 218;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 218:
@@ -6957,6 +7227,7 @@ static int encode_iso1SAScheduleListType(bitstream_t* stream, struct iso1SASched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 219:
@@ -6975,6 +7246,7 @@ static int encode_iso1SAScheduleListType(bitstream_t* stream, struct iso1SASched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6987,6 +7259,7 @@ static int encode_iso1SAScheduleListType(bitstream_t* stream, struct iso1SASched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -7228,6 +7501,7 @@ static int encode_iso1BodyType(bitstream_t* stream, struct iso1BodyType* iso1Bod
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -7240,6 +7514,7 @@ static int encode_iso1BodyType(bitstream_t* stream, struct iso1BodyType* iso1Bod
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -7272,6 +7547,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 222;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 222:
@@ -7290,6 +7566,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 223:
@@ -7308,6 +7585,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 224:
@@ -7326,6 +7604,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 225:
@@ -7344,6 +7623,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 226:
@@ -7362,6 +7642,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 227:
@@ -7380,6 +7661,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 228:
@@ -7398,6 +7680,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 229:
@@ -7416,6 +7699,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 230:
@@ -7434,6 +7718,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 231:
@@ -7452,6 +7737,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 232:
@@ -7470,6 +7756,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 233:
@@ -7488,6 +7775,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 234:
@@ -7506,6 +7794,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 235:
@@ -7524,6 +7813,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 236:
@@ -7542,6 +7832,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 237:
@@ -7560,6 +7851,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 238:
@@ -7578,6 +7870,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 239:
@@ -7596,6 +7889,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 240:
@@ -7614,6 +7908,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 241:
@@ -7632,6 +7927,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 242:
@@ -7650,6 +7946,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 243:
@@ -7668,6 +7965,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 244:
@@ -7686,6 +7984,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -7698,6 +7997,7 @@ static int encode_iso1ChargingProfileType(bitstream_t* stream, struct iso1Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -7735,6 +8035,7 @@ static int encode_iso1TransformType(bitstream_t* stream, struct iso1TransformTyp
 				grammarID = 246;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 246:
@@ -7778,6 +8079,7 @@ static int encode_iso1TransformType(bitstream_t* stream, struct iso1TransformTyp
 				grammarID = 247;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 247:
@@ -7821,6 +8123,7 @@ static int encode_iso1TransformType(bitstream_t* stream, struct iso1TransformTyp
 				grammarID = 247;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -7858,6 +8161,7 @@ static int encode_iso1SAScheduleTupleType(bitstream_t* stream, struct iso1SASche
 				grammarID = 249;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 249:
@@ -7870,6 +8174,7 @@ static int encode_iso1SAScheduleTupleType(bitstream_t* stream, struct iso1SASche
 				grammarID = 250;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 250:
@@ -7888,6 +8193,7 @@ static int encode_iso1SAScheduleTupleType(bitstream_t* stream, struct iso1SASche
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -7900,6 +8206,7 @@ static int encode_iso1SAScheduleTupleType(bitstream_t* stream, struct iso1SASche
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -7943,6 +8250,7 @@ static int encode_iso1AC_EVChargeParameterType(bitstream_t* stream, struct iso1A
 				grammarID = 253;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 252:
@@ -7955,6 +8263,7 @@ static int encode_iso1AC_EVChargeParameterType(bitstream_t* stream, struct iso1A
 				grammarID = 253;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 253:
@@ -7967,6 +8276,7 @@ static int encode_iso1AC_EVChargeParameterType(bitstream_t* stream, struct iso1A
 				grammarID = 254;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 254:
@@ -7979,6 +8289,7 @@ static int encode_iso1AC_EVChargeParameterType(bitstream_t* stream, struct iso1A
 				grammarID = 255;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 255:
@@ -7991,6 +8302,7 @@ static int encode_iso1AC_EVChargeParameterType(bitstream_t* stream, struct iso1A
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8003,6 +8315,7 @@ static int encode_iso1AC_EVChargeParameterType(bitstream_t* stream, struct iso1A
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8034,6 +8347,7 @@ static int encode_iso1AnonType_V2G_Message(bitstream_t* stream, struct iso1AnonT
 				grammarID = 257;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 257:
@@ -8046,6 +8360,7 @@ static int encode_iso1AnonType_V2G_Message(bitstream_t* stream, struct iso1AnonT
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8058,6 +8373,7 @@ static int encode_iso1AnonType_V2G_Message(bitstream_t* stream, struct iso1AnonT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8095,6 +8411,7 @@ static int encode_iso1PaymentDetailsResType(bitstream_t* stream, struct iso1Paym
 				grammarID = 259;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 259:
@@ -8116,6 +8433,7 @@ static int encode_iso1PaymentDetailsResType(bitstream_t* stream, struct iso1Paym
 				grammarID = 260;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 260:
@@ -8134,6 +8452,7 @@ static int encode_iso1PaymentDetailsResType(bitstream_t* stream, struct iso1Paym
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8146,6 +8465,7 @@ static int encode_iso1PaymentDetailsResType(bitstream_t* stream, struct iso1Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8181,6 +8501,7 @@ static int encode_iso1ContractSignatureEncryptedPrivateKeyType(bitstream_t* stre
 				grammarID = 24;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 24:
@@ -8196,6 +8517,7 @@ static int encode_iso1ContractSignatureEncryptedPrivateKeyType(bitstream_t* stre
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8208,6 +8530,7 @@ static int encode_iso1ContractSignatureEncryptedPrivateKeyType(bitstream_t* stre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8245,6 +8568,7 @@ static int encode_iso1PMaxScheduleEntryType(bitstream_t* stream, struct iso1PMax
 				grammarID = 262;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 262:
@@ -8257,6 +8581,7 @@ static int encode_iso1PMaxScheduleEntryType(bitstream_t* stream, struct iso1PMax
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8269,6 +8594,7 @@ static int encode_iso1PMaxScheduleEntryType(bitstream_t* stream, struct iso1PMax
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8312,6 +8638,7 @@ static int encode_iso1SPKIDataType(bitstream_t* stream, struct iso1SPKIDataType*
 				grammarID = 264;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 264:
@@ -8343,6 +8670,7 @@ static int encode_iso1SPKIDataType(bitstream_t* stream, struct iso1SPKIDataType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 265:
@@ -8371,6 +8699,7 @@ static int encode_iso1SPKIDataType(bitstream_t* stream, struct iso1SPKIDataType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8408,6 +8737,7 @@ static int encode_iso1MeteringReceiptResType(bitstream_t* stream, struct iso1Met
 				grammarID = 94;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 94:
@@ -8432,6 +8762,7 @@ static int encode_iso1MeteringReceiptResType(bitstream_t* stream, struct iso1Met
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8444,6 +8775,7 @@ static int encode_iso1MeteringReceiptResType(bitstream_t* stream, struct iso1Met
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8481,6 +8813,7 @@ static int encode_iso1SessionStopReqType(bitstream_t* stream, struct iso1Session
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8493,6 +8826,7 @@ static int encode_iso1SessionStopReqType(bitstream_t* stream, struct iso1Session
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8530,6 +8864,7 @@ static int encode_iso1WeldingDetectionResType(bitstream_t* stream, struct iso1We
 				grammarID = 40;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 40:
@@ -8542,6 +8877,7 @@ static int encode_iso1WeldingDetectionResType(bitstream_t* stream, struct iso1We
 				grammarID = 41;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 41:
@@ -8554,6 +8890,7 @@ static int encode_iso1WeldingDetectionResType(bitstream_t* stream, struct iso1We
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8566,6 +8903,7 @@ static int encode_iso1WeldingDetectionResType(bitstream_t* stream, struct iso1We
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8633,6 +8971,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 272;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 268:
@@ -8671,6 +9010,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 272;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 269:
@@ -8699,6 +9039,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 272;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 270:
@@ -8717,6 +9058,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 272;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 271:
@@ -8729,6 +9071,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 272;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 272:
@@ -8750,6 +9093,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -8762,6 +9106,7 @@ static int encode_iso1ReferenceType(bitstream_t* stream, struct iso1ReferenceTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -8793,6 +9138,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 274;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 274:
@@ -8805,6 +9151,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 275;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 275:
@@ -8853,6 +9200,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 280;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 276:
@@ -8895,6 +9243,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 280;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 277:
@@ -8931,6 +9280,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 280;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 278:
@@ -8961,6 +9311,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 280;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 279:
@@ -8979,6 +9330,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 280;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 280:
@@ -9003,6 +9355,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 281:
@@ -9021,6 +9374,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 282:
@@ -9033,6 +9387,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9045,6 +9400,7 @@ static int encode_iso1CurrentDemandReqType(bitstream_t* stream, struct iso1Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9083,6 +9439,7 @@ static int encode_iso1SalesTariffEntryType(bitstream_t* stream, struct iso1Sales
 				grammarID = 284;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 284:
@@ -9113,6 +9470,7 @@ static int encode_iso1SalesTariffEntryType(bitstream_t* stream, struct iso1Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 285:
@@ -9131,6 +9489,7 @@ static int encode_iso1SalesTariffEntryType(bitstream_t* stream, struct iso1Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 286:
@@ -9149,6 +9508,7 @@ static int encode_iso1SalesTariffEntryType(bitstream_t* stream, struct iso1Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 287:
@@ -9167,6 +9527,7 @@ static int encode_iso1SalesTariffEntryType(bitstream_t* stream, struct iso1Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9179,6 +9540,7 @@ static int encode_iso1SalesTariffEntryType(bitstream_t* stream, struct iso1Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9216,6 +9578,7 @@ static int encode_iso1EntryType(bitstream_t* stream, struct iso1EntryType* iso1E
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9228,6 +9591,7 @@ static int encode_iso1EntryType(bitstream_t* stream, struct iso1EntryType* iso1E
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9268,6 +9632,7 @@ static int encode_iso1SessionSetupReqType(bitstream_t* stream, struct iso1Sessio
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9280,6 +9645,7 @@ static int encode_iso1SessionSetupReqType(bitstream_t* stream, struct iso1Sessio
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9317,6 +9683,7 @@ static int encode_iso1CostType(bitstream_t* stream, struct iso1CostType* iso1Cos
 				grammarID = 291;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 291:
@@ -9335,6 +9702,7 @@ static int encode_iso1CostType(bitstream_t* stream, struct iso1CostType* iso1Cos
 				grammarID = 292;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 292:
@@ -9359,6 +9727,7 @@ static int encode_iso1CostType(bitstream_t* stream, struct iso1CostType* iso1Cos
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9371,6 +9740,7 @@ static int encode_iso1CostType(bitstream_t* stream, struct iso1CostType* iso1Cos
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9402,6 +9772,7 @@ static int encode_iso1DC_EVPowerDeliveryParameterType(bitstream_t* stream, struc
 				grammarID = 294;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 294:
@@ -9432,6 +9803,7 @@ static int encode_iso1DC_EVPowerDeliveryParameterType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 295:
@@ -9450,6 +9822,7 @@ static int encode_iso1DC_EVPowerDeliveryParameterType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9462,6 +9835,7 @@ static int encode_iso1DC_EVPowerDeliveryParameterType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9519,6 +9893,7 @@ static int encode_iso1RetrievalMethodType(bitstream_t* stream, struct iso1Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 297:
@@ -9547,6 +9922,7 @@ static int encode_iso1RetrievalMethodType(bitstream_t* stream, struct iso1Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 298:
@@ -9565,6 +9941,7 @@ static int encode_iso1RetrievalMethodType(bitstream_t* stream, struct iso1Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9577,6 +9954,7 @@ static int encode_iso1RetrievalMethodType(bitstream_t* stream, struct iso1Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9614,6 +9992,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 300;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 300:
@@ -9626,6 +10005,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 301;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 301:
@@ -9638,6 +10018,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 302;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 302:
@@ -9650,6 +10031,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 303;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 303:
@@ -9662,6 +10044,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 304;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 304:
@@ -9674,6 +10057,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 305;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 305:
@@ -9698,6 +10082,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9710,6 +10095,7 @@ static int encode_iso1CertificateUpdateResType(bitstream_t* stream, struct iso1C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9747,6 +10133,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 307;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 307:
@@ -9759,6 +10146,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 308;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 308:
@@ -9771,6 +10159,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 309;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 309:
@@ -9783,6 +10172,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 310;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 310:
@@ -9795,6 +10185,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 311;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 311:
@@ -9807,6 +10198,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9819,6 +10211,7 @@ static int encode_iso1CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9855,6 +10248,7 @@ static int encode_iso1CanonicalizationMethodType(bitstream_t* stream, struct iso
 				grammarID = 115;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 115:
@@ -9881,6 +10275,7 @@ static int encode_iso1CanonicalizationMethodType(bitstream_t* stream, struct iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 116:
@@ -9907,6 +10302,7 @@ static int encode_iso1CanonicalizationMethodType(bitstream_t* stream, struct iso
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9938,6 +10334,7 @@ static int encode_iso1WeldingDetectionReqType(bitstream_t* stream, struct iso1We
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -9950,6 +10347,7 @@ static int encode_iso1WeldingDetectionReqType(bitstream_t* stream, struct iso1We
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -9987,6 +10385,7 @@ static int encode_iso1DC_EVStatusType(bitstream_t* stream, struct iso1DC_EVStatu
 				grammarID = 315;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 315:
@@ -10005,6 +10404,7 @@ static int encode_iso1DC_EVStatusType(bitstream_t* stream, struct iso1DC_EVStatu
 				grammarID = 316;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 316:
@@ -10023,6 +10423,7 @@ static int encode_iso1DC_EVStatusType(bitstream_t* stream, struct iso1DC_EVStatu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10035,6 +10436,7 @@ static int encode_iso1DC_EVStatusType(bitstream_t* stream, struct iso1DC_EVStatu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10072,6 +10474,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 318;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 318:
@@ -10084,6 +10487,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 319;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 319:
@@ -10096,6 +10500,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 320;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 320:
@@ -10108,6 +10513,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 321;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 321:
@@ -10126,6 +10532,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 322;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 322:
@@ -10144,6 +10551,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 323;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 323:
@@ -10162,6 +10570,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 324;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 324:
@@ -10202,6 +10611,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 328;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 325:
@@ -10236,6 +10646,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 328;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 326:
@@ -10264,6 +10675,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 328;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 327:
@@ -10286,6 +10698,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 328;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 328:
@@ -10304,6 +10717,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 329;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 329:
@@ -10334,6 +10748,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 330:
@@ -10358,6 +10773,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10370,6 +10786,7 @@ static int encode_iso1CurrentDemandResType(bitstream_t* stream, struct iso1Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10407,6 +10824,7 @@ static int encode_iso1ServiceType(bitstream_t* stream, struct iso1ServiceType* i
 				grammarID = 332;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 332:
@@ -10441,6 +10859,7 @@ static int encode_iso1ServiceType(bitstream_t* stream, struct iso1ServiceType* i
 				grammarID = 334;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 333:
@@ -10459,6 +10878,7 @@ static int encode_iso1ServiceType(bitstream_t* stream, struct iso1ServiceType* i
 				grammarID = 334;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 334:
@@ -10493,6 +10913,7 @@ static int encode_iso1ServiceType(bitstream_t* stream, struct iso1ServiceType* i
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 335:
@@ -10511,6 +10932,7 @@ static int encode_iso1ServiceType(bitstream_t* stream, struct iso1ServiceType* i
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10523,6 +10945,7 @@ static int encode_iso1ServiceType(bitstream_t* stream, struct iso1ServiceType* i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10582,6 +11005,7 @@ static int encode_iso1ServiceDiscoveryReqType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 337:
@@ -10606,6 +11030,7 @@ static int encode_iso1ServiceDiscoveryReqType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10618,6 +11043,7 @@ static int encode_iso1ServiceDiscoveryReqType(bitstream_t* stream, struct iso1Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10649,6 +11075,7 @@ static int encode_iso1AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 339;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 339:
@@ -10661,6 +11088,7 @@ static int encode_iso1AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 340;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 340:
@@ -10673,6 +11101,7 @@ static int encode_iso1AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10685,6 +11114,7 @@ static int encode_iso1AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10716,6 +11146,7 @@ static int encode_iso1CableCheckReqType(bitstream_t* stream, struct iso1CableChe
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10728,6 +11159,7 @@ static int encode_iso1CableCheckReqType(bitstream_t* stream, struct iso1CableChe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10765,6 +11197,7 @@ static int encode_iso1SelectedServiceType(bitstream_t* stream, struct iso1Select
 				grammarID = 342;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 342:
@@ -10789,6 +11222,7 @@ static int encode_iso1SelectedServiceType(bitstream_t* stream, struct iso1Select
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10801,6 +11235,7 @@ static int encode_iso1SelectedServiceType(bitstream_t* stream, struct iso1Select
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10838,6 +11273,7 @@ static int encode_iso1AC_EVSEStatusType(bitstream_t* stream, struct iso1AC_EVSES
 				grammarID = 344;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 344:
@@ -10856,6 +11292,7 @@ static int encode_iso1AC_EVSEStatusType(bitstream_t* stream, struct iso1AC_EVSES
 				grammarID = 345;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 345:
@@ -10874,6 +11311,7 @@ static int encode_iso1AC_EVSEStatusType(bitstream_t* stream, struct iso1AC_EVSES
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -10886,6 +11324,7 @@ static int encode_iso1AC_EVSEStatusType(bitstream_t* stream, struct iso1AC_EVSES
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -10934,6 +11373,7 @@ static int encode_iso1SalesTariffType(bitstream_t* stream, struct iso1SalesTarif
 				grammarID = 348;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 347:
@@ -10952,6 +11392,7 @@ static int encode_iso1SalesTariffType(bitstream_t* stream, struct iso1SalesTarif
 				grammarID = 348;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 348:
@@ -10992,6 +11433,7 @@ static int encode_iso1SalesTariffType(bitstream_t* stream, struct iso1SalesTarif
 				grammarID = 351;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 349:
@@ -11016,6 +11458,7 @@ static int encode_iso1SalesTariffType(bitstream_t* stream, struct iso1SalesTarif
 				grammarID = 351;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 350:
@@ -11028,6 +11471,7 @@ static int encode_iso1SalesTariffType(bitstream_t* stream, struct iso1SalesTarif
 				grammarID = 351;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 351:
@@ -11046,6 +11490,7 @@ static int encode_iso1SalesTariffType(bitstream_t* stream, struct iso1SalesTarif
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11083,6 +11528,7 @@ static int encode_iso1PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 353;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 353:
@@ -11095,6 +11541,7 @@ static int encode_iso1PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -11107,6 +11554,7 @@ static int encode_iso1PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11149,6 +11597,7 @@ static int encode_iso1SignaturePropertiesType(bitstream_t* stream, struct iso1Si
 				grammarID = 356;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 355:
@@ -11161,6 +11610,7 @@ static int encode_iso1SignaturePropertiesType(bitstream_t* stream, struct iso1Si
 				grammarID = 356;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 356:
@@ -11179,6 +11629,7 @@ static int encode_iso1SignaturePropertiesType(bitstream_t* stream, struct iso1Si
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11210,6 +11661,7 @@ static int encode_iso1BodyBaseType(bitstream_t* stream, struct iso1BodyBaseType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11248,6 +11700,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 358;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 358:
@@ -11272,6 +11725,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 359:
@@ -11296,6 +11750,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 360:
@@ -11320,6 +11775,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 361:
@@ -11344,6 +11800,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 362:
@@ -11368,6 +11825,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -11380,6 +11838,7 @@ static int encode_iso1SupportedEnergyTransferModeType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11411,6 +11870,7 @@ static int encode_iso1ChargingStatusReqType(bitstream_t* stream, struct iso1Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11448,6 +11908,7 @@ static int encode_iso1PaymentServiceSelectionResType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -11460,6 +11921,7 @@ static int encode_iso1PaymentServiceSelectionResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11496,6 +11958,7 @@ static int encode_iso1DigestMethodType(bitstream_t* stream, struct iso1DigestMet
 				grammarID = 115;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 115:
@@ -11522,6 +11985,7 @@ static int encode_iso1DigestMethodType(bitstream_t* stream, struct iso1DigestMet
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 116:
@@ -11548,6 +12012,7 @@ static int encode_iso1DigestMethodType(bitstream_t* stream, struct iso1DigestMet
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11594,6 +12059,7 @@ static int encode_iso1SignaturePropertyType(bitstream_t* stream, struct iso1Sign
 				grammarID = 365;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 364:
@@ -11610,6 +12076,7 @@ static int encode_iso1SignaturePropertyType(bitstream_t* stream, struct iso1Sign
 				grammarID = 365;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 365:
@@ -11630,6 +12097,7 @@ static int encode_iso1SignaturePropertyType(bitstream_t* stream, struct iso1Sign
 				grammarID = 366;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 116:
@@ -11656,6 +12124,7 @@ static int encode_iso1SignaturePropertyType(bitstream_t* stream, struct iso1Sign
 				grammarID = 116;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 366:
@@ -11676,6 +12145,7 @@ static int encode_iso1SignaturePropertyType(bitstream_t* stream, struct iso1Sign
 				grammarID = 366;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11732,6 +12202,7 @@ static int encode_iso1PGPDataType(bitstream_t* stream, struct iso1PGPDataType* i
 				grammarID = 369;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 368:
@@ -11762,6 +12233,7 @@ static int encode_iso1PGPDataType(bitstream_t* stream, struct iso1PGPDataType* i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 369:
@@ -11777,6 +12249,7 @@ static int encode_iso1PGPDataType(bitstream_t* stream, struct iso1PGPDataType* i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12384,6 +12857,7 @@ int encode_iso1ExiDocument(bitstream_t* stream, struct iso1EXIDocument* exiDoc) 
 			}
 		} else {
 			errn = EXI_ERROR_UNKOWN_EVENT;
+			fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID (none), file %s function %s line %d\n", __FILE__, __func__, __LINE__);
 		}
 
 	}
@@ -14565,6 +15039,7 @@ int encode_iso1ExiFragment(bitstream_t* stream, struct iso1EXIFragment* exiFrag)
 			}
 		} else {
 			errn = EXI_ERROR_UNKOWN_EVENT;
+			fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID (none), file %s function %s line %d\n", __FILE__, __func__, __LINE__);
 		}
 	}
 	if(errn == 0) {

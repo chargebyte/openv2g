@@ -247,6 +247,7 @@ static int encode_iso2RetrievalMethodType(bitstream_t* stream, struct iso2Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1:
@@ -275,6 +276,7 @@ static int encode_iso2RetrievalMethodType(bitstream_t* stream, struct iso2Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2:
@@ -293,6 +295,7 @@ static int encode_iso2RetrievalMethodType(bitstream_t* stream, struct iso2Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -305,6 +308,7 @@ static int encode_iso2RetrievalMethodType(bitstream_t* stream, struct iso2Retrie
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -342,6 +346,7 @@ static int encode_iso2AuthorizationResType(bitstream_t* stream, struct iso2Autho
 				grammarID = 6;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 6:
@@ -366,6 +371,7 @@ static int encode_iso2AuthorizationResType(bitstream_t* stream, struct iso2Autho
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 7:
@@ -384,6 +390,7 @@ static int encode_iso2AuthorizationResType(bitstream_t* stream, struct iso2Autho
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -396,6 +403,7 @@ static int encode_iso2AuthorizationResType(bitstream_t* stream, struct iso2Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -445,6 +453,7 @@ static int encode_iso2MV_EVSEFinePositioningSetupParametersType(bitstream_t* str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 9:
@@ -463,6 +472,7 @@ static int encode_iso2MV_EVSEFinePositioningSetupParametersType(bitstream_t* str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -475,6 +485,7 @@ static int encode_iso2MV_EVSEFinePositioningSetupParametersType(bitstream_t* str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -580,6 +591,7 @@ static int encode_iso2X509DataType(bitstream_t* stream, struct iso2X509DataType*
 				grammarID = 11;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 11:
@@ -666,6 +678,7 @@ static int encode_iso2X509DataType(bitstream_t* stream, struct iso2X509DataType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -706,6 +719,7 @@ static int encode_iso2RSAKeyValueType(bitstream_t* stream, struct iso2RSAKeyValu
 				grammarID = 13;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 13:
@@ -727,6 +741,7 @@ static int encode_iso2RSAKeyValueType(bitstream_t* stream, struct iso2RSAKeyValu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -739,6 +754,7 @@ static int encode_iso2RSAKeyValueType(bitstream_t* stream, struct iso2RSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -776,6 +792,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 15;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 15:
@@ -794,6 +811,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 17;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 16:
@@ -806,6 +824,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 17;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 17:
@@ -818,6 +837,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 18;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 18:
@@ -836,6 +856,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 19;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 19:
@@ -854,6 +875,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 20;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 20:
@@ -872,6 +894,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 21;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 21:
@@ -930,6 +953,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 22:
@@ -982,6 +1006,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 23:
@@ -1028,6 +1053,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 24:
@@ -1068,6 +1094,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 25:
@@ -1102,6 +1129,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 26:
@@ -1130,6 +1158,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 27:
@@ -1152,6 +1181,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 28:
@@ -1194,6 +1224,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 29:
@@ -1224,6 +1255,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 30:
@@ -1248,6 +1280,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1260,6 +1293,7 @@ static int encode_iso2DC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1297,6 +1331,7 @@ static int encode_iso2CostType(bitstream_t* stream, struct iso2CostType* iso2Cos
 				grammarID = 32;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 32:
@@ -1309,6 +1344,7 @@ static int encode_iso2CostType(bitstream_t* stream, struct iso2CostType* iso2Cos
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1321,6 +1357,7 @@ static int encode_iso2CostType(bitstream_t* stream, struct iso2CostType* iso2Cos
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1358,6 +1395,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 34;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 34:
@@ -1386,6 +1424,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 36;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 35:
@@ -1408,6 +1447,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 36;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 36:
@@ -1456,6 +1496,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 37:
@@ -1492,6 +1533,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 38:
@@ -1522,6 +1564,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 39:
@@ -1540,6 +1583,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1552,6 +1596,7 @@ static int encode_iso2ChargingStatusResType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1593,6 +1638,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 41;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 41:
@@ -1668,6 +1714,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 42:
@@ -1731,6 +1778,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 43:
@@ -1782,6 +1830,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 44:
@@ -1818,6 +1867,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 45:
@@ -1842,6 +1892,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -1854,6 +1905,7 @@ static int encode_iso2MeterInfoType(bitstream_t* stream, struct iso2MeterInfoTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -1891,6 +1943,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 47;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 47:
@@ -1903,6 +1956,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 48;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 48:
@@ -1915,6 +1969,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 49;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 49:
@@ -1927,6 +1982,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 50;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 50:
@@ -1957,6 +2013,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 51:
@@ -1981,6 +2038,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 52:
@@ -1999,6 +2057,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 53:
@@ -2011,6 +2070,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2023,6 +2083,7 @@ static int encode_iso2AC_EVChargeParameterType(bitstream_t* stream, struct iso2A
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2054,6 +2115,7 @@ static int encode_iso2AC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 55;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 55:
@@ -2066,6 +2128,7 @@ static int encode_iso2AC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 56;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 56:
@@ -2078,6 +2141,7 @@ static int encode_iso2AC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 57;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 57:
@@ -2090,6 +2154,7 @@ static int encode_iso2AC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 58;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 58:
@@ -2102,6 +2167,7 @@ static int encode_iso2AC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2114,6 +2180,7 @@ static int encode_iso2AC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2151,6 +2218,7 @@ static int encode_iso2VehicleCheckOutResType(bitstream_t* stream, struct iso2Veh
 				grammarID = 60;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 60:
@@ -2175,6 +2243,7 @@ static int encode_iso2VehicleCheckOutResType(bitstream_t* stream, struct iso2Veh
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 61:
@@ -2193,6 +2262,7 @@ static int encode_iso2VehicleCheckOutResType(bitstream_t* stream, struct iso2Veh
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -2205,6 +2275,7 @@ static int encode_iso2VehicleCheckOutResType(bitstream_t* stream, struct iso2Veh
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -2237,6 +2308,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 63;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 63:
@@ -2255,6 +2327,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 64:
@@ -2273,6 +2346,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 65:
@@ -2291,6 +2365,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 66:
@@ -2309,6 +2384,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 67:
@@ -2327,6 +2403,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 68:
@@ -2345,6 +2422,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 69:
@@ -2363,6 +2441,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 70:
@@ -2381,6 +2460,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 71:
@@ -2399,6 +2479,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 72:
@@ -2417,6 +2498,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 73:
@@ -2435,6 +2517,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 74:
@@ -2453,6 +2536,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 75:
@@ -2471,6 +2555,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 76:
@@ -2489,6 +2574,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 77:
@@ -2507,6 +2593,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 78:
@@ -2525,6 +2612,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 79:
@@ -2543,6 +2631,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 80:
@@ -2561,6 +2650,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 81:
@@ -2579,6 +2669,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 82:
@@ -2597,6 +2688,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 83:
@@ -2615,6 +2707,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 84:
@@ -2633,6 +2726,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 85:
@@ -2651,6 +2745,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 86:
@@ -2669,6 +2764,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 87:
@@ -2687,6 +2783,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 88:
@@ -2705,6 +2802,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 89:
@@ -2723,6 +2821,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 90:
@@ -2741,6 +2840,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 91:
@@ -2759,6 +2859,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 92:
@@ -2777,6 +2878,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 93:
@@ -2795,6 +2897,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 94:
@@ -2813,6 +2916,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 95:
@@ -2831,6 +2935,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 96:
@@ -2849,6 +2954,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 97:
@@ -2867,6 +2973,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 98:
@@ -2885,6 +2992,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 99:
@@ -2903,6 +3011,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 100:
@@ -2921,6 +3030,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 101:
@@ -2939,6 +3049,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 102:
@@ -2957,6 +3068,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 103:
@@ -2975,6 +3087,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 104:
@@ -2993,6 +3106,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 105:
@@ -3011,6 +3125,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 106:
@@ -3029,6 +3144,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 107:
@@ -3047,6 +3163,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 108:
@@ -3065,6 +3182,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 109:
@@ -3083,6 +3201,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 110:
@@ -3101,6 +3220,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 111:
@@ -3119,6 +3239,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 112:
@@ -3137,6 +3258,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 113:
@@ -3155,6 +3277,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 114:
@@ -3173,6 +3296,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 115:
@@ -3191,6 +3315,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 116:
@@ -3209,6 +3334,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 117:
@@ -3227,6 +3353,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 118:
@@ -3245,6 +3372,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 119:
@@ -3263,6 +3391,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 120:
@@ -3281,6 +3410,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 121:
@@ -3299,6 +3429,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 122:
@@ -3317,6 +3448,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 123:
@@ -3335,6 +3467,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 124:
@@ -3353,6 +3486,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 125:
@@ -3371,6 +3505,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 126:
@@ -3389,6 +3524,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 127:
@@ -3407,6 +3543,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 128:
@@ -3425,6 +3562,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 129:
@@ -3443,6 +3581,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 130:
@@ -3461,6 +3600,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 131:
@@ -3479,6 +3619,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 132:
@@ -3497,6 +3638,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 133:
@@ -3515,6 +3657,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 134:
@@ -3533,6 +3676,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 135:
@@ -3551,6 +3695,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 136:
@@ -3569,6 +3714,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 137:
@@ -3587,6 +3733,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 138:
@@ -3605,6 +3752,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 139:
@@ -3623,6 +3771,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 140:
@@ -3641,6 +3790,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 141:
@@ -3659,6 +3809,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 142:
@@ -3677,6 +3828,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 143:
@@ -3695,6 +3847,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 144:
@@ -3713,6 +3866,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 145:
@@ -3731,6 +3885,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 146:
@@ -3749,6 +3904,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 147:
@@ -3767,6 +3923,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 148:
@@ -3785,6 +3942,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 149:
@@ -3803,6 +3961,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 150:
@@ -3821,6 +3980,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 151:
@@ -3839,6 +3999,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 152:
@@ -3857,6 +4018,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 153:
@@ -3875,6 +4037,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 154:
@@ -3893,6 +4056,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 155:
@@ -3911,6 +4075,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 156:
@@ -3929,6 +4094,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 157:
@@ -3947,6 +4113,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 158:
@@ -3965,6 +4132,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 159:
@@ -3983,6 +4151,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 160:
@@ -4001,6 +4170,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 161:
@@ -4019,6 +4189,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 162:
@@ -4037,6 +4208,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 163:
@@ -4055,6 +4227,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 164:
@@ -4073,6 +4246,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 165:
@@ -4091,6 +4265,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 166:
@@ -4109,6 +4284,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 167:
@@ -4127,6 +4303,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 168:
@@ -4145,6 +4322,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 169:
@@ -4163,6 +4341,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 170:
@@ -4181,6 +4360,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 171:
@@ -4199,6 +4379,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 172:
@@ -4217,6 +4398,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 173:
@@ -4235,6 +4417,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 174:
@@ -4253,6 +4436,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 175:
@@ -4271,6 +4455,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 176:
@@ -4289,6 +4474,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 177:
@@ -4307,6 +4493,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 178:
@@ -4325,6 +4512,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 179:
@@ -4343,6 +4531,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 180:
@@ -4361,6 +4550,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 181:
@@ -4379,6 +4569,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 182:
@@ -4397,6 +4588,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 183:
@@ -4415,6 +4607,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 184:
@@ -4433,6 +4626,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 185:
@@ -4451,6 +4645,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 186:
@@ -4469,6 +4664,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 187:
@@ -4487,6 +4683,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 188:
@@ -4505,6 +4702,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 189:
@@ -4523,6 +4721,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 190:
@@ -4541,6 +4740,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 191:
@@ -4559,6 +4759,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 192:
@@ -4577,6 +4778,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 193:
@@ -4595,6 +4797,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 194:
@@ -4613,6 +4816,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 195:
@@ -4631,6 +4835,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 196:
@@ -4649,6 +4854,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 197:
@@ -4667,6 +4873,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 198:
@@ -4685,6 +4892,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 199:
@@ -4703,6 +4911,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 200:
@@ -4721,6 +4930,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 201:
@@ -4739,6 +4949,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 202:
@@ -4757,6 +4968,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 203:
@@ -4775,6 +4987,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 204:
@@ -4793,6 +5006,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 205:
@@ -4811,6 +5025,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 206:
@@ -4829,6 +5044,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 207:
@@ -4847,6 +5063,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 208:
@@ -4865,6 +5082,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 209:
@@ -4883,6 +5101,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 210:
@@ -4901,6 +5120,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 211:
@@ -4919,6 +5139,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 212:
@@ -4937,6 +5158,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 213:
@@ -4955,6 +5177,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 214:
@@ -4973,6 +5196,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 215:
@@ -4991,6 +5215,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 216:
@@ -5009,6 +5234,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 217:
@@ -5027,6 +5253,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 218:
@@ -5045,6 +5272,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 219:
@@ -5063,6 +5291,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 220:
@@ -5081,6 +5310,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 221:
@@ -5099,6 +5329,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 222:
@@ -5117,6 +5348,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 223:
@@ -5135,6 +5367,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 224:
@@ -5153,6 +5386,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 225:
@@ -5171,6 +5405,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 226:
@@ -5189,6 +5424,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 227:
@@ -5207,6 +5443,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 228:
@@ -5225,6 +5462,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 229:
@@ -5243,6 +5481,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 230:
@@ -5261,6 +5500,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 231:
@@ -5279,6 +5519,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 232:
@@ -5297,6 +5538,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 233:
@@ -5315,6 +5557,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 234:
@@ -5333,6 +5576,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 235:
@@ -5351,6 +5595,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 236:
@@ -5369,6 +5614,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 237:
@@ -5387,6 +5633,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 238:
@@ -5405,6 +5652,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 239:
@@ -5423,6 +5671,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 240:
@@ -5441,6 +5690,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 241:
@@ -5459,6 +5709,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 242:
@@ -5477,6 +5728,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 243:
@@ -5495,6 +5747,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 244:
@@ -5513,6 +5766,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 245:
@@ -5531,6 +5785,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 246:
@@ -5549,6 +5804,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 247:
@@ -5567,6 +5823,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 248:
@@ -5585,6 +5842,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 249:
@@ -5603,6 +5861,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 250:
@@ -5621,6 +5880,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 251:
@@ -5639,6 +5899,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 252:
@@ -5657,6 +5918,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 253:
@@ -5675,6 +5937,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 254:
@@ -5693,6 +5956,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 255:
@@ -5711,6 +5975,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 256:
@@ -5729,6 +5994,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 257:
@@ -5747,6 +6013,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 258:
@@ -5765,6 +6032,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 259:
@@ -5783,6 +6051,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 260:
@@ -5801,6 +6070,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 261:
@@ -5819,6 +6089,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 262:
@@ -5837,6 +6108,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 263:
@@ -5855,6 +6127,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 264:
@@ -5873,6 +6146,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 265:
@@ -5891,6 +6165,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 266:
@@ -5909,6 +6184,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 267:
@@ -5927,6 +6203,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 268:
@@ -5945,6 +6222,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 269:
@@ -5963,6 +6241,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 270:
@@ -5981,6 +6260,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 271:
@@ -5999,6 +6279,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 272:
@@ -6017,6 +6298,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 273:
@@ -6035,6 +6317,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 274:
@@ -6053,6 +6336,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 275:
@@ -6071,6 +6355,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 276:
@@ -6089,6 +6374,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 277:
@@ -6107,6 +6393,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 278:
@@ -6125,6 +6412,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 279:
@@ -6143,6 +6431,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 280:
@@ -6161,6 +6450,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 281:
@@ -6179,6 +6469,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 282:
@@ -6197,6 +6488,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 283:
@@ -6215,6 +6507,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 284:
@@ -6233,6 +6526,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 285:
@@ -6251,6 +6545,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 286:
@@ -6269,6 +6564,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 287:
@@ -6287,6 +6583,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 288:
@@ -6305,6 +6602,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 289:
@@ -6323,6 +6621,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 290:
@@ -6341,6 +6640,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 291:
@@ -6359,6 +6659,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 292:
@@ -6377,6 +6678,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 293:
@@ -6395,6 +6697,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 294:
@@ -6413,6 +6716,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 295:
@@ -6431,6 +6735,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 296:
@@ -6449,6 +6754,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 297:
@@ -6467,6 +6773,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 298:
@@ -6485,6 +6792,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 299:
@@ -6503,6 +6811,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 300:
@@ -6521,6 +6830,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 301:
@@ -6539,6 +6849,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 302:
@@ -6557,6 +6868,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 303:
@@ -6575,6 +6887,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 304:
@@ -6593,6 +6906,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 305:
@@ -6611,6 +6925,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 306:
@@ -6629,6 +6944,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 307:
@@ -6647,6 +6963,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 308:
@@ -6665,6 +6982,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 309:
@@ -6683,6 +7001,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 310:
@@ -6701,6 +7020,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 311:
@@ -6719,6 +7039,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 312:
@@ -6737,6 +7058,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 313:
@@ -6755,6 +7077,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 314:
@@ -6773,6 +7096,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 315:
@@ -6791,6 +7115,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 316:
@@ -6809,6 +7134,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6821,6 +7147,7 @@ static int encode_iso2MagneticVectorListType(bitstream_t* stream, struct iso2Mag
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6858,6 +7185,7 @@ static int encode_iso2CableCheckResType(bitstream_t* stream, struct iso2CableChe
 				grammarID = 6;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 6:
@@ -6882,6 +7210,7 @@ static int encode_iso2CableCheckResType(bitstream_t* stream, struct iso2CableChe
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 7:
@@ -6900,6 +7229,7 @@ static int encode_iso2CableCheckResType(bitstream_t* stream, struct iso2CableChe
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6912,6 +7242,7 @@ static int encode_iso2CableCheckResType(bitstream_t* stream, struct iso2CableChe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6949,6 +7280,7 @@ static int encode_iso2ServiceDiscoveryReqType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -6961,6 +7293,7 @@ static int encode_iso2ServiceDiscoveryReqType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -6998,6 +7331,7 @@ static int encode_iso2ServiceType(bitstream_t* stream, struct iso2ServiceType* i
 				grammarID = 319;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 319:
@@ -7016,6 +7350,7 @@ static int encode_iso2ServiceType(bitstream_t* stream, struct iso2ServiceType* i
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -7028,6 +7363,7 @@ static int encode_iso2ServiceType(bitstream_t* stream, struct iso2ServiceType* i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -7060,6 +7396,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 321;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 321:
@@ -7078,6 +7415,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 322:
@@ -7096,6 +7434,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 323:
@@ -7114,6 +7453,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 324:
@@ -7132,6 +7472,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 325:
@@ -7150,6 +7491,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 326:
@@ -7168,6 +7510,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 327:
@@ -7186,6 +7529,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 328:
@@ -7204,6 +7548,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 329:
@@ -7222,6 +7567,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 330:
@@ -7240,6 +7586,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 331:
@@ -7258,6 +7605,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 332:
@@ -7276,6 +7624,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 333:
@@ -7294,6 +7643,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 334:
@@ -7312,6 +7662,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 335:
@@ -7330,6 +7681,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 336:
@@ -7348,6 +7700,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 337:
@@ -7366,6 +7719,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 338:
@@ -7384,6 +7738,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 339:
@@ -7402,6 +7757,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 340:
@@ -7420,6 +7776,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 341:
@@ -7438,6 +7795,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 342:
@@ -7456,6 +7814,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 343:
@@ -7474,6 +7833,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 344:
@@ -7492,6 +7852,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 345:
@@ -7510,6 +7871,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 346:
@@ -7528,6 +7890,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 347:
@@ -7546,6 +7909,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 348:
@@ -7564,6 +7928,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 349:
@@ -7582,6 +7947,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 350:
@@ -7600,6 +7966,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 351:
@@ -7618,6 +7985,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 352:
@@ -7636,6 +8004,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 353:
@@ -7654,6 +8023,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 354:
@@ -7672,6 +8042,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 355:
@@ -7690,6 +8061,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 356:
@@ -7708,6 +8080,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 357:
@@ -7726,6 +8099,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 358:
@@ -7744,6 +8118,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 359:
@@ -7762,6 +8137,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 360:
@@ -7780,6 +8156,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 361:
@@ -7798,6 +8175,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 362:
@@ -7816,6 +8194,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 363:
@@ -7834,6 +8213,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 364:
@@ -7852,6 +8232,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 365:
@@ -7870,6 +8251,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 366:
@@ -7888,6 +8270,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 367:
@@ -7906,6 +8289,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 368:
@@ -7924,6 +8308,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 369:
@@ -7942,6 +8327,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 370:
@@ -7960,6 +8346,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 371:
@@ -7978,6 +8365,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 372:
@@ -7996,6 +8384,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 373:
@@ -8014,6 +8403,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 374:
@@ -8032,6 +8422,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 375:
@@ -8050,6 +8441,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 376:
@@ -8068,6 +8460,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 377:
@@ -8086,6 +8479,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 378:
@@ -8104,6 +8498,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 379:
@@ -8122,6 +8517,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 380:
@@ -8140,6 +8536,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 381:
@@ -8158,6 +8555,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 382:
@@ -8176,6 +8574,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 383:
@@ -8194,6 +8593,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 384:
@@ -8212,6 +8612,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 385:
@@ -8230,6 +8631,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 386:
@@ -8248,6 +8650,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 387:
@@ -8266,6 +8669,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 388:
@@ -8284,6 +8688,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 389:
@@ -8302,6 +8707,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 390:
@@ -8320,6 +8726,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 391:
@@ -8338,6 +8745,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 392:
@@ -8356,6 +8764,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 393:
@@ -8374,6 +8783,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 394:
@@ -8392,6 +8802,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 395:
@@ -8410,6 +8821,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 396:
@@ -8428,6 +8840,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 397:
@@ -8446,6 +8859,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 398:
@@ -8464,6 +8878,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 399:
@@ -8482,6 +8897,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 400:
@@ -8500,6 +8916,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 401:
@@ -8518,6 +8935,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 402:
@@ -8536,6 +8954,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 403:
@@ -8554,6 +8973,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 404:
@@ -8572,6 +8992,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 405:
@@ -8590,6 +9011,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 406:
@@ -8608,6 +9030,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 407:
@@ -8626,6 +9049,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 408:
@@ -8644,6 +9068,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 409:
@@ -8662,6 +9087,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 410:
@@ -8680,6 +9106,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 411:
@@ -8698,6 +9125,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 412:
@@ -8716,6 +9144,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 413:
@@ -8734,6 +9163,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 414:
@@ -8752,6 +9182,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 415:
@@ -8770,6 +9201,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 416:
@@ -8788,6 +9220,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 417:
@@ -8806,6 +9239,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 418:
@@ -8824,6 +9258,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 419:
@@ -8842,6 +9277,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 420:
@@ -8860,6 +9296,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 421:
@@ -8878,6 +9315,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 422:
@@ -8896,6 +9334,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 423:
@@ -8914,6 +9353,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 424:
@@ -8932,6 +9372,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 425:
@@ -8950,6 +9391,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 426:
@@ -8968,6 +9410,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 427:
@@ -8986,6 +9429,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 428:
@@ -9004,6 +9448,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 429:
@@ -9022,6 +9467,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 430:
@@ -9040,6 +9486,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 431:
@@ -9058,6 +9505,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 432:
@@ -9076,6 +9524,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 433:
@@ -9094,6 +9543,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 434:
@@ -9112,6 +9562,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 435:
@@ -9130,6 +9581,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 436:
@@ -9148,6 +9600,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 437:
@@ -9166,6 +9619,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 438:
@@ -9184,6 +9638,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 439:
@@ -9202,6 +9657,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 440:
@@ -9220,6 +9676,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 441:
@@ -9238,6 +9695,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 442:
@@ -9256,6 +9714,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 443:
@@ -9274,6 +9733,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 444:
@@ -9292,6 +9752,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 445:
@@ -9310,6 +9771,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 446:
@@ -9328,6 +9790,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 447:
@@ -9346,6 +9809,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 448:
@@ -9364,6 +9828,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 449:
@@ -9382,6 +9847,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 450:
@@ -9400,6 +9866,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 451:
@@ -9418,6 +9885,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 452:
@@ -9436,6 +9904,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 453:
@@ -9454,6 +9923,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 454:
@@ -9472,6 +9942,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 455:
@@ -9490,6 +9961,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 456:
@@ -9508,6 +9980,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 457:
@@ -9526,6 +9999,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 458:
@@ -9544,6 +10018,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 459:
@@ -9562,6 +10037,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 460:
@@ -9580,6 +10056,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 461:
@@ -9598,6 +10075,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 462:
@@ -9616,6 +10094,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 463:
@@ -9634,6 +10113,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 464:
@@ -9652,6 +10132,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 465:
@@ -9670,6 +10151,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 466:
@@ -9688,6 +10170,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 467:
@@ -9706,6 +10189,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 468:
@@ -9724,6 +10208,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 469:
@@ -9742,6 +10227,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 470:
@@ -9760,6 +10246,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 471:
@@ -9778,6 +10265,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 472:
@@ -9796,6 +10284,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 473:
@@ -9814,6 +10303,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 474:
@@ -9832,6 +10322,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 475:
@@ -9850,6 +10341,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 476:
@@ -9868,6 +10360,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 477:
@@ -9886,6 +10379,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 478:
@@ -9904,6 +10398,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 479:
@@ -9922,6 +10417,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 480:
@@ -9940,6 +10436,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 481:
@@ -9958,6 +10455,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 482:
@@ -9976,6 +10474,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 483:
@@ -9994,6 +10493,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 484:
@@ -10012,6 +10512,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 485:
@@ -10030,6 +10531,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 486:
@@ -10048,6 +10550,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 487:
@@ -10066,6 +10569,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 488:
@@ -10084,6 +10588,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 489:
@@ -10102,6 +10607,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 490:
@@ -10120,6 +10626,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 491:
@@ -10138,6 +10645,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 492:
@@ -10156,6 +10664,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 493:
@@ -10174,6 +10683,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 494:
@@ -10192,6 +10702,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 495:
@@ -10210,6 +10721,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 496:
@@ -10228,6 +10740,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 497:
@@ -10246,6 +10759,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 498:
@@ -10264,6 +10778,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 499:
@@ -10282,6 +10797,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 500:
@@ -10300,6 +10816,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 501:
@@ -10318,6 +10835,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 502:
@@ -10336,6 +10854,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 503:
@@ -10354,6 +10873,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 504:
@@ -10372,6 +10892,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 505:
@@ -10390,6 +10911,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 506:
@@ -10408,6 +10930,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 507:
@@ -10426,6 +10949,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 508:
@@ -10444,6 +10968,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 509:
@@ -10462,6 +10987,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 510:
@@ -10480,6 +11006,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 511:
@@ -10498,6 +11025,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 512:
@@ -10516,6 +11044,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 513:
@@ -10534,6 +11063,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 514:
@@ -10552,6 +11082,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 515:
@@ -10570,6 +11101,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 516:
@@ -10588,6 +11120,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 517:
@@ -10606,6 +11139,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 518:
@@ -10624,6 +11158,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 519:
@@ -10642,6 +11177,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 520:
@@ -10660,6 +11196,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 521:
@@ -10678,6 +11215,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 522:
@@ -10696,6 +11234,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 523:
@@ -10714,6 +11253,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 524:
@@ -10732,6 +11272,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 525:
@@ -10750,6 +11291,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 526:
@@ -10768,6 +11310,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 527:
@@ -10786,6 +11329,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 528:
@@ -10804,6 +11348,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 529:
@@ -10822,6 +11367,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 530:
@@ -10840,6 +11386,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 531:
@@ -10858,6 +11405,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 532:
@@ -10876,6 +11424,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 533:
@@ -10894,6 +11443,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 534:
@@ -10912,6 +11462,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 535:
@@ -10930,6 +11481,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 536:
@@ -10948,6 +11500,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 537:
@@ -10966,6 +11519,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 538:
@@ -10984,6 +11538,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 539:
@@ -11002,6 +11557,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 540:
@@ -11020,6 +11576,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 541:
@@ -11038,6 +11595,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 542:
@@ -11056,6 +11614,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 543:
@@ -11074,6 +11633,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 544:
@@ -11092,6 +11652,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 545:
@@ -11110,6 +11671,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 546:
@@ -11128,6 +11690,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 547:
@@ -11146,6 +11709,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 548:
@@ -11164,6 +11728,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 549:
@@ -11182,6 +11747,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 550:
@@ -11200,6 +11766,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 551:
@@ -11218,6 +11785,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 552:
@@ -11236,6 +11804,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 553:
@@ -11254,6 +11823,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 554:
@@ -11272,6 +11842,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 555:
@@ -11290,6 +11861,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 556:
@@ -11308,6 +11880,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 557:
@@ -11326,6 +11899,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 558:
@@ -11344,6 +11918,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 559:
@@ -11362,6 +11937,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 560:
@@ -11380,6 +11956,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 561:
@@ -11398,6 +11975,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 562:
@@ -11416,6 +11994,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 563:
@@ -11434,6 +12013,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 564:
@@ -11452,6 +12032,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 565:
@@ -11470,6 +12051,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 566:
@@ -11488,6 +12070,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 567:
@@ -11506,6 +12089,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 568:
@@ -11524,6 +12108,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 569:
@@ -11542,6 +12127,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 570:
@@ -11560,6 +12146,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 571:
@@ -11578,6 +12165,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 572:
@@ -11596,6 +12184,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 573:
@@ -11614,6 +12203,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 574:
@@ -11632,6 +12222,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -11644,6 +12235,7 @@ static int encode_iso2ServiceParameterListType(bitstream_t* stream, struct iso2S
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11676,6 +12268,7 @@ static int encode_iso2PMaxScheduleType(bitstream_t* stream, struct iso2PMaxSched
 				grammarID = 576;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 576:
@@ -11694,6 +12287,7 @@ static int encode_iso2PMaxScheduleType(bitstream_t* stream, struct iso2PMaxSched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11736,6 +12330,7 @@ static int encode_iso2SignaturePropertiesType(bitstream_t* stream, struct iso2Si
 				grammarID = 579;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 578:
@@ -11748,6 +12343,7 @@ static int encode_iso2SignaturePropertiesType(bitstream_t* stream, struct iso2Si
 				grammarID = 579;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 579:
@@ -11766,6 +12362,7 @@ static int encode_iso2SignaturePropertiesType(bitstream_t* stream, struct iso2Si
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11798,6 +12395,7 @@ static int encode_iso2PMaxScheduleEntryType(bitstream_t* stream, struct iso2PMax
 				grammarID = 581;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 581:
@@ -11810,6 +12408,7 @@ static int encode_iso2PMaxScheduleEntryType(bitstream_t* stream, struct iso2PMax
 				grammarID = 582;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 582:
@@ -11828,6 +12427,7 @@ static int encode_iso2PMaxScheduleEntryType(bitstream_t* stream, struct iso2PMax
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 583:
@@ -11846,6 +12446,7 @@ static int encode_iso2PMaxScheduleEntryType(bitstream_t* stream, struct iso2PMax
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -11858,6 +12459,7 @@ static int encode_iso2PMaxScheduleEntryType(bitstream_t* stream, struct iso2PMax
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -11900,6 +12502,7 @@ static int encode_iso2SignatureType(bitstream_t* stream, struct iso2SignatureTyp
 				grammarID = 586;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 585:
@@ -11912,6 +12515,7 @@ static int encode_iso2SignatureType(bitstream_t* stream, struct iso2SignatureTyp
 				grammarID = 586;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 586:
@@ -11924,6 +12528,7 @@ static int encode_iso2SignatureType(bitstream_t* stream, struct iso2SignatureTyp
 				grammarID = 587;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 587:
@@ -11948,6 +12553,7 @@ static int encode_iso2SignatureType(bitstream_t* stream, struct iso2SignatureTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 588:
@@ -11966,6 +12572,7 @@ static int encode_iso2SignatureType(bitstream_t* stream, struct iso2SignatureTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12003,6 +12610,7 @@ static int encode_iso2VehicleCheckInReqType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 590;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 590:
@@ -12027,6 +12635,7 @@ static int encode_iso2VehicleCheckInReqType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12039,6 +12648,7 @@ static int encode_iso2VehicleCheckInReqType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12076,6 +12686,7 @@ static int encode_iso2ConnectChargingDeviceResType(bitstream_t* stream, struct i
 				grammarID = 592;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 592:
@@ -12100,6 +12711,7 @@ static int encode_iso2ConnectChargingDeviceResType(bitstream_t* stream, struct i
 				grammarID = 594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 593:
@@ -12118,6 +12730,7 @@ static int encode_iso2ConnectChargingDeviceResType(bitstream_t* stream, struct i
 				grammarID = 594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 594:
@@ -12136,6 +12749,7 @@ static int encode_iso2ConnectChargingDeviceResType(bitstream_t* stream, struct i
 				grammarID = 595;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 595:
@@ -12154,6 +12768,7 @@ static int encode_iso2ConnectChargingDeviceResType(bitstream_t* stream, struct i
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12166,6 +12781,7 @@ static int encode_iso2ConnectChargingDeviceResType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12203,6 +12819,7 @@ static int encode_iso2WeldingDetectionResType(bitstream_t* stream, struct iso2We
 				grammarID = 597;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 597:
@@ -12221,6 +12838,7 @@ static int encode_iso2WeldingDetectionResType(bitstream_t* stream, struct iso2We
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 598:
@@ -12233,6 +12851,7 @@ static int encode_iso2WeldingDetectionResType(bitstream_t* stream, struct iso2We
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12245,6 +12864,7 @@ static int encode_iso2WeldingDetectionResType(bitstream_t* stream, struct iso2We
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12282,6 +12902,7 @@ static int encode_iso2SessionStopResType(bitstream_t* stream, struct iso2Session
 				grammarID = 600;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 600:
@@ -12300,6 +12921,7 @@ static int encode_iso2SessionStopResType(bitstream_t* stream, struct iso2Session
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12312,6 +12934,7 @@ static int encode_iso2SessionStopResType(bitstream_t* stream, struct iso2Session
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12349,6 +12972,7 @@ static int encode_iso2VehicleCheckInResType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 602;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 602:
@@ -12373,6 +12997,7 @@ static int encode_iso2VehicleCheckInResType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 604;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 603:
@@ -12391,6 +13016,7 @@ static int encode_iso2VehicleCheckInResType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 604;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 604:
@@ -12409,6 +13035,7 @@ static int encode_iso2VehicleCheckInResType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12421,6 +13048,7 @@ static int encode_iso2VehicleCheckInResType(bitstream_t* stream, struct iso2Vehi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12453,6 +13081,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 606;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 606:
@@ -12471,6 +13100,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 607:
@@ -12489,6 +13119,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 608:
@@ -12507,6 +13138,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 609:
@@ -12525,6 +13157,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 610:
@@ -12543,6 +13176,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 611:
@@ -12561,6 +13195,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 612:
@@ -12579,6 +13214,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12591,6 +13227,7 @@ static int encode_iso2ServiceListType(bitstream_t* stream, struct iso2ServiceLis
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12628,6 +13265,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 614;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 614:
@@ -12646,6 +13284,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 616;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 615:
@@ -12658,6 +13297,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 616;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 616:
@@ -12670,6 +13310,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 617;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 617:
@@ -12682,6 +13323,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 618;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 618:
@@ -12694,6 +13336,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 619;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 619:
@@ -12706,6 +13349,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 620;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 620:
@@ -12730,6 +13374,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12742,6 +13387,7 @@ static int encode_iso2CertificateUpdateResType(bitstream_t* stream, struct iso2C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12779,6 +13425,7 @@ static int encode_iso2FinePositioningSetupResType(bitstream_t* stream, struct is
 				grammarID = 622;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 622:
@@ -12815,6 +13462,7 @@ static int encode_iso2FinePositioningSetupResType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 623:
@@ -12845,6 +13493,7 @@ static int encode_iso2FinePositioningSetupResType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -12857,6 +13506,7 @@ static int encode_iso2FinePositioningSetupResType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -12894,6 +13544,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 625;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 625:
@@ -12906,6 +13557,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 626;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 626:
@@ -12918,6 +13570,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 627;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 627:
@@ -12930,6 +13583,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 628;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 628:
@@ -12960,6 +13614,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 632;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 629:
@@ -12984,6 +13639,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 632;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 630:
@@ -13002,6 +13658,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 632;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 631:
@@ -13014,6 +13671,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 632;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 632:
@@ -13026,6 +13684,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 633;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 633:
@@ -13038,6 +13697,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 634;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 634:
@@ -13050,6 +13710,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13062,6 +13723,7 @@ static int encode_iso2AC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13093,6 +13755,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 636;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 636:
@@ -13123,6 +13786,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 640;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 637:
@@ -13147,6 +13811,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 640;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 638:
@@ -13165,6 +13830,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 640;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 639:
@@ -13177,6 +13843,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 640;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 640:
@@ -13189,6 +13856,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 641;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 641:
@@ -13201,6 +13869,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 642;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 642:
@@ -13213,6 +13882,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 643;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 643:
@@ -13225,6 +13895,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 644;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 644:
@@ -13255,6 +13926,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 645:
@@ -13279,6 +13951,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 646:
@@ -13297,6 +13970,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13309,6 +13983,7 @@ static int encode_iso2DC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13344,6 +14019,7 @@ static int encode_iso2CertificateUpdateReqType(bitstream_t* stream, struct iso2C
 				grammarID = 648;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 648:
@@ -13356,6 +14032,7 @@ static int encode_iso2CertificateUpdateReqType(bitstream_t* stream, struct iso2C
 				grammarID = 649;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 649:
@@ -13378,6 +14055,7 @@ static int encode_iso2CertificateUpdateReqType(bitstream_t* stream, struct iso2C
 				grammarID = 650;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 650:
@@ -13390,6 +14068,7 @@ static int encode_iso2CertificateUpdateReqType(bitstream_t* stream, struct iso2C
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13402,6 +14081,7 @@ static int encode_iso2CertificateUpdateReqType(bitstream_t* stream, struct iso2C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13434,6 +14114,7 @@ static int encode_iso2ConsumptionCostType(bitstream_t* stream, struct iso2Consum
 				grammarID = 652;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 652:
@@ -13446,6 +14127,7 @@ static int encode_iso2ConsumptionCostType(bitstream_t* stream, struct iso2Consum
 				grammarID = 653;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 653:
@@ -13464,6 +14146,7 @@ static int encode_iso2ConsumptionCostType(bitstream_t* stream, struct iso2Consum
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 654:
@@ -13482,6 +14165,7 @@ static int encode_iso2ConsumptionCostType(bitstream_t* stream, struct iso2Consum
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13494,6 +14178,7 @@ static int encode_iso2ConsumptionCostType(bitstream_t* stream, struct iso2Consum
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13526,6 +14211,7 @@ static int encode_iso2SAScheduleListType(bitstream_t* stream, struct iso2SASched
 				grammarID = 656;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 656:
@@ -13544,6 +14230,7 @@ static int encode_iso2SAScheduleListType(bitstream_t* stream, struct iso2SASched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 657:
@@ -13562,6 +14249,7 @@ static int encode_iso2SAScheduleListType(bitstream_t* stream, struct iso2SASched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13574,6 +14262,7 @@ static int encode_iso2SAScheduleListType(bitstream_t* stream, struct iso2SASched
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13615,6 +14304,7 @@ static int encode_iso2MagneticVectorSetupType(bitstream_t* stream, struct iso2Ma
 				grammarID = 659;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 659:
@@ -13633,6 +14323,7 @@ static int encode_iso2MagneticVectorSetupType(bitstream_t* stream, struct iso2Ma
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13645,6 +14336,7 @@ static int encode_iso2MagneticVectorSetupType(bitstream_t* stream, struct iso2Ma
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13682,6 +14374,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 661;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 661:
@@ -13694,6 +14387,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 662;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 662:
@@ -13706,6 +14400,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 663;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 663:
@@ -13724,6 +14419,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 664;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 664:
@@ -13742,6 +14438,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 665;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 665:
@@ -13760,6 +14457,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 666;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 666:
@@ -13778,6 +14476,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 667;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 667:
@@ -13796,6 +14495,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13808,6 +14508,7 @@ static int encode_iso2LFA_EVSEFinePositioningSetupParametersType(bitstream_t* st
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13846,6 +14547,7 @@ static int encode_iso2PaymentOptionListType(bitstream_t* stream, struct iso2Paym
 				grammarID = 669;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 669:
@@ -13870,6 +14572,7 @@ static int encode_iso2PaymentOptionListType(bitstream_t* stream, struct iso2Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13882,6 +14585,7 @@ static int encode_iso2PaymentOptionListType(bitstream_t* stream, struct iso2Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13919,6 +14623,7 @@ static int encode_iso2LFA_EVSEFinePositioningParametersType(bitstream_t* stream,
 				grammarID = 671;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 671:
@@ -13931,6 +14636,7 @@ static int encode_iso2LFA_EVSEFinePositioningParametersType(bitstream_t* stream,
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -13943,6 +14649,7 @@ static int encode_iso2LFA_EVSEFinePositioningParametersType(bitstream_t* stream,
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -13980,6 +14687,7 @@ static int encode_iso2RelativeTimeIntervalType(bitstream_t* stream, struct iso2R
 				grammarID = 673;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 673:
@@ -14004,6 +14712,7 @@ static int encode_iso2RelativeTimeIntervalType(bitstream_t* stream, struct iso2R
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -14016,6 +14725,7 @@ static int encode_iso2RelativeTimeIntervalType(bitstream_t* stream, struct iso2R
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -14047,6 +14757,7 @@ static int encode_iso2EVFinePositioningParametersType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -14084,6 +14795,7 @@ static int encode_iso2AlignmentCheckReqType(bitstream_t* stream, struct iso2Alig
 				grammarID = 676;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 676:
@@ -14102,6 +14814,7 @@ static int encode_iso2AlignmentCheckReqType(bitstream_t* stream, struct iso2Alig
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -14114,6 +14827,7 @@ static int encode_iso2AlignmentCheckReqType(bitstream_t* stream, struct iso2Alig
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -14149,6 +14863,7 @@ static int encode_iso2CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 678;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 678:
@@ -14170,6 +14885,7 @@ static int encode_iso2CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 650;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 650:
@@ -14182,6 +14898,7 @@ static int encode_iso2CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -14194,6 +14911,7 @@ static int encode_iso2CertificateInstallationReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -14226,6 +14944,7 @@ static int encode_iso2TransformsType(bitstream_t* stream, struct iso2TransformsT
 				grammarID = 680;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 680:
@@ -14244,6 +14963,7 @@ static int encode_iso2TransformsType(bitstream_t* stream, struct iso2TransformsT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -14320,6 +15040,7 @@ static int encode_iso2ObjectType(bitstream_t* stream, struct iso2ObjectType* iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 682:
@@ -14366,6 +15087,7 @@ static int encode_iso2ObjectType(bitstream_t* stream, struct iso2ObjectType* iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 683:
@@ -14402,6 +15124,7 @@ static int encode_iso2ObjectType(bitstream_t* stream, struct iso2ObjectType* iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 684:
@@ -14428,6 +15151,7 @@ static int encode_iso2ObjectType(bitstream_t* stream, struct iso2ObjectType* iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 685:
@@ -14454,6 +15178,7 @@ static int encode_iso2ObjectType(bitstream_t* stream, struct iso2ObjectType* iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -14492,6 +15217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 687;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 687:
@@ -14516,6 +15242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 688:
@@ -14540,6 +15267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 689:
@@ -14564,6 +15292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 690:
@@ -14588,6 +15317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 691:
@@ -14612,6 +15342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 692:
@@ -14636,6 +15367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 693:
@@ -14660,6 +15392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 694:
@@ -14684,6 +15417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 695:
@@ -14708,6 +15442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 696:
@@ -14732,6 +15467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 697:
@@ -14756,6 +15492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 698:
@@ -14780,6 +15517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 699:
@@ -14804,6 +15542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 700:
@@ -14828,6 +15567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 701:
@@ -14852,6 +15592,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 702:
@@ -14876,6 +15617,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 703:
@@ -14900,6 +15642,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 704:
@@ -14924,6 +15667,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 705:
@@ -14948,6 +15692,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 706:
@@ -14972,6 +15717,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 707:
@@ -14996,6 +15742,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 708:
@@ -15020,6 +15767,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 709:
@@ -15044,6 +15792,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 710:
@@ -15068,6 +15817,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 711:
@@ -15092,6 +15842,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 712:
@@ -15116,6 +15867,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 713:
@@ -15140,6 +15892,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 714:
@@ -15164,6 +15917,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 715:
@@ -15188,6 +15942,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 716:
@@ -15212,6 +15967,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 717:
@@ -15236,6 +15992,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 718:
@@ -15260,6 +16017,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 719:
@@ -15284,6 +16042,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 720:
@@ -15308,6 +16067,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 721:
@@ -15332,6 +16092,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 722:
@@ -15356,6 +16117,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 723:
@@ -15380,6 +16142,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 724:
@@ -15404,6 +16167,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 725:
@@ -15428,6 +16192,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 726:
@@ -15452,6 +16217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 727:
@@ -15476,6 +16242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 728:
@@ -15500,6 +16267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 729:
@@ -15524,6 +16292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 730:
@@ -15548,6 +16317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 731:
@@ -15572,6 +16342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 732:
@@ -15596,6 +16367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 733:
@@ -15620,6 +16392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 734:
@@ -15644,6 +16417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 735:
@@ -15668,6 +16442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 736:
@@ -15692,6 +16467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 737:
@@ -15716,6 +16492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 738:
@@ -15740,6 +16517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 739:
@@ -15764,6 +16542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 740:
@@ -15788,6 +16567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 741:
@@ -15812,6 +16592,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 742:
@@ -15836,6 +16617,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 743:
@@ -15860,6 +16642,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 744:
@@ -15884,6 +16667,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 745:
@@ -15908,6 +16692,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 746:
@@ -15932,6 +16717,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 747:
@@ -15956,6 +16742,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 748:
@@ -15980,6 +16767,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 749:
@@ -16004,6 +16792,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 750:
@@ -16028,6 +16817,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 751:
@@ -16052,6 +16842,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 752:
@@ -16076,6 +16867,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 753:
@@ -16100,6 +16892,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 754:
@@ -16124,6 +16917,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 755:
@@ -16148,6 +16942,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 756:
@@ -16172,6 +16967,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 757:
@@ -16196,6 +16992,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 758:
@@ -16220,6 +17017,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 759:
@@ -16244,6 +17042,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 760:
@@ -16268,6 +17067,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 761:
@@ -16292,6 +17092,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 762:
@@ -16316,6 +17117,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 763:
@@ -16340,6 +17142,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 764:
@@ -16364,6 +17167,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 765:
@@ -16388,6 +17192,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 766:
@@ -16412,6 +17217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 767:
@@ -16436,6 +17242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 768:
@@ -16460,6 +17267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 769:
@@ -16484,6 +17292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 770:
@@ -16508,6 +17317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 771:
@@ -16532,6 +17342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 772:
@@ -16556,6 +17367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 773:
@@ -16580,6 +17392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 774:
@@ -16604,6 +17417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 775:
@@ -16628,6 +17442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 776:
@@ -16652,6 +17467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 777:
@@ -16676,6 +17492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 778:
@@ -16700,6 +17517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 779:
@@ -16724,6 +17542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 780:
@@ -16748,6 +17567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 781:
@@ -16772,6 +17592,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 782:
@@ -16796,6 +17617,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 783:
@@ -16820,6 +17642,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 784:
@@ -16844,6 +17667,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 785:
@@ -16868,6 +17692,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 786:
@@ -16892,6 +17717,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 787:
@@ -16916,6 +17742,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 788:
@@ -16940,6 +17767,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 789:
@@ -16964,6 +17792,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 790:
@@ -16988,6 +17817,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 791:
@@ -17012,6 +17842,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 792:
@@ -17036,6 +17867,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 793:
@@ -17060,6 +17892,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 794:
@@ -17084,6 +17917,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 795:
@@ -17108,6 +17942,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 796:
@@ -17132,6 +17967,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 797:
@@ -17156,6 +17992,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 798:
@@ -17180,6 +18017,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 799:
@@ -17204,6 +18042,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 800:
@@ -17228,6 +18067,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 801:
@@ -17252,6 +18092,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 802:
@@ -17276,6 +18117,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 803:
@@ -17300,6 +18142,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 804:
@@ -17324,6 +18167,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 805:
@@ -17348,6 +18192,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 806:
@@ -17372,6 +18217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 807:
@@ -17396,6 +18242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 808:
@@ -17420,6 +18267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 809:
@@ -17444,6 +18292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 810:
@@ -17468,6 +18317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 811:
@@ -17492,6 +18342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 812:
@@ -17516,6 +18367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 813:
@@ -17540,6 +18392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 814:
@@ -17564,6 +18417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 815:
@@ -17588,6 +18442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 816:
@@ -17612,6 +18467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 817:
@@ -17636,6 +18492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 818:
@@ -17660,6 +18517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 819:
@@ -17684,6 +18542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 820:
@@ -17708,6 +18567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 821:
@@ -17732,6 +18592,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 822:
@@ -17756,6 +18617,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 823:
@@ -17780,6 +18642,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 824:
@@ -17804,6 +18667,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 825:
@@ -17828,6 +18692,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 826:
@@ -17852,6 +18717,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 827:
@@ -17876,6 +18742,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 828:
@@ -17900,6 +18767,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 829:
@@ -17924,6 +18792,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 830:
@@ -17948,6 +18817,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 831:
@@ -17972,6 +18842,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 832:
@@ -17996,6 +18867,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 833:
@@ -18020,6 +18892,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 834:
@@ -18044,6 +18917,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 835:
@@ -18068,6 +18942,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 836:
@@ -18092,6 +18967,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 837:
@@ -18116,6 +18992,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 838:
@@ -18140,6 +19017,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 839:
@@ -18164,6 +19042,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 840:
@@ -18188,6 +19067,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 841:
@@ -18212,6 +19092,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 842:
@@ -18236,6 +19117,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 843:
@@ -18260,6 +19142,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 844:
@@ -18284,6 +19167,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 845:
@@ -18308,6 +19192,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 846:
@@ -18332,6 +19217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 847:
@@ -18356,6 +19242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 848:
@@ -18380,6 +19267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 849:
@@ -18404,6 +19292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 850:
@@ -18428,6 +19317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 851:
@@ -18452,6 +19342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 852:
@@ -18476,6 +19367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 853:
@@ -18500,6 +19392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 854:
@@ -18524,6 +19417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 855:
@@ -18548,6 +19442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 856:
@@ -18572,6 +19467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 857:
@@ -18596,6 +19492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 858:
@@ -18620,6 +19517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 859:
@@ -18644,6 +19542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 860:
@@ -18668,6 +19567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 861:
@@ -18692,6 +19592,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 862:
@@ -18716,6 +19617,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 863:
@@ -18740,6 +19642,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 864:
@@ -18764,6 +19667,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 865:
@@ -18788,6 +19692,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 866:
@@ -18812,6 +19717,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 867:
@@ -18836,6 +19742,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 868:
@@ -18860,6 +19767,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 869:
@@ -18884,6 +19792,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 870:
@@ -18908,6 +19817,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 871:
@@ -18932,6 +19842,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 872:
@@ -18956,6 +19867,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 873:
@@ -18980,6 +19892,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 874:
@@ -19004,6 +19917,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 875:
@@ -19028,6 +19942,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 876:
@@ -19052,6 +19967,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 877:
@@ -19076,6 +19992,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 878:
@@ -19100,6 +20017,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 879:
@@ -19124,6 +20042,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 880:
@@ -19148,6 +20067,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 881:
@@ -19172,6 +20092,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 882:
@@ -19196,6 +20117,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 883:
@@ -19220,6 +20142,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 884:
@@ -19244,6 +20167,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 885:
@@ -19268,6 +20192,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 886:
@@ -19292,6 +20217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 887:
@@ -19316,6 +20242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 888:
@@ -19340,6 +20267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 889:
@@ -19364,6 +20292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 890:
@@ -19388,6 +20317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 891:
@@ -19412,6 +20342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 892:
@@ -19436,6 +20367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 893:
@@ -19460,6 +20392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 894:
@@ -19484,6 +20417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 895:
@@ -19508,6 +20442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 896:
@@ -19532,6 +20467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 897:
@@ -19556,6 +20492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 898:
@@ -19580,6 +20517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 899:
@@ -19604,6 +20542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 900:
@@ -19628,6 +20567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 901:
@@ -19652,6 +20592,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 902:
@@ -19676,6 +20617,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 903:
@@ -19700,6 +20642,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 904:
@@ -19724,6 +20667,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 905:
@@ -19748,6 +20692,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 906:
@@ -19772,6 +20717,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 907:
@@ -19796,6 +20742,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 908:
@@ -19820,6 +20767,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 909:
@@ -19844,6 +20792,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 910:
@@ -19868,6 +20817,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 911:
@@ -19892,6 +20842,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 912:
@@ -19916,6 +20867,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 913:
@@ -19940,6 +20892,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 914:
@@ -19964,6 +20917,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 915:
@@ -19988,6 +20942,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 916:
@@ -20012,6 +20967,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 917:
@@ -20036,6 +20992,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 918:
@@ -20060,6 +21017,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 919:
@@ -20084,6 +21042,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 920:
@@ -20108,6 +21067,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 921:
@@ -20132,6 +21092,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 922:
@@ -20156,6 +21117,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 923:
@@ -20180,6 +21142,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 924:
@@ -20204,6 +21167,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 925:
@@ -20228,6 +21192,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 926:
@@ -20252,6 +21217,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 927:
@@ -20276,6 +21242,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 928:
@@ -20300,6 +21267,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 929:
@@ -20324,6 +21292,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 930:
@@ -20348,6 +21317,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 931:
@@ -20372,6 +21342,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 932:
@@ -20396,6 +21367,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 933:
@@ -20420,6 +21392,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 934:
@@ -20444,6 +21417,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 935:
@@ -20468,6 +21442,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 936:
@@ -20492,6 +21467,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 937:
@@ -20516,6 +21492,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 938:
@@ -20540,6 +21517,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 939:
@@ -20564,6 +21542,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 940:
@@ -20588,6 +21567,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -20600,6 +21580,7 @@ static int encode_iso2SensorOrderListType(bitstream_t* stream, struct iso2Sensor
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -20673,6 +21654,7 @@ static int encode_iso2ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 943;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 942:
@@ -20715,6 +21697,7 @@ static int encode_iso2ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 943;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 943:
@@ -20733,6 +21716,7 @@ static int encode_iso2ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -20745,6 +21729,7 @@ static int encode_iso2ChargeParameterDiscoveryReqType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -20780,6 +21765,7 @@ static int encode_iso2ParameterType(bitstream_t* stream, struct iso2ParameterTyp
 				grammarID = 945;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 945:
@@ -20856,6 +21842,7 @@ static int encode_iso2ParameterType(bitstream_t* stream, struct iso2ParameterTyp
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -20868,6 +21855,7 @@ static int encode_iso2ParameterType(bitstream_t* stream, struct iso2ParameterTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -20905,6 +21893,7 @@ static int encode_iso2SessionStopReqType(bitstream_t* stream, struct iso2Session
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -20917,6 +21906,7 @@ static int encode_iso2SessionStopReqType(bitstream_t* stream, struct iso2Session
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -20954,6 +21944,7 @@ static int encode_iso2SensorMeasurementsType(bitstream_t* stream, struct iso2Sen
 				grammarID = 948;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 948:
@@ -20972,6 +21963,7 @@ static int encode_iso2SensorMeasurementsType(bitstream_t* stream, struct iso2Sen
 				grammarID = 949;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 949:
@@ -20984,6 +21976,7 @@ static int encode_iso2SensorMeasurementsType(bitstream_t* stream, struct iso2Sen
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -20996,6 +21989,7 @@ static int encode_iso2SensorMeasurementsType(bitstream_t* stream, struct iso2Sen
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -21027,6 +22021,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 951;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 951:
@@ -21039,6 +22034,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 952;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 952:
@@ -21051,6 +22047,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 953;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 953:
@@ -21063,6 +22060,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 954;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 954:
@@ -21075,6 +22073,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 955;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 955:
@@ -21093,6 +22092,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 957;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 956:
@@ -21105,6 +22105,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 957;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 957:
@@ -21123,6 +22124,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -21135,6 +22137,7 @@ static int encode_iso2DC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -21167,6 +22170,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 959;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 959:
@@ -21185,6 +22189,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 960:
@@ -21203,6 +22208,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 961:
@@ -21221,6 +22227,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 962:
@@ -21239,6 +22246,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 963:
@@ -21257,6 +22265,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 964:
@@ -21275,6 +22284,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 965:
@@ -21293,6 +22303,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 966:
@@ -21311,6 +22322,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 967:
@@ -21329,6 +22341,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 968:
@@ -21347,6 +22360,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 969:
@@ -21365,6 +22379,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 970:
@@ -21383,6 +22398,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 971:
@@ -21401,6 +22417,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 972:
@@ -21419,6 +22436,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 973:
@@ -21437,6 +22455,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 974:
@@ -21455,6 +22474,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 975:
@@ -21473,6 +22493,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 976:
@@ -21491,6 +22512,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 977:
@@ -21509,6 +22531,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 978:
@@ -21527,6 +22550,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 979:
@@ -21545,6 +22569,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 980:
@@ -21563,6 +22588,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 981:
@@ -21581,6 +22607,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 982:
@@ -21599,6 +22626,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 983:
@@ -21617,6 +22645,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 984:
@@ -21635,6 +22664,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 985:
@@ -21653,6 +22683,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 986:
@@ -21671,6 +22702,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 987:
@@ -21689,6 +22721,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 988:
@@ -21707,6 +22740,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 989:
@@ -21725,6 +22759,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 990:
@@ -21743,6 +22778,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 991:
@@ -21761,6 +22797,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 992:
@@ -21779,6 +22816,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 993:
@@ -21797,6 +22835,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 994:
@@ -21815,6 +22854,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 995:
@@ -21833,6 +22873,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 996:
@@ -21851,6 +22892,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 997:
@@ -21869,6 +22911,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 998:
@@ -21887,6 +22930,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 999:
@@ -21905,6 +22949,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1000:
@@ -21923,6 +22968,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1001:
@@ -21941,6 +22987,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1002:
@@ -21959,6 +23006,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1003:
@@ -21977,6 +23025,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1004:
@@ -21995,6 +23044,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1005:
@@ -22013,6 +23063,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1006:
@@ -22031,6 +23082,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1007:
@@ -22049,6 +23101,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1008:
@@ -22067,6 +23120,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1009:
@@ -22085,6 +23139,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1010:
@@ -22103,6 +23158,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1011:
@@ -22121,6 +23177,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1012:
@@ -22139,6 +23196,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1013:
@@ -22157,6 +23215,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1014:
@@ -22175,6 +23234,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1015:
@@ -22193,6 +23253,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1016:
@@ -22211,6 +23272,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1017:
@@ -22229,6 +23291,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1018:
@@ -22247,6 +23310,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1019:
@@ -22265,6 +23329,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1020:
@@ -22283,6 +23348,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1021:
@@ -22301,6 +23367,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1022:
@@ -22319,6 +23386,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1023:
@@ -22337,6 +23405,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1024:
@@ -22355,6 +23424,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1025:
@@ -22373,6 +23443,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1026:
@@ -22391,6 +23462,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1027:
@@ -22409,6 +23481,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1028:
@@ -22427,6 +23500,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1029:
@@ -22445,6 +23519,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1030:
@@ -22463,6 +23538,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1031:
@@ -22481,6 +23557,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1032:
@@ -22499,6 +23576,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1033:
@@ -22517,6 +23595,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1034:
@@ -22535,6 +23614,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1035:
@@ -22553,6 +23633,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1036:
@@ -22571,6 +23652,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1037:
@@ -22589,6 +23671,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1038:
@@ -22607,6 +23690,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1039:
@@ -22625,6 +23709,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1040:
@@ -22643,6 +23728,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1041:
@@ -22661,6 +23747,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1042:
@@ -22679,6 +23766,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1043:
@@ -22697,6 +23785,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1044:
@@ -22715,6 +23804,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1045:
@@ -22733,6 +23823,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1046:
@@ -22751,6 +23842,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1047:
@@ -22769,6 +23861,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1048:
@@ -22787,6 +23880,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1049:
@@ -22805,6 +23899,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1050:
@@ -22823,6 +23918,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1051:
@@ -22841,6 +23937,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1052:
@@ -22859,6 +23956,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1053:
@@ -22877,6 +23975,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1054:
@@ -22895,6 +23994,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1055:
@@ -22913,6 +24013,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1056:
@@ -22931,6 +24032,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1057:
@@ -22949,6 +24051,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1058:
@@ -22967,6 +24070,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1059:
@@ -22985,6 +24089,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1060:
@@ -23003,6 +24108,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1061:
@@ -23021,6 +24127,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1062:
@@ -23039,6 +24146,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1063:
@@ -23057,6 +24165,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1064:
@@ -23075,6 +24184,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1065:
@@ -23093,6 +24203,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1066:
@@ -23111,6 +24222,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1067:
@@ -23129,6 +24241,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1068:
@@ -23147,6 +24260,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1069:
@@ -23165,6 +24279,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1070:
@@ -23183,6 +24298,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1071:
@@ -23201,6 +24317,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1072:
@@ -23219,6 +24336,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1073:
@@ -23237,6 +24355,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1074:
@@ -23255,6 +24374,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1075:
@@ -23273,6 +24393,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1076:
@@ -23291,6 +24412,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1077:
@@ -23309,6 +24431,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1078:
@@ -23327,6 +24450,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1079:
@@ -23345,6 +24469,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1080:
@@ -23363,6 +24488,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1081:
@@ -23381,6 +24507,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1082:
@@ -23399,6 +24526,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1083:
@@ -23417,6 +24545,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1084:
@@ -23435,6 +24564,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1085:
@@ -23453,6 +24583,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1086:
@@ -23471,6 +24602,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1087:
@@ -23489,6 +24621,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1088:
@@ -23507,6 +24640,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1089:
@@ -23525,6 +24659,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1090:
@@ -23543,6 +24678,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1091:
@@ -23561,6 +24697,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1092:
@@ -23579,6 +24716,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1093:
@@ -23597,6 +24735,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1094:
@@ -23615,6 +24754,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1095:
@@ -23633,6 +24773,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1096:
@@ -23651,6 +24792,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1097:
@@ -23669,6 +24811,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1098:
@@ -23687,6 +24830,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1099:
@@ -23705,6 +24849,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1100:
@@ -23723,6 +24868,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1101:
@@ -23741,6 +24887,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1102:
@@ -23759,6 +24906,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1103:
@@ -23777,6 +24925,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1104:
@@ -23795,6 +24944,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1105:
@@ -23813,6 +24963,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1106:
@@ -23831,6 +24982,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1107:
@@ -23849,6 +25001,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1108:
@@ -23867,6 +25020,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1109:
@@ -23885,6 +25039,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1110:
@@ -23903,6 +25058,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1111:
@@ -23921,6 +25077,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1112:
@@ -23939,6 +25096,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1113:
@@ -23957,6 +25115,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1114:
@@ -23975,6 +25134,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1115:
@@ -23993,6 +25153,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1116:
@@ -24011,6 +25172,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1117:
@@ -24029,6 +25191,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1118:
@@ -24047,6 +25210,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1119:
@@ -24065,6 +25229,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1120:
@@ -24083,6 +25248,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1121:
@@ -24101,6 +25267,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1122:
@@ -24119,6 +25286,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1123:
@@ -24137,6 +25305,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1124:
@@ -24155,6 +25324,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1125:
@@ -24173,6 +25343,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1126:
@@ -24191,6 +25362,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1127:
@@ -24209,6 +25381,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1128:
@@ -24227,6 +25400,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1129:
@@ -24245,6 +25419,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1130:
@@ -24263,6 +25438,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1131:
@@ -24281,6 +25457,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1132:
@@ -24299,6 +25476,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1133:
@@ -24317,6 +25495,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1134:
@@ -24335,6 +25514,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1135:
@@ -24353,6 +25533,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1136:
@@ -24371,6 +25552,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1137:
@@ -24389,6 +25571,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1138:
@@ -24407,6 +25590,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1139:
@@ -24425,6 +25609,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1140:
@@ -24443,6 +25628,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1141:
@@ -24461,6 +25647,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1142:
@@ -24479,6 +25666,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1143:
@@ -24497,6 +25685,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1144:
@@ -24515,6 +25704,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1145:
@@ -24533,6 +25723,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1146:
@@ -24551,6 +25742,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1147:
@@ -24569,6 +25761,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1148:
@@ -24587,6 +25780,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1149:
@@ -24605,6 +25799,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1150:
@@ -24623,6 +25818,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1151:
@@ -24641,6 +25837,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1152:
@@ -24659,6 +25856,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1153:
@@ -24677,6 +25875,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1154:
@@ -24695,6 +25894,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1155:
@@ -24713,6 +25913,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1156:
@@ -24731,6 +25932,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1157:
@@ -24749,6 +25951,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1158:
@@ -24767,6 +25970,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1159:
@@ -24785,6 +25989,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1160:
@@ -24803,6 +26008,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1161:
@@ -24821,6 +26027,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1162:
@@ -24839,6 +26046,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1163:
@@ -24857,6 +26065,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1164:
@@ -24875,6 +26084,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1165:
@@ -24893,6 +26103,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1166:
@@ -24911,6 +26122,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1167:
@@ -24929,6 +26141,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1168:
@@ -24947,6 +26160,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1169:
@@ -24965,6 +26179,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1170:
@@ -24983,6 +26198,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1171:
@@ -25001,6 +26217,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1172:
@@ -25019,6 +26236,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1173:
@@ -25037,6 +26255,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1174:
@@ -25055,6 +26274,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1175:
@@ -25073,6 +26293,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1176:
@@ -25091,6 +26312,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1177:
@@ -25109,6 +26331,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1178:
@@ -25127,6 +26350,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1179:
@@ -25145,6 +26369,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1180:
@@ -25163,6 +26388,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1181:
@@ -25181,6 +26407,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1182:
@@ -25199,6 +26426,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1183:
@@ -25217,6 +26445,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1184:
@@ -25235,6 +26464,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1185:
@@ -25253,6 +26483,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1186:
@@ -25271,6 +26502,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1187:
@@ -25289,6 +26521,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1188:
@@ -25307,6 +26540,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1189:
@@ -25325,6 +26559,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1190:
@@ -25343,6 +26578,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1191:
@@ -25361,6 +26597,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1192:
@@ -25379,6 +26616,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1193:
@@ -25397,6 +26635,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1194:
@@ -25415,6 +26654,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1195:
@@ -25433,6 +26673,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1196:
@@ -25451,6 +26692,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1197:
@@ -25469,6 +26711,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1198:
@@ -25487,6 +26730,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1199:
@@ -25505,6 +26749,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1200:
@@ -25523,6 +26768,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1201:
@@ -25541,6 +26787,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1202:
@@ -25559,6 +26806,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1203:
@@ -25577,6 +26825,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1204:
@@ -25595,6 +26844,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1205:
@@ -25613,6 +26863,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1206:
@@ -25631,6 +26882,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1207:
@@ -25649,6 +26901,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1208:
@@ -25667,6 +26920,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1209:
@@ -25685,6 +26939,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1210:
@@ -25703,6 +26958,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1211:
@@ -25721,6 +26977,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1212:
@@ -25739,6 +26996,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -25751,6 +27009,7 @@ static int encode_iso2SensorPackageListType(bitstream_t* stream, struct iso2Sens
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -25789,6 +27048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 1214;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1214:
@@ -25813,6 +27073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1215:
@@ -25837,6 +27098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1216:
@@ -25861,6 +27123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1217:
@@ -25885,6 +27148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1218:
@@ -25909,6 +27173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1219:
@@ -25933,6 +27198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1220:
@@ -25957,6 +27223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1221:
@@ -25981,6 +27248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1222:
@@ -26005,6 +27273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1223:
@@ -26029,6 +27298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1224:
@@ -26053,6 +27323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1225:
@@ -26077,6 +27348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1226:
@@ -26101,6 +27373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1227:
@@ -26125,6 +27398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1228:
@@ -26149,6 +27423,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1229:
@@ -26173,6 +27448,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1230:
@@ -26197,6 +27473,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1231:
@@ -26221,6 +27498,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1232:
@@ -26245,6 +27523,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1233:
@@ -26269,6 +27548,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1234:
@@ -26293,6 +27573,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1235:
@@ -26317,6 +27598,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1236:
@@ -26341,6 +27623,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1237:
@@ -26365,6 +27648,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1238:
@@ -26389,6 +27673,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1239:
@@ -26413,6 +27698,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1240:
@@ -26437,6 +27723,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1241:
@@ -26461,6 +27748,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1242:
@@ -26485,6 +27773,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1243:
@@ -26509,6 +27798,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1244:
@@ -26533,6 +27823,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1245:
@@ -26557,6 +27848,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1246:
@@ -26581,6 +27873,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1247:
@@ -26605,6 +27898,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1248:
@@ -26629,6 +27923,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1249:
@@ -26653,6 +27948,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1250:
@@ -26677,6 +27973,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1251:
@@ -26701,6 +27998,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1252:
@@ -26725,6 +28023,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1253:
@@ -26749,6 +28048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1254:
@@ -26773,6 +28073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1255:
@@ -26797,6 +28098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1256:
@@ -26821,6 +28123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1257:
@@ -26845,6 +28148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1258:
@@ -26869,6 +28173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1259:
@@ -26893,6 +28198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1260:
@@ -26917,6 +28223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1261:
@@ -26941,6 +28248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1262:
@@ -26965,6 +28273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1263:
@@ -26989,6 +28298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1264:
@@ -27013,6 +28323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1265:
@@ -27037,6 +28348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1266:
@@ -27061,6 +28373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1267:
@@ -27085,6 +28398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1268:
@@ -27109,6 +28423,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1269:
@@ -27133,6 +28448,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1270:
@@ -27157,6 +28473,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1271:
@@ -27181,6 +28498,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1272:
@@ -27205,6 +28523,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1273:
@@ -27229,6 +28548,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1274:
@@ -27253,6 +28573,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1275:
@@ -27277,6 +28598,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1276:
@@ -27301,6 +28623,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1277:
@@ -27325,6 +28648,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1278:
@@ -27349,6 +28673,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1279:
@@ -27373,6 +28698,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1280:
@@ -27397,6 +28723,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1281:
@@ -27421,6 +28748,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1282:
@@ -27445,6 +28773,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1283:
@@ -27469,6 +28798,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1284:
@@ -27493,6 +28823,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1285:
@@ -27517,6 +28848,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1286:
@@ -27541,6 +28873,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1287:
@@ -27565,6 +28898,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1288:
@@ -27589,6 +28923,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1289:
@@ -27613,6 +28948,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1290:
@@ -27637,6 +28973,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1291:
@@ -27661,6 +28998,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1292:
@@ -27685,6 +29023,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1293:
@@ -27709,6 +29048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1294:
@@ -27733,6 +29073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1295:
@@ -27757,6 +29098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1296:
@@ -27781,6 +29123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1297:
@@ -27805,6 +29148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1298:
@@ -27829,6 +29173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1299:
@@ -27853,6 +29198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1300:
@@ -27877,6 +29223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1301:
@@ -27901,6 +29248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1302:
@@ -27925,6 +29273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1303:
@@ -27949,6 +29298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1304:
@@ -27973,6 +29323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1305:
@@ -27997,6 +29348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1306:
@@ -28021,6 +29373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1307:
@@ -28045,6 +29398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1308:
@@ -28069,6 +29423,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1309:
@@ -28093,6 +29448,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1310:
@@ -28117,6 +29473,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1311:
@@ -28141,6 +29498,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1312:
@@ -28165,6 +29523,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1313:
@@ -28189,6 +29548,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1314:
@@ -28213,6 +29573,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1315:
@@ -28237,6 +29598,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1316:
@@ -28261,6 +29623,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1317:
@@ -28285,6 +29648,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1318:
@@ -28309,6 +29673,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1319:
@@ -28333,6 +29698,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1320:
@@ -28357,6 +29723,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1321:
@@ -28381,6 +29748,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1322:
@@ -28405,6 +29773,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1323:
@@ -28429,6 +29798,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1324:
@@ -28453,6 +29823,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1325:
@@ -28477,6 +29848,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1326:
@@ -28501,6 +29873,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1327:
@@ -28525,6 +29898,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1328:
@@ -28549,6 +29923,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1329:
@@ -28573,6 +29948,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1330:
@@ -28597,6 +29973,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1331:
@@ -28621,6 +29998,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1332:
@@ -28645,6 +30023,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1333:
@@ -28669,6 +30048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1334:
@@ -28693,6 +30073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1335:
@@ -28717,6 +30098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1336:
@@ -28741,6 +30123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1337:
@@ -28765,6 +30148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1338:
@@ -28789,6 +30173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1339:
@@ -28813,6 +30198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1340:
@@ -28837,6 +30223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1341:
@@ -28861,6 +30248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1342:
@@ -28885,6 +30273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1343:
@@ -28909,6 +30298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1344:
@@ -28933,6 +30323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1345:
@@ -28957,6 +30348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1346:
@@ -28981,6 +30373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1347:
@@ -29005,6 +30398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1348:
@@ -29029,6 +30423,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1349:
@@ -29053,6 +30448,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1350:
@@ -29077,6 +30473,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1351:
@@ -29101,6 +30498,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1352:
@@ -29125,6 +30523,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1353:
@@ -29149,6 +30548,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1354:
@@ -29173,6 +30573,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1355:
@@ -29197,6 +30598,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1356:
@@ -29221,6 +30623,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1357:
@@ -29245,6 +30648,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1358:
@@ -29269,6 +30673,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1359:
@@ -29293,6 +30698,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1360:
@@ -29317,6 +30723,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1361:
@@ -29341,6 +30748,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1362:
@@ -29365,6 +30773,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1363:
@@ -29389,6 +30798,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1364:
@@ -29413,6 +30823,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1365:
@@ -29437,6 +30848,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1366:
@@ -29461,6 +30873,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1367:
@@ -29485,6 +30898,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1368:
@@ -29509,6 +30923,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1369:
@@ -29533,6 +30948,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1370:
@@ -29557,6 +30973,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1371:
@@ -29581,6 +30998,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1372:
@@ -29605,6 +31023,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1373:
@@ -29629,6 +31048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1374:
@@ -29653,6 +31073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1375:
@@ -29677,6 +31098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1376:
@@ -29701,6 +31123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1377:
@@ -29725,6 +31148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1378:
@@ -29749,6 +31173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1379:
@@ -29773,6 +31198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1380:
@@ -29797,6 +31223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1381:
@@ -29821,6 +31248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1382:
@@ -29845,6 +31273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1383:
@@ -29869,6 +31298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1384:
@@ -29893,6 +31323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1385:
@@ -29917,6 +31348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1386:
@@ -29941,6 +31373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1387:
@@ -29965,6 +31398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1388:
@@ -29989,6 +31423,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1389:
@@ -30013,6 +31448,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1390:
@@ -30037,6 +31473,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1391:
@@ -30061,6 +31498,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1392:
@@ -30085,6 +31523,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1393:
@@ -30109,6 +31548,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1394:
@@ -30133,6 +31573,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1395:
@@ -30157,6 +31598,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1396:
@@ -30181,6 +31623,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1397:
@@ -30205,6 +31648,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1398:
@@ -30229,6 +31673,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1399:
@@ -30253,6 +31698,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1400:
@@ -30277,6 +31723,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1401:
@@ -30301,6 +31748,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1402:
@@ -30325,6 +31773,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1403:
@@ -30349,6 +31798,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1404:
@@ -30373,6 +31823,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1405:
@@ -30397,6 +31848,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1406:
@@ -30421,6 +31873,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1407:
@@ -30445,6 +31898,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1408:
@@ -30469,6 +31923,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1409:
@@ -30493,6 +31948,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1410:
@@ -30517,6 +31973,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1411:
@@ -30541,6 +31998,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1412:
@@ -30565,6 +32023,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1413:
@@ -30589,6 +32048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1414:
@@ -30613,6 +32073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1415:
@@ -30637,6 +32098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1416:
@@ -30661,6 +32123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1417:
@@ -30685,6 +32148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1418:
@@ -30709,6 +32173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1419:
@@ -30733,6 +32198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1420:
@@ -30757,6 +32223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1421:
@@ -30781,6 +32248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1422:
@@ -30805,6 +32273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1423:
@@ -30829,6 +32298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1424:
@@ -30853,6 +32323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1425:
@@ -30877,6 +32348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1426:
@@ -30901,6 +32373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1427:
@@ -30925,6 +32398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1428:
@@ -30949,6 +32423,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1429:
@@ -30973,6 +32448,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1430:
@@ -30997,6 +32473,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1431:
@@ -31021,6 +32498,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1432:
@@ -31045,6 +32523,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1433:
@@ -31069,6 +32548,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1434:
@@ -31093,6 +32573,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1435:
@@ -31117,6 +32598,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1436:
@@ -31141,6 +32623,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1437:
@@ -31165,6 +32648,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1438:
@@ -31189,6 +32673,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1439:
@@ -31213,6 +32698,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1440:
@@ -31237,6 +32723,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1441:
@@ -31261,6 +32748,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1442:
@@ -31285,6 +32773,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1443:
@@ -31309,6 +32798,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1444:
@@ -31333,6 +32823,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1445:
@@ -31357,6 +32848,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1446:
@@ -31381,6 +32873,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1447:
@@ -31405,6 +32898,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1448:
@@ -31429,6 +32923,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1449:
@@ -31453,6 +32948,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1450:
@@ -31477,6 +32973,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1451:
@@ -31501,6 +32998,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1452:
@@ -31525,6 +33023,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1453:
@@ -31549,6 +33048,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1454:
@@ -31573,6 +33073,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1455:
@@ -31597,6 +33098,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1456:
@@ -31621,6 +33123,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1457:
@@ -31645,6 +33148,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1458:
@@ -31669,6 +33173,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1459:
@@ -31693,6 +33198,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1460:
@@ -31717,6 +33223,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1461:
@@ -31741,6 +33248,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1462:
@@ -31765,6 +33273,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1463:
@@ -31789,6 +33298,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1464:
@@ -31813,6 +33323,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1465:
@@ -31837,6 +33348,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1466:
@@ -31861,6 +33373,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1467:
@@ -31885,6 +33398,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -31897,6 +33411,7 @@ static int encode_iso2MeasurementDataListType(bitstream_t* stream, struct iso2Me
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -31947,6 +33462,7 @@ static int encode_iso2CertificateChainType(bitstream_t* stream, struct iso2Certi
 				grammarID = 1470;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1469:
@@ -31968,6 +33484,7 @@ static int encode_iso2CertificateChainType(bitstream_t* stream, struct iso2Certi
 				grammarID = 1470;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1470:
@@ -31986,6 +33503,7 @@ static int encode_iso2CertificateChainType(bitstream_t* stream, struct iso2Certi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -31998,6 +33516,7 @@ static int encode_iso2CertificateChainType(bitstream_t* stream, struct iso2Certi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32044,6 +33563,7 @@ static int encode_iso2SignaturePropertyType(bitstream_t* stream, struct iso2Sign
 				grammarID = 1473;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1472:
@@ -32060,6 +33580,7 @@ static int encode_iso2SignaturePropertyType(bitstream_t* stream, struct iso2Sign
 				grammarID = 1473;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1473:
@@ -32080,6 +33601,7 @@ static int encode_iso2SignaturePropertyType(bitstream_t* stream, struct iso2Sign
 				grammarID = 1474;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 685:
@@ -32106,6 +33628,7 @@ static int encode_iso2SignaturePropertyType(bitstream_t* stream, struct iso2Sign
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1474:
@@ -32126,6 +33649,7 @@ static int encode_iso2SignaturePropertyType(bitstream_t* stream, struct iso2Sign
 				grammarID = 1474;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32163,6 +33687,7 @@ static int encode_iso2TransformType(bitstream_t* stream, struct iso2TransformTyp
 				grammarID = 1476;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1476:
@@ -32206,6 +33731,7 @@ static int encode_iso2TransformType(bitstream_t* stream, struct iso2TransformTyp
 				grammarID = 1477;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1477:
@@ -32249,6 +33775,7 @@ static int encode_iso2TransformType(bitstream_t* stream, struct iso2TransformTyp
 				grammarID = 1477;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32284,6 +33811,7 @@ static int encode_iso2EMAIDType(bitstream_t* stream, struct iso2EMAIDType* iso2E
 				grammarID = 1479;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1479:
@@ -32300,6 +33828,7 @@ static int encode_iso2EMAIDType(bitstream_t* stream, struct iso2EMAIDType* iso2E
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -32312,6 +33841,7 @@ static int encode_iso2EMAIDType(bitstream_t* stream, struct iso2EMAIDType* iso2E
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32382,6 +33912,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 1483;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1481:
@@ -32403,6 +33934,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 1484;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1484:
@@ -32439,6 +33971,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 1483;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1482:
@@ -32460,6 +33993,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 1483;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1483:
@@ -32502,6 +34036,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1485:
@@ -32529,6 +34064,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1486:
@@ -32550,6 +34086,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -32562,6 +34099,7 @@ static int encode_iso2DSAKeyValueType(bitstream_t* stream, struct iso2DSAKeyValu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32593,6 +34131,7 @@ static int encode_iso2EntryType(bitstream_t* stream, struct iso2EntryType* iso2E
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -32605,6 +34144,7 @@ static int encode_iso2EntryType(bitstream_t* stream, struct iso2EntryType* iso2E
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32645,6 +34185,7 @@ static int encode_iso2MessageHeaderType(bitstream_t* stream, struct iso2MessageH
 				grammarID = 1489;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1489:
@@ -32663,6 +34204,7 @@ static int encode_iso2MessageHeaderType(bitstream_t* stream, struct iso2MessageH
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -32675,6 +34217,7 @@ static int encode_iso2MessageHeaderType(bitstream_t* stream, struct iso2MessageH
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32712,6 +34255,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 1491;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1491:
@@ -32724,6 +34268,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 1492;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1492:
@@ -32736,6 +34281,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 1493;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1493:
@@ -32766,6 +34312,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1494:
@@ -32790,6 +34337,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1495:
@@ -32808,6 +34356,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -32820,6 +34369,7 @@ static int encode_iso2WPT_EVChargeParameterType(bitstream_t* stream, struct iso2
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32857,6 +34407,7 @@ static int encode_iso2DisconnectChargingDeviceReqType(bitstream_t* stream, struc
 				grammarID = 1497;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1497:
@@ -32875,6 +34426,7 @@ static int encode_iso2DisconnectChargingDeviceReqType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -32887,6 +34439,7 @@ static int encode_iso2DisconnectChargingDeviceReqType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -32918,6 +34471,7 @@ static int encode_iso2ChargeLoopReqType(bitstream_t* stream, struct iso2ChargeLo
 				grammarID = 1499;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1499:
@@ -32948,6 +34502,7 @@ static int encode_iso2ChargeLoopReqType(bitstream_t* stream, struct iso2ChargeLo
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1500:
@@ -32972,6 +34527,7 @@ static int encode_iso2ChargeLoopReqType(bitstream_t* stream, struct iso2ChargeLo
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1501:
@@ -32990,6 +34546,7 @@ static int encode_iso2ChargeLoopReqType(bitstream_t* stream, struct iso2ChargeLo
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33002,6 +34559,7 @@ static int encode_iso2ChargeLoopReqType(bitstream_t* stream, struct iso2ChargeLo
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33033,6 +34591,7 @@ static int encode_iso2V2GRequestType(bitstream_t* stream, struct iso2V2GRequestT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33070,6 +34629,7 @@ static int encode_iso2MeteringReceiptResType(bitstream_t* stream, struct iso2Met
 				grammarID = 600;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 600:
@@ -33088,6 +34648,7 @@ static int encode_iso2MeteringReceiptResType(bitstream_t* stream, struct iso2Met
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33100,6 +34661,7 @@ static int encode_iso2MeteringReceiptResType(bitstream_t* stream, struct iso2Met
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33137,6 +34699,7 @@ static int encode_iso2SessionSetupResType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 1503;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1503:
@@ -33165,6 +34728,7 @@ static int encode_iso2SessionSetupResType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 1505;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1504:
@@ -33187,6 +34751,7 @@ static int encode_iso2SessionSetupResType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 1505;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1505:
@@ -33211,6 +34776,7 @@ static int encode_iso2SessionSetupResType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33223,6 +34789,7 @@ static int encode_iso2SessionSetupResType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33254,6 +34821,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1507;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1507:
@@ -33296,6 +34864,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1512;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1508:
@@ -33332,6 +34901,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1512;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1509:
@@ -33362,6 +34932,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1512;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1510:
@@ -33386,6 +34957,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1512;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1511:
@@ -33398,6 +34970,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1512;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1512:
@@ -33416,6 +34989,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1514;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1513:
@@ -33428,6 +35002,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1514;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1514:
@@ -33446,6 +35021,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1516;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1515:
@@ -33458,6 +35034,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1516;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1516:
@@ -33476,6 +35053,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1518;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1517:
@@ -33488,6 +35066,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 1518;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1518:
@@ -33500,6 +35079,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33512,6 +35092,7 @@ static int encode_iso2AC_BidirectionalControlReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33543,6 +35124,7 @@ static int encode_iso2MV_EVSEFinePositioningParametersType(bitstream_t* stream, 
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33555,6 +35137,7 @@ static int encode_iso2MV_EVSEFinePositioningParametersType(bitstream_t* stream, 
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33622,6 +35205,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 1525;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1521:
@@ -33660,6 +35244,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 1525;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1522:
@@ -33688,6 +35273,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 1525;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1523:
@@ -33706,6 +35292,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 1525;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1524:
@@ -33718,6 +35305,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 1525;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1525:
@@ -33739,6 +35327,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33751,6 +35340,7 @@ static int encode_iso2ReferenceType(bitstream_t* stream, struct iso2ReferenceTyp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33782,6 +35372,7 @@ static int encode_iso2EVSEEnergyTransferParameterType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33817,6 +35408,7 @@ static int encode_iso2MeteringReceiptReqType(bitstream_t* stream, struct iso2Met
 				grammarID = 1527;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1527:
@@ -33838,6 +35430,7 @@ static int encode_iso2MeteringReceiptReqType(bitstream_t* stream, struct iso2Met
 				grammarID = 1528;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1528:
@@ -33862,6 +35455,7 @@ static int encode_iso2MeteringReceiptReqType(bitstream_t* stream, struct iso2Met
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1529:
@@ -33874,6 +35468,7 @@ static int encode_iso2MeteringReceiptReqType(bitstream_t* stream, struct iso2Met
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -33886,6 +35481,7 @@ static int encode_iso2MeteringReceiptReqType(bitstream_t* stream, struct iso2Met
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -33938,6 +35534,7 @@ static int encode_iso2KeyValueType(bitstream_t* stream, struct iso2KeyValueType*
 				grammarID = 1532;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1531:
@@ -33961,6 +35558,7 @@ static int encode_iso2KeyValueType(bitstream_t* stream, struct iso2KeyValueType*
 				grammarID = 1531;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1532:
@@ -33993,6 +35591,7 @@ static int encode_iso2KeyValueType(bitstream_t* stream, struct iso2KeyValueType*
 				grammarID = 1532;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -34025,6 +35624,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 1534;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1534:
@@ -34043,6 +35643,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1535:
@@ -34061,6 +35662,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1536:
@@ -34079,6 +35681,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1537:
@@ -34097,6 +35700,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1538:
@@ -34115,6 +35719,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1539:
@@ -34133,6 +35738,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1540:
@@ -34151,6 +35757,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1541:
@@ -34169,6 +35776,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1542:
@@ -34187,6 +35795,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1543:
@@ -34205,6 +35814,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1544:
@@ -34223,6 +35833,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1545:
@@ -34241,6 +35852,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1546:
@@ -34259,6 +35871,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1547:
@@ -34277,6 +35890,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1548:
@@ -34295,6 +35909,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1549:
@@ -34313,6 +35928,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1550:
@@ -34331,6 +35947,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1551:
@@ -34349,6 +35966,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1552:
@@ -34367,6 +35985,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1553:
@@ -34385,6 +36004,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1554:
@@ -34403,6 +36023,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1555:
@@ -34421,6 +36042,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1556:
@@ -34439,6 +36061,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1557:
@@ -34457,6 +36080,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1558:
@@ -34475,6 +36099,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1559:
@@ -34493,6 +36118,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1560:
@@ -34511,6 +36137,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1561:
@@ -34529,6 +36156,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1562:
@@ -34547,6 +36175,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1563:
@@ -34565,6 +36194,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1564:
@@ -34583,6 +36213,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1565:
@@ -34601,6 +36232,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1566:
@@ -34619,6 +36251,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1567:
@@ -34637,6 +36270,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1568:
@@ -34655,6 +36289,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1569:
@@ -34673,6 +36308,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1570:
@@ -34691,6 +36327,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1571:
@@ -34709,6 +36346,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1572:
@@ -34727,6 +36365,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1573:
@@ -34745,6 +36384,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1574:
@@ -34763,6 +36403,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1575:
@@ -34781,6 +36422,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1576:
@@ -34799,6 +36441,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1577:
@@ -34817,6 +36460,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1578:
@@ -34835,6 +36479,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1579:
@@ -34853,6 +36498,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1580:
@@ -34871,6 +36517,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1581:
@@ -34889,6 +36536,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1582:
@@ -34907,6 +36555,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1583:
@@ -34925,6 +36574,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1584:
@@ -34943,6 +36593,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1585:
@@ -34961,6 +36612,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1586:
@@ -34979,6 +36631,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1587:
@@ -34997,6 +36650,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1588:
@@ -35015,6 +36669,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1589:
@@ -35033,6 +36688,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1590:
@@ -35051,6 +36707,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1591:
@@ -35069,6 +36726,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1592:
@@ -35087,6 +36745,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1593:
@@ -35105,6 +36764,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1594:
@@ -35123,6 +36783,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1595:
@@ -35141,6 +36802,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1596:
@@ -35159,6 +36821,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1597:
@@ -35177,6 +36840,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1598:
@@ -35195,6 +36859,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1599:
@@ -35213,6 +36878,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1600:
@@ -35231,6 +36897,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1601:
@@ -35249,6 +36916,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1602:
@@ -35267,6 +36935,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1603:
@@ -35285,6 +36954,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1604:
@@ -35303,6 +36973,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1605:
@@ -35321,6 +36992,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1606:
@@ -35339,6 +37011,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1607:
@@ -35357,6 +37030,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1608:
@@ -35375,6 +37049,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1609:
@@ -35393,6 +37068,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1610:
@@ -35411,6 +37087,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1611:
@@ -35429,6 +37106,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1612:
@@ -35447,6 +37125,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1613:
@@ -35465,6 +37144,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1614:
@@ -35483,6 +37163,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1615:
@@ -35501,6 +37182,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1616:
@@ -35519,6 +37201,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1617:
@@ -35537,6 +37220,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1618:
@@ -35555,6 +37239,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1619:
@@ -35573,6 +37258,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1620:
@@ -35591,6 +37277,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1621:
@@ -35609,6 +37296,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1622:
@@ -35627,6 +37315,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1623:
@@ -35645,6 +37334,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1624:
@@ -35663,6 +37353,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1625:
@@ -35681,6 +37372,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1626:
@@ -35699,6 +37391,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1627:
@@ -35717,6 +37410,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1628:
@@ -35735,6 +37429,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1629:
@@ -35753,6 +37448,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1630:
@@ -35771,6 +37467,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1631:
@@ -35789,6 +37486,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1632:
@@ -35807,6 +37505,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1633:
@@ -35825,6 +37524,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1634:
@@ -35843,6 +37543,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1635:
@@ -35861,6 +37562,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1636:
@@ -35879,6 +37581,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1637:
@@ -35897,6 +37600,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1638:
@@ -35915,6 +37619,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1639:
@@ -35933,6 +37638,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1640:
@@ -35951,6 +37657,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1641:
@@ -35969,6 +37676,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1642:
@@ -35987,6 +37695,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1643:
@@ -36005,6 +37714,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1644:
@@ -36023,6 +37733,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1645:
@@ -36041,6 +37752,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1646:
@@ -36059,6 +37771,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1647:
@@ -36077,6 +37790,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1648:
@@ -36095,6 +37809,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1649:
@@ -36113,6 +37828,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1650:
@@ -36131,6 +37847,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1651:
@@ -36149,6 +37866,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1652:
@@ -36167,6 +37885,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1653:
@@ -36185,6 +37904,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1654:
@@ -36203,6 +37923,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1655:
@@ -36221,6 +37942,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1656:
@@ -36239,6 +37961,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1657:
@@ -36257,6 +37980,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1658:
@@ -36275,6 +37999,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1659:
@@ -36293,6 +38018,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1660:
@@ -36311,6 +38037,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1661:
@@ -36329,6 +38056,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1662:
@@ -36347,6 +38075,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1663:
@@ -36365,6 +38094,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1664:
@@ -36383,6 +38113,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1665:
@@ -36401,6 +38132,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1666:
@@ -36419,6 +38151,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1667:
@@ -36437,6 +38170,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1668:
@@ -36455,6 +38189,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1669:
@@ -36473,6 +38208,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1670:
@@ -36491,6 +38227,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1671:
@@ -36509,6 +38246,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1672:
@@ -36527,6 +38265,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1673:
@@ -36545,6 +38284,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1674:
@@ -36563,6 +38303,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1675:
@@ -36581,6 +38322,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1676:
@@ -36599,6 +38341,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1677:
@@ -36617,6 +38360,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1678:
@@ -36635,6 +38379,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1679:
@@ -36653,6 +38398,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1680:
@@ -36671,6 +38417,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1681:
@@ -36689,6 +38436,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1682:
@@ -36707,6 +38455,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1683:
@@ -36725,6 +38474,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1684:
@@ -36743,6 +38493,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1685:
@@ -36761,6 +38512,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1686:
@@ -36779,6 +38531,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1687:
@@ -36797,6 +38550,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1688:
@@ -36815,6 +38569,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1689:
@@ -36833,6 +38588,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1690:
@@ -36851,6 +38607,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1691:
@@ -36869,6 +38626,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1692:
@@ -36887,6 +38645,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1693:
@@ -36905,6 +38664,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1694:
@@ -36923,6 +38683,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1695:
@@ -36941,6 +38702,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1696:
@@ -36959,6 +38721,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1697:
@@ -36977,6 +38740,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1698:
@@ -36995,6 +38759,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1699:
@@ -37013,6 +38778,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1700:
@@ -37031,6 +38797,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1701:
@@ -37049,6 +38816,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1702:
@@ -37067,6 +38835,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1703:
@@ -37085,6 +38854,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1704:
@@ -37103,6 +38873,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1705:
@@ -37121,6 +38892,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1706:
@@ -37139,6 +38911,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1707:
@@ -37157,6 +38930,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1708:
@@ -37175,6 +38949,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1709:
@@ -37193,6 +38968,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1710:
@@ -37211,6 +38987,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1711:
@@ -37229,6 +39006,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1712:
@@ -37247,6 +39025,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1713:
@@ -37265,6 +39044,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1714:
@@ -37283,6 +39063,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1715:
@@ -37301,6 +39082,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1716:
@@ -37319,6 +39101,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1717:
@@ -37337,6 +39120,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1718:
@@ -37355,6 +39139,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1719:
@@ -37373,6 +39158,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1720:
@@ -37391,6 +39177,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1721:
@@ -37409,6 +39196,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1722:
@@ -37427,6 +39215,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1723:
@@ -37445,6 +39234,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1724:
@@ -37463,6 +39253,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1725:
@@ -37481,6 +39272,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1726:
@@ -37499,6 +39291,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1727:
@@ -37517,6 +39310,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1728:
@@ -37535,6 +39329,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1729:
@@ -37553,6 +39348,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1730:
@@ -37571,6 +39367,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1731:
@@ -37589,6 +39386,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1732:
@@ -37607,6 +39405,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1733:
@@ -37625,6 +39424,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1734:
@@ -37643,6 +39443,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1735:
@@ -37661,6 +39462,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1736:
@@ -37679,6 +39481,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1737:
@@ -37697,6 +39500,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1738:
@@ -37715,6 +39519,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1739:
@@ -37733,6 +39538,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1740:
@@ -37751,6 +39557,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1741:
@@ -37769,6 +39576,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1742:
@@ -37787,6 +39595,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1743:
@@ -37805,6 +39614,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1744:
@@ -37823,6 +39633,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1745:
@@ -37841,6 +39652,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1746:
@@ -37859,6 +39671,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1747:
@@ -37877,6 +39690,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1748:
@@ -37895,6 +39709,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1749:
@@ -37913,6 +39728,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1750:
@@ -37931,6 +39747,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1751:
@@ -37949,6 +39766,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1752:
@@ -37967,6 +39785,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1753:
@@ -37985,6 +39804,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1754:
@@ -38003,6 +39823,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1755:
@@ -38021,6 +39842,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1756:
@@ -38039,6 +39861,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1757:
@@ -38057,6 +39880,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1758:
@@ -38075,6 +39899,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1759:
@@ -38093,6 +39918,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1760:
@@ -38111,6 +39937,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1761:
@@ -38129,6 +39956,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1762:
@@ -38147,6 +39975,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1763:
@@ -38165,6 +39994,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1764:
@@ -38183,6 +40013,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1765:
@@ -38201,6 +40032,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1766:
@@ -38219,6 +40051,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1767:
@@ -38237,6 +40070,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1768:
@@ -38255,6 +40089,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1769:
@@ -38273,6 +40108,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1770:
@@ -38291,6 +40127,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1771:
@@ -38309,6 +40146,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1772:
@@ -38327,6 +40165,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1773:
@@ -38345,6 +40184,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1774:
@@ -38363,6 +40203,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1775:
@@ -38381,6 +40222,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1776:
@@ -38399,6 +40241,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1777:
@@ -38417,6 +40260,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1778:
@@ -38435,6 +40279,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1779:
@@ -38453,6 +40298,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1780:
@@ -38471,6 +40317,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1781:
@@ -38489,6 +40336,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1782:
@@ -38507,6 +40355,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1783:
@@ -38525,6 +40374,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1784:
@@ -38543,6 +40393,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1785:
@@ -38561,6 +40412,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1786:
@@ -38579,6 +40431,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1787:
@@ -38597,6 +40450,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -38609,6 +40463,7 @@ static int encode_iso2SensorListType(bitstream_t* stream, struct iso2SensorListT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -38640,6 +40495,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 1789;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1789:
@@ -38670,6 +40526,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 1793;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1790:
@@ -38694,6 +40551,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 1793;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1791:
@@ -38712,6 +40570,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 1793;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1792:
@@ -38724,6 +40583,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 1793;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1793:
@@ -38736,6 +40596,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 1794;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1794:
@@ -38766,6 +40627,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1795:
@@ -38790,6 +40652,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1796:
@@ -38808,6 +40671,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -38820,6 +40684,7 @@ static int encode_iso2CurrentDemandReqType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -38863,6 +40728,7 @@ static int encode_iso2FinePositioningSetupReqType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -38875,6 +40741,7 @@ static int encode_iso2FinePositioningSetupReqType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -38912,6 +40779,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 1799;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1799:
@@ -38924,6 +40792,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 1800;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1800:
@@ -38936,6 +40805,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 1801;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1801:
@@ -38954,6 +40824,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 1802;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1802:
@@ -38972,6 +40843,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 1803;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1803:
@@ -38990,6 +40862,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 1804;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1804:
@@ -39008,6 +40881,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39020,6 +40894,7 @@ static int encode_iso2LFA_EVFinePositioningSetupParametersType(bitstream_t* stre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39057,6 +40932,7 @@ static int encode_iso2SAScheduleTupleType(bitstream_t* stream, struct iso2SASche
 				grammarID = 1806;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1806:
@@ -39069,6 +40945,7 @@ static int encode_iso2SAScheduleTupleType(bitstream_t* stream, struct iso2SASche
 				grammarID = 1807;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1807:
@@ -39099,6 +40976,7 @@ static int encode_iso2SAScheduleTupleType(bitstream_t* stream, struct iso2SASche
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1808:
@@ -39123,6 +41001,7 @@ static int encode_iso2SAScheduleTupleType(bitstream_t* stream, struct iso2SASche
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1809:
@@ -39141,6 +41020,7 @@ static int encode_iso2SAScheduleTupleType(bitstream_t* stream, struct iso2SASche
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39153,6 +41033,7 @@ static int encode_iso2SAScheduleTupleType(bitstream_t* stream, struct iso2SASche
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39184,6 +41065,7 @@ static int encode_iso2WPT_EVSEChargeParameterType(bitstream_t* stream, struct is
 				grammarID = 1811;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1811:
@@ -39196,6 +41078,7 @@ static int encode_iso2WPT_EVSEChargeParameterType(bitstream_t* stream, struct is
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39208,6 +41091,7 @@ static int encode_iso2WPT_EVSEChargeParameterType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39245,6 +41129,7 @@ static int encode_iso2FinePositioningResType(bitstream_t* stream, struct iso2Fin
 				grammarID = 1813;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1813:
@@ -39269,6 +41154,7 @@ static int encode_iso2FinePositioningResType(bitstream_t* stream, struct iso2Fin
 				grammarID = 1815;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1814:
@@ -39287,6 +41173,7 @@ static int encode_iso2FinePositioningResType(bitstream_t* stream, struct iso2Fin
 				grammarID = 1815;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1815:
@@ -39323,6 +41210,7 @@ static int encode_iso2FinePositioningResType(bitstream_t* stream, struct iso2Fin
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39335,6 +41223,7 @@ static int encode_iso2FinePositioningResType(bitstream_t* stream, struct iso2Fin
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39366,6 +41255,7 @@ static int encode_iso2BodyBaseType(bitstream_t* stream, struct iso2BodyBaseType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39403,6 +41293,7 @@ static int encode_iso2ServiceDetailResType(bitstream_t* stream, struct iso2Servi
 				grammarID = 1817;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1817:
@@ -39427,6 +41318,7 @@ static int encode_iso2ServiceDetailResType(bitstream_t* stream, struct iso2Servi
 				grammarID = 1819;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1818:
@@ -39445,6 +41337,7 @@ static int encode_iso2ServiceDetailResType(bitstream_t* stream, struct iso2Servi
 				grammarID = 1819;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1819:
@@ -39463,6 +41356,7 @@ static int encode_iso2ServiceDetailResType(bitstream_t* stream, struct iso2Servi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39475,6 +41369,7 @@ static int encode_iso2ServiceDetailResType(bitstream_t* stream, struct iso2Servi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39512,6 +41407,7 @@ static int encode_iso2PowerDeliveryReqType(bitstream_t* stream, struct iso2Power
 				grammarID = 1821;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1821:
@@ -39554,6 +41450,7 @@ static int encode_iso2PowerDeliveryReqType(bitstream_t* stream, struct iso2Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1822:
@@ -39584,6 +41481,7 @@ static int encode_iso2PowerDeliveryReqType(bitstream_t* stream, struct iso2Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1823:
@@ -39602,6 +41500,7 @@ static int encode_iso2PowerDeliveryReqType(bitstream_t* stream, struct iso2Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39614,6 +41513,7 @@ static int encode_iso2PowerDeliveryReqType(bitstream_t* stream, struct iso2Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39651,6 +41551,7 @@ static int encode_iso2PairingResType(bitstream_t* stream, struct iso2PairingResT
 				grammarID = 1825;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1825:
@@ -39675,6 +41576,7 @@ static int encode_iso2PairingResType(bitstream_t* stream, struct iso2PairingResT
 				grammarID = 1827;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1826:
@@ -39693,6 +41595,7 @@ static int encode_iso2PairingResType(bitstream_t* stream, struct iso2PairingResT
 				grammarID = 1827;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1827:
@@ -39711,6 +41614,7 @@ static int encode_iso2PairingResType(bitstream_t* stream, struct iso2PairingResT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39723,6 +41627,7 @@ static int encode_iso2PairingResType(bitstream_t* stream, struct iso2PairingResT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39779,6 +41684,7 @@ static int encode_iso2AuthorizationReqType(bitstream_t* stream, struct iso2Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1829:
@@ -39806,6 +41712,7 @@ static int encode_iso2AuthorizationReqType(bitstream_t* stream, struct iso2Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -39818,6 +41725,7 @@ static int encode_iso2AuthorizationReqType(bitstream_t* stream, struct iso2Autho
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -39856,6 +41764,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 1831;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1831:
@@ -39868,6 +41777,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 1832;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1832:
@@ -39886,6 +41796,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1833:
@@ -39904,6 +41815,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1834:
@@ -39922,6 +41834,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1835:
@@ -39940,6 +41853,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1836:
@@ -39958,6 +41872,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1837:
@@ -39976,6 +41891,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1838:
@@ -39994,6 +41910,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1839:
@@ -40012,6 +41929,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1840:
@@ -40030,6 +41948,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1841:
@@ -40048,6 +41967,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1842:
@@ -40066,6 +41986,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1843:
@@ -40084,6 +42005,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1844:
@@ -40102,6 +42024,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1845:
@@ -40120,6 +42043,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1846:
@@ -40138,6 +42062,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -40150,6 +42075,7 @@ static int encode_iso2ParameterSetType(bitstream_t* stream, struct iso2Parameter
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40193,6 +42119,7 @@ static int encode_iso2SPKIDataType(bitstream_t* stream, struct iso2SPKIDataType*
 				grammarID = 1848;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1848:
@@ -40224,6 +42151,7 @@ static int encode_iso2SPKIDataType(bitstream_t* stream, struct iso2SPKIDataType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1849:
@@ -40252,6 +42180,7 @@ static int encode_iso2SPKIDataType(bitstream_t* stream, struct iso2SPKIDataType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40289,6 +42218,7 @@ static int encode_iso2PaymentDetailsResType(bitstream_t* stream, struct iso2Paym
 				grammarID = 1851;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1851:
@@ -40316,6 +42246,7 @@ static int encode_iso2PaymentDetailsResType(bitstream_t* stream, struct iso2Paym
 				grammarID = 1853;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1852:
@@ -40337,6 +42268,7 @@ static int encode_iso2PaymentDetailsResType(bitstream_t* stream, struct iso2Paym
 				grammarID = 1853;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1853:
@@ -40355,6 +42287,7 @@ static int encode_iso2PaymentDetailsResType(bitstream_t* stream, struct iso2Paym
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -40367,6 +42300,7 @@ static int encode_iso2PaymentDetailsResType(bitstream_t* stream, struct iso2Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40403,6 +42337,7 @@ static int encode_iso2SignatureMethodType(bitstream_t* stream, struct iso2Signat
 				grammarID = 1855;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1855:
@@ -40441,6 +42376,7 @@ static int encode_iso2SignatureMethodType(bitstream_t* stream, struct iso2Signat
 				grammarID = 1856;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 685:
@@ -40467,6 +42403,7 @@ static int encode_iso2SignatureMethodType(bitstream_t* stream, struct iso2Signat
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1856:
@@ -40505,6 +42442,7 @@ static int encode_iso2SignatureMethodType(bitstream_t* stream, struct iso2Signat
 				grammarID = 1856;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40542,6 +42480,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 1858;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1858:
@@ -40566,6 +42505,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 1860;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1859:
@@ -40584,6 +42524,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 1860;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1860:
@@ -40596,6 +42537,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 1861;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1861:
@@ -40608,6 +42550,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 27;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 27:
@@ -40630,6 +42573,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 28:
@@ -40672,6 +42616,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 29:
@@ -40702,6 +42647,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 30:
@@ -40726,6 +42672,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -40738,6 +42685,7 @@ static int encode_iso2AC_BidirectionalControlResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40775,6 +42723,7 @@ static int encode_iso2VehicleCheckOutReqType(bitstream_t* stream, struct iso2Veh
 				grammarID = 1863;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1863:
@@ -40793,6 +42742,7 @@ static int encode_iso2VehicleCheckOutReqType(bitstream_t* stream, struct iso2Veh
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -40805,6 +42755,7 @@ static int encode_iso2VehicleCheckOutReqType(bitstream_t* stream, struct iso2Veh
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40836,6 +42787,7 @@ static int encode_iso2WeldingDetectionReqType(bitstream_t* stream, struct iso2We
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40873,6 +42825,7 @@ static int encode_iso2AlignmentCheckResType(bitstream_t* stream, struct iso2Alig
 				grammarID = 1865;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1865:
@@ -40897,6 +42850,7 @@ static int encode_iso2AlignmentCheckResType(bitstream_t* stream, struct iso2Alig
 				grammarID = 676;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1866:
@@ -40915,6 +42869,7 @@ static int encode_iso2AlignmentCheckResType(bitstream_t* stream, struct iso2Alig
 				grammarID = 676;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 676:
@@ -40933,6 +42888,7 @@ static int encode_iso2AlignmentCheckResType(bitstream_t* stream, struct iso2Alig
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -40945,6 +42901,7 @@ static int encode_iso2AlignmentCheckResType(bitstream_t* stream, struct iso2Alig
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -40976,6 +42933,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 1868;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1868:
@@ -41006,6 +42964,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 1872;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1869:
@@ -41030,6 +42989,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 1872;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1870:
@@ -41048,6 +43008,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 1872;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1871:
@@ -41060,6 +43021,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 1872;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1872:
@@ -41072,6 +43034,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 1873;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1873:
@@ -41090,6 +43053,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41102,6 +43066,7 @@ static int encode_iso2PowerDemandReqType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41134,6 +43099,7 @@ static int encode_iso2MinimumPMaxRequestType(bitstream_t* stream, struct iso2Min
 				grammarID = 1875;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1875:
@@ -41152,6 +43118,7 @@ static int encode_iso2MinimumPMaxRequestType(bitstream_t* stream, struct iso2Min
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1876:
@@ -41170,6 +43137,7 @@ static int encode_iso2MinimumPMaxRequestType(bitstream_t* stream, struct iso2Min
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41182,6 +43150,7 @@ static int encode_iso2MinimumPMaxRequestType(bitstream_t* stream, struct iso2Min
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41219,6 +43188,7 @@ static int encode_iso2DisconnectChargingDeviceResType(bitstream_t* stream, struc
 				grammarID = 592;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 592:
@@ -41243,6 +43213,7 @@ static int encode_iso2DisconnectChargingDeviceResType(bitstream_t* stream, struc
 				grammarID = 594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 593:
@@ -41261,6 +43232,7 @@ static int encode_iso2DisconnectChargingDeviceResType(bitstream_t* stream, struc
 				grammarID = 594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 594:
@@ -41279,6 +43251,7 @@ static int encode_iso2DisconnectChargingDeviceResType(bitstream_t* stream, struc
 				grammarID = 595;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 595:
@@ -41297,6 +43270,7 @@ static int encode_iso2DisconnectChargingDeviceResType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41309,6 +43283,7 @@ static int encode_iso2DisconnectChargingDeviceResType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41349,6 +43324,7 @@ static int encode_iso2SessionSetupReqType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41361,6 +43337,7 @@ static int encode_iso2SessionSetupReqType(bitstream_t* stream, struct iso2Sessio
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41402,6 +43379,7 @@ static int encode_iso2PaymentDetailsReqType(bitstream_t* stream, struct iso2Paym
 				grammarID = 1879;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1879:
@@ -41414,6 +43392,7 @@ static int encode_iso2PaymentDetailsReqType(bitstream_t* stream, struct iso2Paym
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41426,6 +43405,7 @@ static int encode_iso2PaymentDetailsReqType(bitstream_t* stream, struct iso2Paym
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41457,6 +43437,7 @@ static int encode_iso2Generic_EVFinePositioningParametersType(bitstream_t* strea
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41469,6 +43450,7 @@ static int encode_iso2Generic_EVFinePositioningParametersType(bitstream_t* strea
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41506,6 +43488,7 @@ static int encode_iso2ConnectChargingDeviceReqType(bitstream_t* stream, struct i
 				grammarID = 1497;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1497:
@@ -41524,6 +43507,7 @@ static int encode_iso2ConnectChargingDeviceReqType(bitstream_t* stream, struct i
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41536,6 +43520,7 @@ static int encode_iso2ConnectChargingDeviceReqType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41567,6 +43552,7 @@ static int encode_iso2AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 1882;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1882:
@@ -41579,6 +43565,7 @@ static int encode_iso2AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 58;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 58:
@@ -41591,6 +43578,7 @@ static int encode_iso2AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41603,6 +43591,7 @@ static int encode_iso2AC_EVSEChargeParameterType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41635,6 +43624,7 @@ static int encode_iso2SalesTariffEntryType(bitstream_t* stream, struct iso2Sales
 				grammarID = 1884;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1884:
@@ -41665,6 +43655,7 @@ static int encode_iso2SalesTariffEntryType(bitstream_t* stream, struct iso2Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1885:
@@ -41683,6 +43674,7 @@ static int encode_iso2SalesTariffEntryType(bitstream_t* stream, struct iso2Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1886:
@@ -41701,6 +43693,7 @@ static int encode_iso2SalesTariffEntryType(bitstream_t* stream, struct iso2Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1887:
@@ -41719,6 +43712,7 @@ static int encode_iso2SalesTariffEntryType(bitstream_t* stream, struct iso2Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41731,6 +43725,7 @@ static int encode_iso2SalesTariffEntryType(bitstream_t* stream, struct iso2Sales
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41762,6 +43757,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1889;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1889:
@@ -41774,6 +43770,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1890;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1890:
@@ -41786,6 +43783,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1891;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1891:
@@ -41798,6 +43796,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1892;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1892:
@@ -41810,6 +43809,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1893;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1893:
@@ -41828,6 +43828,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1895;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1894:
@@ -41840,6 +43841,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1895;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1895:
@@ -41858,6 +43860,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1897;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1896:
@@ -41870,6 +43873,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1897;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1897:
@@ -41882,6 +43886,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 1898;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1898:
@@ -41894,6 +43899,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -41906,6 +43912,7 @@ static int encode_iso2DC_EVSEBidirectionalParameterType(bitstream_t* stream, str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -41942,6 +43949,7 @@ static int encode_iso2CanonicalizationMethodType(bitstream_t* stream, struct iso
 				grammarID = 684;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 684:
@@ -41968,6 +43976,7 @@ static int encode_iso2CanonicalizationMethodType(bitstream_t* stream, struct iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 685:
@@ -41994,6 +44003,7 @@ static int encode_iso2CanonicalizationMethodType(bitstream_t* stream, struct iso
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -42163,6 +44173,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1901:
@@ -42301,6 +44312,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1902:
@@ -42427,6 +44439,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1903:
@@ -42541,6 +44554,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1904:
@@ -42643,6 +44657,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1905:
@@ -42733,6 +44748,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1906:
@@ -42817,6 +44833,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1907:
@@ -42889,6 +44906,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1908:
@@ -42949,6 +44967,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1909:
@@ -42997,6 +45016,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1910:
@@ -43033,6 +45053,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1911:
@@ -43057,6 +45078,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -43069,6 +45091,7 @@ static int encode_iso2DisplayParametersType(bitstream_t* stream, struct iso2Disp
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -43106,6 +45129,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1913;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1913:
@@ -43130,6 +45154,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1916;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1914:
@@ -43148,6 +45173,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1916;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1915:
@@ -43160,6 +45186,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1916;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1916:
@@ -43172,6 +45199,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1917;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1917:
@@ -43184,6 +45212,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1918;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1918:
@@ -43262,6 +45291,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1919:
@@ -43334,6 +45364,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1920:
@@ -43400,6 +45431,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1921:
@@ -43460,6 +45492,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1922:
@@ -43508,6 +45541,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1923:
@@ -43544,6 +45578,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1924:
@@ -43568,6 +45603,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1925:
@@ -43586,6 +45622,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1926:
@@ -43598,6 +45635,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1927;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1927:
@@ -43610,6 +45648,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1928;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1928:
@@ -43622,6 +45661,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 1929;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1929:
@@ -43646,6 +45686,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -43658,6 +45699,7 @@ static int encode_iso2DC_EVBidirectionalParameterType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -43695,6 +45737,7 @@ static int encode_iso2PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 1931;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1931:
@@ -43707,6 +45750,7 @@ static int encode_iso2PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 1932;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1932:
@@ -43725,6 +45769,7 @@ static int encode_iso2PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -43737,6 +45782,7 @@ static int encode_iso2PaymentServiceSelectionReqType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -43778,6 +45824,7 @@ static int encode_iso2MagneticVectorType(bitstream_t* stream, struct iso2Magneti
 				grammarID = 1934;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1934:
@@ -43796,6 +45843,7 @@ static int encode_iso2MagneticVectorType(bitstream_t* stream, struct iso2Magneti
 				grammarID = 1935;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1935:
@@ -43808,6 +45856,7 @@ static int encode_iso2MagneticVectorType(bitstream_t* stream, struct iso2Magneti
 				grammarID = 1936;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1936:
@@ -43820,6 +45869,7 @@ static int encode_iso2MagneticVectorType(bitstream_t* stream, struct iso2Magneti
 				grammarID = 1937;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1937:
@@ -43838,6 +45888,7 @@ static int encode_iso2MagneticVectorType(bitstream_t* stream, struct iso2Magneti
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -43850,6 +45901,7 @@ static int encode_iso2MagneticVectorType(bitstream_t* stream, struct iso2Magneti
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -43887,6 +45939,7 @@ static int encode_iso2PhysicalValueType(bitstream_t* stream, struct iso2Physical
 				grammarID = 1939;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1939:
@@ -43905,6 +45958,7 @@ static int encode_iso2PhysicalValueType(bitstream_t* stream, struct iso2Physical
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -43917,6 +45971,7 @@ static int encode_iso2PhysicalValueType(bitstream_t* stream, struct iso2Physical
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -43954,6 +46009,7 @@ static int encode_iso2SystemStatusReqType(bitstream_t* stream, struct iso2System
 				grammarID = 1497;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1497:
@@ -43972,6 +46028,7 @@ static int encode_iso2SystemStatusReqType(bitstream_t* stream, struct iso2System
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -43984,6 +46041,7 @@ static int encode_iso2SystemStatusReqType(bitstream_t* stream, struct iso2System
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44021,6 +46079,7 @@ static int encode_iso2SystemStatusResType(bitstream_t* stream, struct iso2System
 				grammarID = 1942;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1942:
@@ -44045,6 +46104,7 @@ static int encode_iso2SystemStatusResType(bitstream_t* stream, struct iso2System
 				grammarID = 595;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1943:
@@ -44063,6 +46123,7 @@ static int encode_iso2SystemStatusResType(bitstream_t* stream, struct iso2System
 				grammarID = 595;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 595:
@@ -44081,6 +46142,7 @@ static int encode_iso2SystemStatusResType(bitstream_t* stream, struct iso2System
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44093,6 +46155,7 @@ static int encode_iso2SystemStatusResType(bitstream_t* stream, struct iso2System
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44124,6 +46187,7 @@ static int encode_iso2EVSEFinePositioningSetupParametersType(bitstream_t* stream
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44161,6 +46225,7 @@ static int encode_iso2V2GResponseType(bitstream_t* stream, struct iso2V2GRespons
 				grammarID = 600;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 600:
@@ -44179,6 +46244,7 @@ static int encode_iso2V2GResponseType(bitstream_t* stream, struct iso2V2GRespons
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44191,6 +46257,7 @@ static int encode_iso2V2GResponseType(bitstream_t* stream, struct iso2V2GRespons
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44582,6 +46649,7 @@ static int encode_iso2BodyType(bitstream_t* stream, struct iso2BodyType* iso2Bod
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44594,6 +46662,7 @@ static int encode_iso2BodyType(bitstream_t* stream, struct iso2BodyType* iso2Bod
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44631,6 +46700,7 @@ static int encode_iso2PreChargeResType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 597;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 597:
@@ -44649,6 +46719,7 @@ static int encode_iso2PreChargeResType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 598:
@@ -44661,6 +46732,7 @@ static int encode_iso2PreChargeResType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44673,6 +46745,7 @@ static int encode_iso2PreChargeResType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44704,6 +46777,7 @@ static int encode_iso2EVSEFinePositioningParametersType(bitstream_t* stream, str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44741,6 +46815,7 @@ static int encode_iso2PaymentServiceSelectionResType(bitstream_t* stream, struct
 				grammarID = 600;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 600:
@@ -44759,6 +46834,7 @@ static int encode_iso2PaymentServiceSelectionResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44771,6 +46847,7 @@ static int encode_iso2PaymentServiceSelectionResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44807,6 +46884,7 @@ static int encode_iso2DigestMethodType(bitstream_t* stream, struct iso2DigestMet
 				grammarID = 684;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 684:
@@ -44833,6 +46911,7 @@ static int encode_iso2DigestMethodType(bitstream_t* stream, struct iso2DigestMet
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 685:
@@ -44859,6 +46938,7 @@ static int encode_iso2DigestMethodType(bitstream_t* stream, struct iso2DigestMet
 				grammarID = 685;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44896,6 +46976,7 @@ static int encode_iso2TargetPositionType(bitstream_t* stream, struct iso2TargetP
 				grammarID = 1946;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1946:
@@ -44914,6 +46995,7 @@ static int encode_iso2TargetPositionType(bitstream_t* stream, struct iso2TargetP
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44926,6 +47008,7 @@ static int encode_iso2TargetPositionType(bitstream_t* stream, struct iso2TargetP
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -44963,6 +47046,7 @@ static int encode_iso2LFA_EVFinePositioningParametersType(bitstream_t* stream, s
 				grammarID = 671;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 671:
@@ -44975,6 +47059,7 @@ static int encode_iso2LFA_EVFinePositioningParametersType(bitstream_t* stream, s
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -44987,6 +47072,7 @@ static int encode_iso2LFA_EVFinePositioningParametersType(bitstream_t* stream, s
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45024,6 +47110,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 1948;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1948:
@@ -45048,6 +47135,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 1951;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1949:
@@ -45066,6 +47154,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 1951;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1950:
@@ -45078,6 +47167,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 1951;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1951:
@@ -45090,6 +47180,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 1952;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1952:
@@ -45102,6 +47193,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 1953;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1953:
@@ -45168,6 +47260,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1954:
@@ -45228,6 +47321,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1955:
@@ -45282,6 +47376,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1956:
@@ -45330,6 +47425,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1957:
@@ -45366,6 +47462,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1958:
@@ -45390,6 +47487,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -45402,6 +47500,7 @@ static int encode_iso2DC_EVChargeParameterType(bitstream_t* stream, struct iso2D
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45439,6 +47538,7 @@ static int encode_iso2ServiceDetailReqType(bitstream_t* stream, struct iso2Servi
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -45451,6 +47551,7 @@ static int encode_iso2ServiceDetailReqType(bitstream_t* stream, struct iso2Servi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45482,6 +47583,7 @@ static int encode_iso2PreChargeReqType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 1961;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1961:
@@ -45494,6 +47596,7 @@ static int encode_iso2PreChargeReqType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -45506,6 +47609,7 @@ static int encode_iso2PreChargeReqType(bitstream_t* stream, struct iso2PreCharge
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45548,6 +47652,7 @@ static int encode_iso2ManifestType(bitstream_t* stream, struct iso2ManifestType*
 				grammarID = 1964;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1963:
@@ -45560,6 +47665,7 @@ static int encode_iso2ManifestType(bitstream_t* stream, struct iso2ManifestType*
 				grammarID = 1964;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1964:
@@ -45578,6 +47684,7 @@ static int encode_iso2ManifestType(bitstream_t* stream, struct iso2ManifestType*
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45609,6 +47716,7 @@ static int encode_iso2AnonType_V2G_Message(bitstream_t* stream, struct iso2AnonT
 				grammarID = 1966;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1966:
@@ -45621,6 +47729,7 @@ static int encode_iso2AnonType_V2G_Message(bitstream_t* stream, struct iso2AnonT
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -45633,6 +47742,7 @@ static int encode_iso2AnonType_V2G_Message(bitstream_t* stream, struct iso2AnonT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45665,6 +47775,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 1968;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1968:
@@ -45683,6 +47794,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1969:
@@ -45701,6 +47813,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1970:
@@ -45719,6 +47832,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1971:
@@ -45737,6 +47851,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1972:
@@ -45755,6 +47870,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1973:
@@ -45773,6 +47889,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1974:
@@ -45791,6 +47908,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1975:
@@ -45809,6 +47927,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1976:
@@ -45827,6 +47946,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1977:
@@ -45845,6 +47965,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1978:
@@ -45863,6 +47984,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1979:
@@ -45881,6 +48003,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1980:
@@ -45899,6 +48022,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1981:
@@ -45917,6 +48041,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1982:
@@ -45935,6 +48060,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -45947,6 +48073,7 @@ static int encode_iso2SelectedServiceListType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -45978,6 +48105,7 @@ static int encode_iso2Generic_EVSEFinePositioningParametersType(bitstream_t* str
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -45990,6 +48118,7 @@ static int encode_iso2Generic_EVSEFinePositioningParametersType(bitstream_t* str
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -46027,6 +48156,7 @@ static int encode_iso2CartesianCoordinatesType(bitstream_t* stream, struct iso2C
 				grammarID = 1984;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1984:
@@ -46045,6 +48175,7 @@ static int encode_iso2CartesianCoordinatesType(bitstream_t* stream, struct iso2C
 				grammarID = 1985;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1985:
@@ -46063,6 +48194,7 @@ static int encode_iso2CartesianCoordinatesType(bitstream_t* stream, struct iso2C
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -46075,6 +48207,7 @@ static int encode_iso2CartesianCoordinatesType(bitstream_t* stream, struct iso2C
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -46196,6 +48329,7 @@ static int encode_iso2KeyInfoType(bitstream_t* stream, struct iso2KeyInfoType* i
 				grammarID = 1989;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1987:
@@ -46280,6 +48414,7 @@ static int encode_iso2KeyInfoType(bitstream_t* stream, struct iso2KeyInfoType* i
 				grammarID = 1989;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1988:
@@ -46370,6 +48505,7 @@ static int encode_iso2KeyInfoType(bitstream_t* stream, struct iso2KeyInfoType* i
 				grammarID = 1988;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1989:
@@ -46454,6 +48590,7 @@ static int encode_iso2KeyInfoType(bitstream_t* stream, struct iso2KeyInfoType* i
 				grammarID = 1989;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -46496,6 +48633,7 @@ static int encode_iso2SubCertificatesType(bitstream_t* stream, struct iso2SubCer
 				grammarID = 1991;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1991:
@@ -46524,6 +48662,7 @@ static int encode_iso2SubCertificatesType(bitstream_t* stream, struct iso2SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1992:
@@ -46552,6 +48691,7 @@ static int encode_iso2SubCertificatesType(bitstream_t* stream, struct iso2SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1993:
@@ -46580,6 +48720,7 @@ static int encode_iso2SubCertificatesType(bitstream_t* stream, struct iso2SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -46592,6 +48733,7 @@ static int encode_iso2SubCertificatesType(bitstream_t* stream, struct iso2SubCer
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -46624,6 +48766,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 1995;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1995:
@@ -46642,6 +48785,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1996:
@@ -46660,6 +48804,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1997:
@@ -46678,6 +48823,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1998:
@@ -46696,6 +48842,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1999:
@@ -46714,6 +48861,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2000:
@@ -46732,6 +48880,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2001:
@@ -46750,6 +48899,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2002:
@@ -46768,6 +48918,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2003:
@@ -46786,6 +48937,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2004:
@@ -46804,6 +48956,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2005:
@@ -46822,6 +48975,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2006:
@@ -46840,6 +48994,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2007:
@@ -46858,6 +49013,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2008:
@@ -46876,6 +49032,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2009:
@@ -46894,6 +49051,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2010:
@@ -46912,6 +49070,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2011:
@@ -46930,6 +49089,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2012:
@@ -46948,6 +49108,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2013:
@@ -46966,6 +49127,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -46978,6 +49140,7 @@ static int encode_iso2ListOfRootCertificateIDsType(bitstream_t* stream, struct i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -47015,6 +49178,7 @@ static int encode_iso2EVEnergyTransferParameterType(bitstream_t* stream, struct 
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -47027,6 +49191,7 @@ static int encode_iso2EVEnergyTransferParameterType(bitstream_t* stream, struct 
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -47062,6 +49227,7 @@ static int encode_iso2ContractSignatureEncryptedPrivateKeyType(bitstream_t* stre
 				grammarID = 2016;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2016:
@@ -47077,6 +49243,7 @@ static int encode_iso2ContractSignatureEncryptedPrivateKeyType(bitstream_t* stre
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -47089,6 +49256,7 @@ static int encode_iso2ContractSignatureEncryptedPrivateKeyType(bitstream_t* stre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -47121,6 +49289,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 2018;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2018:
@@ -47139,6 +49308,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2019:
@@ -47157,6 +49327,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2020:
@@ -47175,6 +49346,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2021:
@@ -47193,6 +49365,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2022:
@@ -47211,6 +49384,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2023:
@@ -47229,6 +49403,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2024:
@@ -47247,6 +49422,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2025:
@@ -47265,6 +49441,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2026:
@@ -47283,6 +49460,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2027:
@@ -47301,6 +49479,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2028:
@@ -47319,6 +49498,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2029:
@@ -47337,6 +49517,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2030:
@@ -47355,6 +49536,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2031:
@@ -47373,6 +49555,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2032:
@@ -47391,6 +49574,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2033:
@@ -47409,6 +49593,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2034:
@@ -47427,6 +49612,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2035:
@@ -47445,6 +49631,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2036:
@@ -47463,6 +49650,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2037:
@@ -47481,6 +49669,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2038:
@@ -47499,6 +49688,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2039:
@@ -47517,6 +49707,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2040:
@@ -47535,6 +49726,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2041:
@@ -47553,6 +49745,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2042:
@@ -47571,6 +49764,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2043:
@@ -47589,6 +49783,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2044:
@@ -47607,6 +49802,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2045:
@@ -47625,6 +49821,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2046:
@@ -47643,6 +49840,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2047:
@@ -47661,6 +49859,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2048:
@@ -47679,6 +49878,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2049:
@@ -47697,6 +49897,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2050:
@@ -47715,6 +49916,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2051:
@@ -47733,6 +49935,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2052:
@@ -47751,6 +49954,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2053:
@@ -47769,6 +49973,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2054:
@@ -47787,6 +49992,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2055:
@@ -47805,6 +50011,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2056:
@@ -47823,6 +50030,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2057:
@@ -47841,6 +50049,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2058:
@@ -47859,6 +50068,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2059:
@@ -47877,6 +50087,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2060:
@@ -47895,6 +50106,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2061:
@@ -47913,6 +50125,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2062:
@@ -47931,6 +50144,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2063:
@@ -47949,6 +50163,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2064:
@@ -47967,6 +50182,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2065:
@@ -47985,6 +50201,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2066:
@@ -48003,6 +50220,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2067:
@@ -48021,6 +50239,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2068:
@@ -48039,6 +50258,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2069:
@@ -48057,6 +50277,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2070:
@@ -48075,6 +50296,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2071:
@@ -48093,6 +50315,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2072:
@@ -48111,6 +50334,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2073:
@@ -48129,6 +50353,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2074:
@@ -48147,6 +50372,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2075:
@@ -48165,6 +50391,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2076:
@@ -48183,6 +50410,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2077:
@@ -48201,6 +50429,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2078:
@@ -48219,6 +50448,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2079:
@@ -48237,6 +50467,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2080:
@@ -48255,6 +50486,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2081:
@@ -48273,6 +50505,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2082:
@@ -48291,6 +50524,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2083:
@@ -48309,6 +50543,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2084:
@@ -48327,6 +50562,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2085:
@@ -48345,6 +50581,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2086:
@@ -48363,6 +50600,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2087:
@@ -48381,6 +50619,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2088:
@@ -48399,6 +50638,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2089:
@@ -48417,6 +50657,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2090:
@@ -48435,6 +50676,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2091:
@@ -48453,6 +50695,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2092:
@@ -48471,6 +50714,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2093:
@@ -48489,6 +50733,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2094:
@@ -48507,6 +50752,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2095:
@@ -48525,6 +50771,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2096:
@@ -48543,6 +50790,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2097:
@@ -48561,6 +50809,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2098:
@@ -48579,6 +50828,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2099:
@@ -48597,6 +50847,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2100:
@@ -48615,6 +50866,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2101:
@@ -48633,6 +50885,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2102:
@@ -48651,6 +50904,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2103:
@@ -48669,6 +50923,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2104:
@@ -48687,6 +50942,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2105:
@@ -48705,6 +50961,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2106:
@@ -48723,6 +50980,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2107:
@@ -48741,6 +50999,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2108:
@@ -48759,6 +51018,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2109:
@@ -48777,6 +51037,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2110:
@@ -48795,6 +51056,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2111:
@@ -48813,6 +51075,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2112:
@@ -48831,6 +51094,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2113:
@@ -48849,6 +51113,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2114:
@@ -48867,6 +51132,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2115:
@@ -48885,6 +51151,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2116:
@@ -48903,6 +51170,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2117:
@@ -48921,6 +51189,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2118:
@@ -48939,6 +51208,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2119:
@@ -48957,6 +51227,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2120:
@@ -48975,6 +51246,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2121:
@@ -48993,6 +51265,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2122:
@@ -49011,6 +51284,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2123:
@@ -49029,6 +51303,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2124:
@@ -49047,6 +51322,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2125:
@@ -49065,6 +51341,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2126:
@@ -49083,6 +51360,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2127:
@@ -49101,6 +51379,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2128:
@@ -49119,6 +51398,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2129:
@@ -49137,6 +51417,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2130:
@@ -49155,6 +51436,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2131:
@@ -49173,6 +51455,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2132:
@@ -49191,6 +51474,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2133:
@@ -49209,6 +51493,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2134:
@@ -49227,6 +51512,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2135:
@@ -49245,6 +51531,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2136:
@@ -49263,6 +51550,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2137:
@@ -49281,6 +51569,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2138:
@@ -49299,6 +51588,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2139:
@@ -49317,6 +51607,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2140:
@@ -49335,6 +51626,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2141:
@@ -49353,6 +51645,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2142:
@@ -49371,6 +51664,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2143:
@@ -49389,6 +51683,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2144:
@@ -49407,6 +51702,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2145:
@@ -49425,6 +51721,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2146:
@@ -49443,6 +51740,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2147:
@@ -49461,6 +51759,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2148:
@@ -49479,6 +51778,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2149:
@@ -49497,6 +51797,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2150:
@@ -49515,6 +51816,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2151:
@@ -49533,6 +51835,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2152:
@@ -49551,6 +51854,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2153:
@@ -49569,6 +51873,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2154:
@@ -49587,6 +51892,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2155:
@@ -49605,6 +51911,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2156:
@@ -49623,6 +51930,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2157:
@@ -49641,6 +51949,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2158:
@@ -49659,6 +51968,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2159:
@@ -49677,6 +51987,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2160:
@@ -49695,6 +52006,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2161:
@@ -49713,6 +52025,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2162:
@@ -49731,6 +52044,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2163:
@@ -49749,6 +52063,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2164:
@@ -49767,6 +52082,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2165:
@@ -49785,6 +52101,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2166:
@@ -49803,6 +52120,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2167:
@@ -49821,6 +52139,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2168:
@@ -49839,6 +52158,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2169:
@@ -49857,6 +52177,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2170:
@@ -49875,6 +52196,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2171:
@@ -49893,6 +52215,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2172:
@@ -49911,6 +52234,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2173:
@@ -49929,6 +52253,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2174:
@@ -49947,6 +52272,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2175:
@@ -49965,6 +52291,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2176:
@@ -49983,6 +52310,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2177:
@@ -50001,6 +52329,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2178:
@@ -50019,6 +52348,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2179:
@@ -50037,6 +52367,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2180:
@@ -50055,6 +52386,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2181:
@@ -50073,6 +52405,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2182:
@@ -50091,6 +52424,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2183:
@@ -50109,6 +52443,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2184:
@@ -50127,6 +52462,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2185:
@@ -50145,6 +52481,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2186:
@@ -50163,6 +52500,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2187:
@@ -50181,6 +52519,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2188:
@@ -50199,6 +52538,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2189:
@@ -50217,6 +52557,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2190:
@@ -50235,6 +52576,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2191:
@@ -50253,6 +52595,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2192:
@@ -50271,6 +52614,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2193:
@@ -50289,6 +52633,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2194:
@@ -50307,6 +52652,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2195:
@@ -50325,6 +52671,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2196:
@@ -50343,6 +52690,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2197:
@@ -50361,6 +52709,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2198:
@@ -50379,6 +52728,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2199:
@@ -50397,6 +52747,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2200:
@@ -50415,6 +52766,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2201:
@@ -50433,6 +52785,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2202:
@@ -50451,6 +52804,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2203:
@@ -50469,6 +52823,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2204:
@@ -50487,6 +52842,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2205:
@@ -50505,6 +52861,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2206:
@@ -50523,6 +52880,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2207:
@@ -50541,6 +52899,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2208:
@@ -50559,6 +52918,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2209:
@@ -50577,6 +52937,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2210:
@@ -50595,6 +52956,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2211:
@@ -50613,6 +52975,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2212:
@@ -50631,6 +52994,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2213:
@@ -50649,6 +53013,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2214:
@@ -50667,6 +53032,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2215:
@@ -50685,6 +53051,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2216:
@@ -50703,6 +53070,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2217:
@@ -50721,6 +53089,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2218:
@@ -50739,6 +53108,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2219:
@@ -50757,6 +53127,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2220:
@@ -50775,6 +53146,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2221:
@@ -50793,6 +53165,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2222:
@@ -50811,6 +53184,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2223:
@@ -50829,6 +53203,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2224:
@@ -50847,6 +53222,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2225:
@@ -50865,6 +53241,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2226:
@@ -50883,6 +53260,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2227:
@@ -50901,6 +53279,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2228:
@@ -50919,6 +53298,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2229:
@@ -50937,6 +53317,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2230:
@@ -50955,6 +53336,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2231:
@@ -50973,6 +53355,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2232:
@@ -50991,6 +53374,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2233:
@@ -51009,6 +53393,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2234:
@@ -51027,6 +53412,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2235:
@@ -51045,6 +53431,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2236:
@@ -51063,6 +53450,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2237:
@@ -51081,6 +53469,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2238:
@@ -51099,6 +53488,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2239:
@@ -51117,6 +53507,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2240:
@@ -51135,6 +53526,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2241:
@@ -51153,6 +53545,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2242:
@@ -51171,6 +53564,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2243:
@@ -51189,6 +53583,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2244:
@@ -51207,6 +53602,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2245:
@@ -51225,6 +53621,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2246:
@@ -51243,6 +53640,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2247:
@@ -51261,6 +53659,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2248:
@@ -51279,6 +53678,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2249:
@@ -51297,6 +53697,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2250:
@@ -51315,6 +53716,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2251:
@@ -51333,6 +53735,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2252:
@@ -51351,6 +53754,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2253:
@@ -51369,6 +53773,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2254:
@@ -51387,6 +53792,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2255:
@@ -51405,6 +53811,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2256:
@@ -51423,6 +53830,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2257:
@@ -51441,6 +53849,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2258:
@@ -51459,6 +53868,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2259:
@@ -51477,6 +53887,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2260:
@@ -51495,6 +53906,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2261:
@@ -51513,6 +53925,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2262:
@@ -51531,6 +53944,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2263:
@@ -51549,6 +53963,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2264:
@@ -51567,6 +53982,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2265:
@@ -51585,6 +54001,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2266:
@@ -51603,6 +54020,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2267:
@@ -51621,6 +54039,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2268:
@@ -51639,6 +54058,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2269:
@@ -51657,6 +54077,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2270:
@@ -51675,6 +54096,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2271:
@@ -51693,6 +54115,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -51705,6 +54128,7 @@ static int encode_iso2MagneticVectorSetupListType(bitstream_t* stream, struct is
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -51742,6 +54166,7 @@ static int encode_iso2PairingReqType(bitstream_t* stream, struct iso2PairingReqT
 				grammarID = 1827;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1827:
@@ -51760,6 +54185,7 @@ static int encode_iso2PairingReqType(bitstream_t* stream, struct iso2PairingReqT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -51772,6 +54198,7 @@ static int encode_iso2PairingReqType(bitstream_t* stream, struct iso2PairingReqT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -51809,6 +54236,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2274;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2274:
@@ -51827,6 +54255,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2276;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2275:
@@ -51839,6 +54268,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2276;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2276:
@@ -51851,6 +54281,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2277;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2277:
@@ -51869,6 +54300,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2278;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2278:
@@ -51887,6 +54319,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2279;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2279:
@@ -51905,6 +54338,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 2280;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2280:
@@ -51945,6 +54379,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2281:
@@ -51979,6 +54414,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2282:
@@ -52007,6 +54443,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 27:
@@ -52029,6 +54466,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 28;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 28:
@@ -52071,6 +54509,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 29:
@@ -52101,6 +54540,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 30:
@@ -52125,6 +54565,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -52137,6 +54578,7 @@ static int encode_iso2CurrentDemandResType(bitstream_t* stream, struct iso2Curre
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -52178,6 +54620,7 @@ static int encode_iso2X509IssuerSerialType(bitstream_t* stream, struct iso2X509I
 				grammarID = 2284;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2284:
@@ -52196,6 +54639,7 @@ static int encode_iso2X509IssuerSerialType(bitstream_t* stream, struct iso2X509I
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -52208,6 +54652,7 @@ static int encode_iso2X509IssuerSerialType(bitstream_t* stream, struct iso2X509I
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -52239,6 +54684,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 2286;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2286:
@@ -52287,6 +54733,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2287:
@@ -52329,6 +54776,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2288:
@@ -52365,6 +54813,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2289:
@@ -52395,6 +54844,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2290:
@@ -52419,6 +54869,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2291:
@@ -52437,6 +54888,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -52449,6 +54901,7 @@ static int encode_iso2ChargingStatusReqType(bitstream_t* stream, struct iso2Char
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -52486,6 +54939,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 2293;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2293:
@@ -52504,6 +54958,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 2295;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2294:
@@ -52516,6 +54971,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 2295;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2295:
@@ -52528,6 +54984,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 2296;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2296:
@@ -52540,6 +54997,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 2297;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2297:
@@ -52552,6 +55010,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 2298;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2298:
@@ -52564,6 +55023,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -52576,6 +55036,7 @@ static int encode_iso2CertificateInstallationResType(bitstream_t* stream, struct
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -52614,6 +55075,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 2300;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2300:
@@ -52626,6 +55088,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 2301;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2301:
@@ -52644,6 +55107,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2302:
@@ -52662,6 +55126,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2303:
@@ -52680,6 +55145,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2304:
@@ -52698,6 +55164,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2305:
@@ -52716,6 +55183,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2306:
@@ -52734,6 +55202,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2307:
@@ -52752,6 +55221,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2308:
@@ -52770,6 +55240,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2309:
@@ -52788,6 +55259,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2310:
@@ -52806,6 +55278,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2311:
@@ -52824,6 +55297,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2312:
@@ -52842,6 +55316,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2313:
@@ -52860,6 +55335,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2314:
@@ -52878,6 +55354,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2315:
@@ -52896,6 +55373,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2316:
@@ -52914,6 +55392,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2317:
@@ -52932,6 +55411,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2318:
@@ -52950,6 +55430,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2319:
@@ -52968,6 +55449,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2320:
@@ -52986,6 +55468,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2321:
@@ -53004,6 +55487,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2322:
@@ -53022,6 +55506,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2323:
@@ -53040,6 +55525,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2324:
@@ -53058,6 +55544,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2325:
@@ -53076,6 +55563,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2326:
@@ -53094,6 +55582,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2327:
@@ -53112,6 +55601,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2328:
@@ -53130,6 +55620,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2329:
@@ -53148,6 +55639,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2330:
@@ -53166,6 +55658,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2331:
@@ -53184,6 +55677,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2332:
@@ -53202,6 +55696,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2333:
@@ -53220,6 +55715,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2334:
@@ -53238,6 +55734,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2335:
@@ -53256,6 +55753,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2336:
@@ -53274,6 +55772,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2337:
@@ -53292,6 +55791,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2338:
@@ -53310,6 +55810,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2339:
@@ -53328,6 +55829,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2340:
@@ -53346,6 +55848,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2341:
@@ -53364,6 +55867,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2342:
@@ -53382,6 +55886,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2343:
@@ -53400,6 +55905,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2344:
@@ -53418,6 +55924,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2345:
@@ -53436,6 +55943,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2346:
@@ -53454,6 +55962,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2347:
@@ -53472,6 +55981,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2348:
@@ -53490,6 +56000,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2349:
@@ -53508,6 +56019,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2350:
@@ -53526,6 +56038,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2351:
@@ -53544,6 +56057,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2352:
@@ -53562,6 +56076,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2353:
@@ -53580,6 +56095,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2354:
@@ -53598,6 +56114,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2355:
@@ -53616,6 +56133,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2356:
@@ -53634,6 +56152,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2357:
@@ -53652,6 +56171,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2358:
@@ -53670,6 +56190,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2359:
@@ -53688,6 +56209,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2360:
@@ -53706,6 +56228,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2361:
@@ -53724,6 +56247,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2362:
@@ -53742,6 +56266,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2363:
@@ -53760,6 +56285,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2364:
@@ -53778,6 +56304,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2365:
@@ -53796,6 +56323,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2366:
@@ -53814,6 +56342,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2367:
@@ -53832,6 +56361,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2368:
@@ -53850,6 +56380,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2369:
@@ -53868,6 +56399,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2370:
@@ -53886,6 +56418,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2371:
@@ -53904,6 +56437,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2372:
@@ -53922,6 +56456,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2373:
@@ -53940,6 +56475,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2374:
@@ -53958,6 +56494,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2375:
@@ -53976,6 +56513,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2376:
@@ -53994,6 +56532,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2377:
@@ -54012,6 +56551,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2378:
@@ -54030,6 +56570,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2379:
@@ -54048,6 +56589,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2380:
@@ -54066,6 +56608,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2381:
@@ -54084,6 +56627,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2382:
@@ -54102,6 +56646,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2383:
@@ -54120,6 +56665,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2384:
@@ -54138,6 +56684,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2385:
@@ -54156,6 +56703,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2386:
@@ -54174,6 +56722,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2387:
@@ -54192,6 +56741,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2388:
@@ -54210,6 +56760,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2389:
@@ -54228,6 +56779,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2390:
@@ -54246,6 +56798,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2391:
@@ -54264,6 +56817,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2392:
@@ -54282,6 +56836,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2393:
@@ -54300,6 +56855,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2394:
@@ -54318,6 +56874,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2395:
@@ -54336,6 +56893,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2396:
@@ -54354,6 +56912,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2397:
@@ -54372,6 +56931,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2398:
@@ -54390,6 +56950,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2399:
@@ -54408,6 +56969,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2400:
@@ -54426,6 +56988,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2401:
@@ -54444,6 +57007,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2402:
@@ -54462,6 +57026,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2403:
@@ -54480,6 +57045,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2404:
@@ -54498,6 +57064,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2405:
@@ -54516,6 +57083,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2406:
@@ -54534,6 +57102,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2407:
@@ -54552,6 +57121,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2408:
@@ -54570,6 +57140,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2409:
@@ -54588,6 +57159,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2410:
@@ -54606,6 +57178,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2411:
@@ -54624,6 +57197,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2412:
@@ -54642,6 +57216,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2413:
@@ -54660,6 +57235,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2414:
@@ -54678,6 +57254,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2415:
@@ -54696,6 +57273,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2416:
@@ -54714,6 +57292,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2417:
@@ -54732,6 +57311,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2418:
@@ -54750,6 +57330,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2419:
@@ -54768,6 +57349,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2420:
@@ -54786,6 +57368,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2421:
@@ -54804,6 +57387,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2422:
@@ -54822,6 +57406,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2423:
@@ -54840,6 +57425,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2424:
@@ -54858,6 +57444,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2425:
@@ -54876,6 +57463,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2426:
@@ -54894,6 +57482,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2427:
@@ -54912,6 +57501,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2428:
@@ -54930,6 +57520,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2429:
@@ -54948,6 +57539,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2430:
@@ -54966,6 +57558,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2431:
@@ -54984,6 +57577,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2432:
@@ -55002,6 +57596,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2433:
@@ -55020,6 +57615,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2434:
@@ -55038,6 +57634,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2435:
@@ -55056,6 +57653,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2436:
@@ -55074,6 +57672,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2437:
@@ -55092,6 +57691,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2438:
@@ -55110,6 +57710,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2439:
@@ -55128,6 +57729,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2440:
@@ -55146,6 +57748,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2441:
@@ -55164,6 +57767,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2442:
@@ -55182,6 +57786,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2443:
@@ -55200,6 +57805,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2444:
@@ -55218,6 +57824,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2445:
@@ -55236,6 +57843,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2446:
@@ -55254,6 +57862,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2447:
@@ -55272,6 +57881,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2448:
@@ -55290,6 +57900,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2449:
@@ -55308,6 +57919,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2450:
@@ -55326,6 +57938,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2451:
@@ -55344,6 +57957,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2452:
@@ -55362,6 +57976,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2453:
@@ -55380,6 +57995,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2454:
@@ -55398,6 +58014,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2455:
@@ -55416,6 +58033,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2456:
@@ -55434,6 +58052,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2457:
@@ -55452,6 +58071,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2458:
@@ -55470,6 +58090,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2459:
@@ -55488,6 +58109,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2460:
@@ -55506,6 +58128,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2461:
@@ -55524,6 +58147,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2462:
@@ -55542,6 +58166,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2463:
@@ -55560,6 +58185,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2464:
@@ -55578,6 +58204,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2465:
@@ -55596,6 +58223,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2466:
@@ -55614,6 +58242,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2467:
@@ -55632,6 +58261,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2468:
@@ -55650,6 +58280,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2469:
@@ -55668,6 +58299,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2470:
@@ -55686,6 +58318,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2471:
@@ -55704,6 +58337,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2472:
@@ -55722,6 +58356,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2473:
@@ -55740,6 +58375,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2474:
@@ -55758,6 +58394,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2475:
@@ -55776,6 +58413,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2476:
@@ -55794,6 +58432,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2477:
@@ -55812,6 +58451,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2478:
@@ -55830,6 +58470,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2479:
@@ -55848,6 +58489,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2480:
@@ -55866,6 +58508,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2481:
@@ -55884,6 +58527,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2482:
@@ -55902,6 +58546,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2483:
@@ -55920,6 +58565,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2484:
@@ -55938,6 +58584,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2485:
@@ -55956,6 +58603,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2486:
@@ -55974,6 +58622,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2487:
@@ -55992,6 +58641,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2488:
@@ -56010,6 +58660,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2489:
@@ -56028,6 +58679,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2490:
@@ -56046,6 +58698,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2491:
@@ -56064,6 +58717,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2492:
@@ -56082,6 +58736,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2493:
@@ -56100,6 +58755,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2494:
@@ -56118,6 +58774,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2495:
@@ -56136,6 +58793,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2496:
@@ -56154,6 +58812,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2497:
@@ -56172,6 +58831,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2498:
@@ -56190,6 +58850,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2499:
@@ -56208,6 +58869,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2500:
@@ -56226,6 +58888,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2501:
@@ -56244,6 +58907,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2502:
@@ -56262,6 +58926,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2503:
@@ -56280,6 +58945,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2504:
@@ -56298,6 +58964,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2505:
@@ -56316,6 +58983,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2506:
@@ -56334,6 +59002,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2507:
@@ -56352,6 +59021,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2508:
@@ -56370,6 +59040,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2509:
@@ -56388,6 +59059,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2510:
@@ -56406,6 +59078,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2511:
@@ -56424,6 +59097,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2512:
@@ -56442,6 +59116,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2513:
@@ -56460,6 +59135,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2514:
@@ -56478,6 +59154,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2515:
@@ -56496,6 +59173,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2516:
@@ -56514,6 +59192,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2517:
@@ -56532,6 +59211,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2518:
@@ -56550,6 +59230,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2519:
@@ -56568,6 +59249,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2520:
@@ -56586,6 +59268,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2521:
@@ -56604,6 +59287,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2522:
@@ -56622,6 +59306,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2523:
@@ -56640,6 +59325,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2524:
@@ -56658,6 +59344,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2525:
@@ -56676,6 +59363,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2526:
@@ -56694,6 +59382,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2527:
@@ -56712,6 +59401,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2528:
@@ -56730,6 +59420,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2529:
@@ -56748,6 +59439,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2530:
@@ -56766,6 +59458,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2531:
@@ -56784,6 +59477,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2532:
@@ -56802,6 +59496,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2533:
@@ -56820,6 +59515,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2534:
@@ -56838,6 +59534,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2535:
@@ -56856,6 +59553,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2536:
@@ -56874,6 +59572,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2537:
@@ -56892,6 +59591,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2538:
@@ -56910,6 +59610,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2539:
@@ -56928,6 +59629,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2540:
@@ -56946,6 +59648,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2541:
@@ -56964,6 +59667,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2542:
@@ -56982,6 +59686,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2543:
@@ -57000,6 +59705,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2544:
@@ -57018,6 +59724,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2545:
@@ -57036,6 +59743,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2546:
@@ -57054,6 +59762,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2547:
@@ -57072,6 +59781,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2548:
@@ -57090,6 +59800,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2549:
@@ -57108,6 +59819,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2550:
@@ -57126,6 +59838,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2551:
@@ -57144,6 +59857,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2552:
@@ -57162,6 +59876,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2553:
@@ -57180,6 +59895,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2554:
@@ -57198,6 +59914,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -57210,6 +59927,7 @@ static int encode_iso2SensorPackageType(bitstream_t* stream, struct iso2SensorPa
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -57266,6 +59984,7 @@ static int encode_iso2PGPDataType(bitstream_t* stream, struct iso2PGPDataType* i
 				grammarID = 2557;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2556:
@@ -57296,6 +60015,7 @@ static int encode_iso2PGPDataType(bitstream_t* stream, struct iso2PGPDataType* i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2557:
@@ -57311,6 +60031,7 @@ static int encode_iso2PGPDataType(bitstream_t* stream, struct iso2PGPDataType* i
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -57348,6 +60069,7 @@ static int encode_iso2ServiceDiscoveryResType(bitstream_t* stream, struct iso2Se
 				grammarID = 2559;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2559:
@@ -57366,6 +60088,7 @@ static int encode_iso2ServiceDiscoveryResType(bitstream_t* stream, struct iso2Se
 				grammarID = 2561;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2560:
@@ -57378,6 +60101,7 @@ static int encode_iso2ServiceDiscoveryResType(bitstream_t* stream, struct iso2Se
 				grammarID = 2561;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2561:
@@ -57390,6 +60114,7 @@ static int encode_iso2ServiceDiscoveryResType(bitstream_t* stream, struct iso2Se
 				grammarID = 2562;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2562:
@@ -57408,6 +60133,7 @@ static int encode_iso2ServiceDiscoveryResType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -57420,6 +60146,7 @@ static int encode_iso2ServiceDiscoveryResType(bitstream_t* stream, struct iso2Se
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -57458,6 +60185,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 2564;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2564:
@@ -57482,6 +60210,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2565:
@@ -57506,6 +60235,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2566:
@@ -57530,6 +60260,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2567:
@@ -57554,6 +60285,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2568:
@@ -57578,6 +60310,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2569:
@@ -57602,6 +60335,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2570:
@@ -57626,6 +60360,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2571:
@@ -57650,6 +60385,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2572:
@@ -57674,6 +60410,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -57686,6 +60423,7 @@ static int encode_iso2ServiceIDListType(bitstream_t* stream, struct iso2ServiceI
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -57717,6 +60455,7 @@ static int encode_iso2EVFinePositioningSetupParametersType(bitstream_t* stream, 
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -57754,6 +60493,7 @@ static int encode_iso2ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 2574;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2574:
@@ -57778,6 +60518,7 @@ static int encode_iso2ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 2576;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2575:
@@ -57796,6 +60537,7 @@ static int encode_iso2ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 2576;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2576:
@@ -57844,6 +60586,7 @@ static int encode_iso2ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2577:
@@ -57886,6 +60629,7 @@ static int encode_iso2ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -57898,6 +60642,7 @@ static int encode_iso2ChargeParameterDiscoveryResType(bitstream_t* stream, struc
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -57935,6 +60680,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 2579;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2579:
@@ -57953,6 +60699,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 2581;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2580:
@@ -57965,6 +60712,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 2581;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2581:
@@ -57987,6 +60735,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 2582;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2582:
@@ -58035,6 +60784,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2583:
@@ -58071,6 +60821,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2584:
@@ -58101,6 +60852,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1873:
@@ -58119,6 +60871,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58131,6 +60884,7 @@ static int encode_iso2PowerDemandResType(bitstream_t* stream, struct iso2PowerDe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58163,6 +60917,7 @@ static int encode_iso2ChargingProfileType(bitstream_t* stream, struct iso2Chargi
 				grammarID = 2586;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2586:
@@ -58181,6 +60936,7 @@ static int encode_iso2ChargingProfileType(bitstream_t* stream, struct iso2Chargi
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58218,6 +60974,7 @@ static int encode_iso2FinePositioningReqType(bitstream_t* stream, struct iso2Fin
 				grammarID = 2588;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2588:
@@ -58248,6 +61005,7 @@ static int encode_iso2FinePositioningReqType(bitstream_t* stream, struct iso2Fin
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58260,6 +61018,7 @@ static int encode_iso2FinePositioningReqType(bitstream_t* stream, struct iso2Fin
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58296,6 +61055,7 @@ static int encode_iso2SalesTariffType(bitstream_t* stream, struct iso2SalesTarif
 				grammarID = 2590;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2590:
@@ -58314,6 +61074,7 @@ static int encode_iso2SalesTariffType(bitstream_t* stream, struct iso2SalesTarif
 				grammarID = 2591;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2591:
@@ -58354,6 +61115,7 @@ static int encode_iso2SalesTariffType(bitstream_t* stream, struct iso2SalesTarif
 				grammarID = 2594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2592:
@@ -58378,6 +61140,7 @@ static int encode_iso2SalesTariffType(bitstream_t* stream, struct iso2SalesTarif
 				grammarID = 2594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2593:
@@ -58390,6 +61153,7 @@ static int encode_iso2SalesTariffType(bitstream_t* stream, struct iso2SalesTarif
 				grammarID = 2594;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2594:
@@ -58408,6 +61172,7 @@ static int encode_iso2SalesTariffType(bitstream_t* stream, struct iso2SalesTarif
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58445,6 +61210,7 @@ static int encode_iso2SensorType(bitstream_t* stream, struct iso2SensorType* iso
 				grammarID = 2596;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2596:
@@ -58457,6 +61223,7 @@ static int encode_iso2SensorType(bitstream_t* stream, struct iso2SensorType* iso
 				grammarID = 2597;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2597:
@@ -58469,6 +61236,7 @@ static int encode_iso2SensorType(bitstream_t* stream, struct iso2SensorType* iso
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58481,6 +61249,7 @@ static int encode_iso2SensorType(bitstream_t* stream, struct iso2SensorType* iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58525,6 +61294,7 @@ static int encode_iso2SignatureValueType(bitstream_t* stream, struct iso2Signatu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2016:
@@ -58540,6 +61310,7 @@ static int encode_iso2SignatureValueType(bitstream_t* stream, struct iso2Signatu
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58552,6 +61323,7 @@ static int encode_iso2SignatureValueType(bitstream_t* stream, struct iso2Signatu
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58594,6 +61366,7 @@ static int encode_iso2SignedInfoType(bitstream_t* stream, struct iso2SignedInfoT
 				grammarID = 2601;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2600:
@@ -58606,6 +61379,7 @@ static int encode_iso2SignedInfoType(bitstream_t* stream, struct iso2SignedInfoT
 				grammarID = 2601;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2601:
@@ -58618,6 +61392,7 @@ static int encode_iso2SignedInfoType(bitstream_t* stream, struct iso2SignedInfoT
 				grammarID = 2602;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2602:
@@ -58630,6 +61405,7 @@ static int encode_iso2SignedInfoType(bitstream_t* stream, struct iso2SignedInfoT
 				grammarID = 1964;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 1964:
@@ -58648,6 +61424,7 @@ static int encode_iso2SignedInfoType(bitstream_t* stream, struct iso2SignedInfoT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58685,6 +61462,7 @@ static int encode_iso2PowerDeliveryResType(bitstream_t* stream, struct iso2Power
 				grammarID = 6;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 6:
@@ -58709,6 +61487,7 @@ static int encode_iso2PowerDeliveryResType(bitstream_t* stream, struct iso2Power
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 7:
@@ -58727,6 +61506,7 @@ static int encode_iso2PowerDeliveryResType(bitstream_t* stream, struct iso2Power
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58739,6 +61519,7 @@ static int encode_iso2PowerDeliveryResType(bitstream_t* stream, struct iso2Power
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58770,6 +61551,7 @@ static int encode_iso2CableCheckReqType(bitstream_t* stream, struct iso2CableChe
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58807,6 +61589,7 @@ static int encode_iso2SelectedServiceType(bitstream_t* stream, struct iso2Select
 				grammarID = 2604;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2604:
@@ -58825,6 +61608,7 @@ static int encode_iso2SelectedServiceType(bitstream_t* stream, struct iso2Select
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58837,6 +61621,7 @@ static int encode_iso2SelectedServiceType(bitstream_t* stream, struct iso2Select
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58872,6 +61657,7 @@ static int encode_iso2DiffieHellmanPublickeyType(bitstream_t* stream, struct iso
 				grammarID = 2016;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2016:
@@ -58887,6 +61673,7 @@ static int encode_iso2DiffieHellmanPublickeyType(bitstream_t* stream, struct iso
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58899,6 +61686,7 @@ static int encode_iso2DiffieHellmanPublickeyType(bitstream_t* stream, struct iso
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -58936,6 +61724,7 @@ static int encode_iso2EVSEStatusType(bitstream_t* stream, struct iso2EVSEStatusT
 				grammarID = 2606;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 2606:
@@ -58954,6 +61743,7 @@ static int encode_iso2EVSEStatusType(bitstream_t* stream, struct iso2EVSEStatusT
 				grammarID = 3;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		case 3:
@@ -58966,6 +61756,7 @@ static int encode_iso2EVSEStatusType(bitstream_t* stream, struct iso2EVSEStatusT
 				grammarID = 4;
 			} else {
 				errn = EXI_ERROR_UNKOWN_EVENT;
+				fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 			}
 			break;
 		default:
@@ -59701,6 +62492,7 @@ int encode_iso2ExiDocument(bitstream_t* stream, struct iso2EXIDocument* exiDoc) 
 			}
 		} else {
 			errn = EXI_ERROR_UNKOWN_EVENT;
+			fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 		}
 
 	}
@@ -62608,6 +65400,7 @@ int encode_iso2ExiFragment(bitstream_t* stream, struct iso2EXIFragment* exiFrag)
 			}
 		} else {
 			errn = EXI_ERROR_UNKOWN_EVENT;
+			fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 		}
 	}
 	if(errn == 0) {
