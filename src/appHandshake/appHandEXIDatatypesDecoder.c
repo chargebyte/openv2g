@@ -101,6 +101,7 @@ static int decode_appHandAppProtocolType(bitstream_t* stream, struct appHandAppP
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -133,6 +134,7 @@ static int decode_appHandAppProtocolType(bitstream_t* stream, struct appHandAppP
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -165,6 +167,7 @@ static int decode_appHandAppProtocolType(bitstream_t* stream, struct appHandAppP
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -198,6 +201,7 @@ static int decode_appHandAppProtocolType(bitstream_t* stream, struct appHandAppP
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -231,6 +235,7 @@ static int decode_appHandAppProtocolType(bitstream_t* stream, struct appHandAppP
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -246,6 +251,7 @@ static int decode_appHandAppProtocolType(bitstream_t* stream, struct appHandAppP
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -285,6 +291,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -308,6 +315,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -331,6 +339,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -354,6 +363,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -377,6 +387,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -400,6 +411,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -423,6 +435,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -446,6 +459,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -469,6 +483,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -492,6 +507,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -515,6 +531,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -538,6 +555,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -561,6 +579,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -584,6 +603,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -607,6 +627,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -630,6 +651,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -653,6 +675,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -676,6 +699,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -699,6 +723,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -722,6 +747,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -737,6 +763,7 @@ static int decode_appHandAnonType_supportedAppProtocolReq(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -790,6 +817,7 @@ static int decode_appHandAnonType_supportedAppProtocolRes(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -828,6 +856,7 @@ static int decode_appHandAnonType_supportedAppProtocolRes(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -843,6 +872,7 @@ static int decode_appHandAnonType_supportedAppProtocolRes(bitstream_t* stream, s
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}

@@ -104,6 +104,7 @@ static int decode_xmldsigCanonicalizationMethodType(bitstream_t* stream, struct 
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -138,6 +139,7 @@ static int decode_xmldsigCanonicalizationMethodType(bitstream_t* stream, struct 
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -172,6 +174,7 @@ static int decode_xmldsigCanonicalizationMethodType(bitstream_t* stream, struct 
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -225,6 +228,7 @@ static int decode_xmldsigManifestType(bitstream_t* stream, struct xmldsigManifes
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -244,6 +248,7 @@ static int decode_xmldsigManifestType(bitstream_t* stream, struct xmldsigManifes
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -267,6 +272,7 @@ static int decode_xmldsigManifestType(bitstream_t* stream, struct xmldsigManifes
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -363,6 +369,7 @@ static int decode_xmldsigObjectType(bitstream_t* stream, struct xmldsigObjectTyp
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -425,6 +432,7 @@ static int decode_xmldsigObjectType(bitstream_t* stream, struct xmldsigObjectTyp
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -473,6 +481,7 @@ static int decode_xmldsigObjectType(bitstream_t* stream, struct xmldsigObjectTyp
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -507,6 +516,7 @@ static int decode_xmldsigObjectType(bitstream_t* stream, struct xmldsigObjectTyp
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -541,6 +551,7 @@ static int decode_xmldsigObjectType(bitstream_t* stream, struct xmldsigObjectTyp
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -585,6 +596,7 @@ static int decode_xmldsigTransformType(bitstream_t* stream, struct xmldsigTransf
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -654,6 +666,7 @@ static int decode_xmldsigTransformType(bitstream_t* stream, struct xmldsigTransf
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -723,6 +736,7 @@ static int decode_xmldsigTransformType(bitstream_t* stream, struct xmldsigTransf
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -767,6 +781,7 @@ static int decode_xmldsigSignatureMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -823,6 +838,7 @@ static int decode_xmldsigSignatureMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -857,6 +873,7 @@ static int decode_xmldsigSignatureMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -913,6 +930,7 @@ static int decode_xmldsigSignatureMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -957,6 +975,7 @@ static int decode_xmldsigDigestMethodType(bitstream_t* stream, struct xmldsigDig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -991,6 +1010,7 @@ static int decode_xmldsigDigestMethodType(bitstream_t* stream, struct xmldsigDig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1025,6 +1045,7 @@ static int decode_xmldsigDigestMethodType(bitstream_t* stream, struct xmldsigDig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1093,6 +1114,7 @@ static int decode_xmldsigRetrievalMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1127,6 +1149,7 @@ static int decode_xmldsigRetrievalMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1147,6 +1170,7 @@ static int decode_xmldsigRetrievalMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1162,6 +1186,7 @@ static int decode_xmldsigRetrievalMethodType(bitstream_t* stream, struct xmldsig
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1217,6 +1242,7 @@ static int decode_xmldsigSignatureValueType(bitstream_t* stream, struct xmldsigS
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1238,6 +1264,7 @@ static int decode_xmldsigSignatureValueType(bitstream_t* stream, struct xmldsigS
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1253,6 +1280,7 @@ static int decode_xmldsigSignatureValueType(bitstream_t* stream, struct xmldsigS
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1314,6 +1342,7 @@ static int decode_xmldsigX509IssuerSerialType(bitstream_t* stream, struct xmldsi
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1346,6 +1375,7 @@ static int decode_xmldsigX509IssuerSerialType(bitstream_t* stream, struct xmldsi
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1361,6 +1391,7 @@ static int decode_xmldsigX509IssuerSerialType(bitstream_t* stream, struct xmldsi
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1410,6 +1441,7 @@ static int decode_xmldsigSignedInfoType(bitstream_t* stream, struct xmldsigSigne
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1425,6 +1457,7 @@ static int decode_xmldsigSignedInfoType(bitstream_t* stream, struct xmldsigSigne
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1440,6 +1473,7 @@ static int decode_xmldsigSignedInfoType(bitstream_t* stream, struct xmldsigSigne
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1459,6 +1493,7 @@ static int decode_xmldsigSignedInfoType(bitstream_t* stream, struct xmldsigSigne
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1482,6 +1517,7 @@ static int decode_xmldsigSignedInfoType(bitstream_t* stream, struct xmldsigSigne
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1535,6 +1571,7 @@ static int decode_xmldsigSignaturePropertiesType(bitstream_t* stream, struct xml
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1554,6 +1591,7 @@ static int decode_xmldsigSignaturePropertiesType(bitstream_t* stream, struct xml
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1577,6 +1615,7 @@ static int decode_xmldsigSignaturePropertiesType(bitstream_t* stream, struct xml
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1635,6 +1674,7 @@ static int decode_xmldsigSignaturePropertyType(bitstream_t* stream, struct xmlds
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1659,6 +1699,7 @@ static int decode_xmldsigSignaturePropertyType(bitstream_t* stream, struct xmlds
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1689,6 +1730,7 @@ static int decode_xmldsigSignaturePropertyType(bitstream_t* stream, struct xmlds
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1723,6 +1765,7 @@ static int decode_xmldsigSignaturePropertyType(bitstream_t* stream, struct xmlds
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1753,6 +1796,7 @@ static int decode_xmldsigSignaturePropertyType(bitstream_t* stream, struct xmlds
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1813,6 +1857,7 @@ static int decode_xmldsigKeyValueType(bitstream_t* stream, struct xmldsigKeyValu
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1842,6 +1887,7 @@ static int decode_xmldsigKeyValueType(bitstream_t* stream, struct xmldsigKeyValu
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1882,6 +1928,7 @@ static int decode_xmldsigKeyValueType(bitstream_t* stream, struct xmldsigKeyValu
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1940,6 +1987,7 @@ static int decode_xmldsigRSAKeyValueType(bitstream_t* stream, struct xmldsigRSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1978,6 +2026,7 @@ static int decode_xmldsigRSAKeyValueType(bitstream_t* stream, struct xmldsigRSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -1993,6 +2042,7 @@ static int decode_xmldsigRSAKeyValueType(bitstream_t* stream, struct xmldsigRSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2080,6 +2130,7 @@ static int decode_xmldsigPGPDataType(bitstream_t* stream, struct xmldsigPGPDataT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2128,6 +2179,7 @@ static int decode_xmldsigPGPDataType(bitstream_t* stream, struct xmldsigPGPDataT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2148,6 +2200,7 @@ static int decode_xmldsigPGPDataType(bitstream_t* stream, struct xmldsigPGPDataT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2187,6 +2240,7 @@ static int decode_xmldsigTransformsType(bitstream_t* stream, struct xmldsigTrans
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2210,6 +2264,7 @@ static int decode_xmldsigTransformsType(bitstream_t* stream, struct xmldsigTrans
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2385,6 +2440,7 @@ static int decode_xmldsigX509DataType(bitstream_t* stream, struct xmldsigX509Dat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2544,6 +2600,7 @@ static int decode_xmldsigX509DataType(bitstream_t* stream, struct xmldsigX509Dat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2593,6 +2650,7 @@ static int decode_xmldsigSignatureType(bitstream_t* stream, struct xmldsigSignat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2608,6 +2666,7 @@ static int decode_xmldsigSignatureType(bitstream_t* stream, struct xmldsigSignat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2623,6 +2682,7 @@ static int decode_xmldsigSignatureType(bitstream_t* stream, struct xmldsigSignat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2651,6 +2711,7 @@ static int decode_xmldsigSignatureType(bitstream_t* stream, struct xmldsigSignat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2674,6 +2735,7 @@ static int decode_xmldsigSignatureType(bitstream_t* stream, struct xmldsigSignat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2788,6 +2850,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2827,6 +2890,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2893,6 +2957,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -2931,6 +2996,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3002,6 +3068,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3045,6 +3112,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3084,6 +3152,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3099,6 +3168,7 @@ static int decode_xmldsigDSAKeyValueType(bitstream_t* stream, struct xmldsigDSAK
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3181,6 +3251,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3229,6 +3300,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3263,6 +3335,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3283,6 +3356,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3298,6 +3372,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3336,6 +3411,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3351,6 +3427,7 @@ static int decode_xmldsigReferenceType(bitstream_t* stream, struct xmldsigRefere
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3414,6 +3491,7 @@ static int decode_xmldsigSPKIDataType(bitstream_t* stream, struct xmldsigSPKIDat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3466,6 +3544,7 @@ static int decode_xmldsigSPKIDataType(bitstream_t* stream, struct xmldsigSPKIDat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3513,6 +3592,7 @@ static int decode_xmldsigSPKIDataType(bitstream_t* stream, struct xmldsigSPKIDat
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3687,6 +3767,7 @@ static int decode_xmldsigKeyInfoType(bitstream_t* stream, struct xmldsigKeyInfoT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3827,6 +3908,7 @@ static int decode_xmldsigKeyInfoType(bitstream_t* stream, struct xmldsigKeyInfoT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -3971,6 +4053,7 @@ static int decode_xmldsigKeyInfoType(bitstream_t* stream, struct xmldsigKeyInfoT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
@@ -4111,6 +4194,7 @@ static int decode_xmldsigKeyInfoType(bitstream_t* stream, struct xmldsigKeyInfoT
 					break;
 				default:
 					errn = EXI_ERROR_UNKOWN_EVENT_CODE;
+					fprintf(stderr, "EXI_ERROR_UNKOWN_EVENT_CODE: grammar ID %d, file %s function %s line %d\n", grammarID, __FILE__, __func__, __LINE__);
 					break;
 				}
 			}
