@@ -1,0 +1,8 @@
+The Debian package for openv2g library
+--------------------------------------
+
+This package contains the openV2G project code as shared library and
+corresponding header files.
+
+The packaging is based on an I2SE branch where several field sizes for
+some V2G messages were adapted to better fit for real world scenarios.

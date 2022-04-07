@@ -1,0 +1,11 @@
+openv2g (0.9.5) unstable; urgency=low
+
+  * Update to 0.9.5.
+
+ -- Moritz Barsnick <moritz.barsnick@in-tech.com>  Thu, 07 Apr 2022 13:45:46 +0200
+
+openv2g (0.9.4) unstable; urgency=low
+
+  * Initial Debian packaging.
+
+ -- Michael Heimpold <michael.heimpold@i2se.com>  Tue, 26 Mar 2019 08:46:50 +0100

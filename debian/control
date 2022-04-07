@@ -1,0 +1,36 @@
+Source: openv2g
+Section: libs
+Priority: optional
+Maintainer: Michael Heimpold <michael.heimpold@i2se.com>
+Build-Depends: cmake, debhelper (>= 9)
+Standards-Version: 3.9.8
+Homepage: http://openv2g.sourceforge.net/
+
+Package: libopenv2g
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, ${shlibs:Depends}
+Description: Open Source implementation of a DIN70121/ISO15118 stack
+ The main scope of the openV2G project is to provide an open source
+ implementation of the latest draft of the ISO/IEC Vehicle-to-Grid
+ Communication Interface (V2G CI) standard. Based on the openV2G
+ library you are able to exchange the standardised XML-based messages
+ between a Plug-In Electrical Vehicle (PEV) and an Electric Vehicle
+ Supply Equipment (EVSE).
+ .
+ This package includes the shared library.
+
+Package: libopenv2g-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: foreign
+Depends: ${misc:Depends}, libopenv2g (= ${binary:Version})
+Description: Open Source implementation of a DIN70121/ISO15118 stack
+ The main scope of the openV2G project is to provide an open source
+ implementation of the latest draft of the ISO/IEC Vehicle-to-Grid
+ Communication Interface (V2G CI) standard. Based on the openV2G
+ library you are able to exchange the standardised XML-based messages
+ between a Plug-In Electrical Vehicle (PEV) and an Electric Vehicle
+ Supply Equipment (EVSE).
+ .
+ This package includes the development support files.
